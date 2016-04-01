@@ -2,5 +2,5 @@
 2. Fix split top ground place 
 3. Move LEDs to one edge for better visibility under stack
 4. Reset and GP0 switches for ESP8266 (cant program in board as is)
-5. 
+5. Standardise footprints (0603 and 1206 - make all 0603)
 
