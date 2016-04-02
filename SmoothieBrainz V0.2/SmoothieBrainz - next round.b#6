@@ -24486,16 +24486,16 @@ We've spent an enormous amount of time creating and checking these footprints an
 <contactref element="D10" pad="2"/>
 <contactref element="R21" pad="2"/>
 <contactref element="C20" pad="2"/>
-<wire x1="44.555" y1="67.8" x2="44.555" y2="65.045" width="0" layer="19" extent="1-16"/>
-<wire x1="44.555" y1="65.045" x2="45.15" y2="65" width="0" layer="19" extent="1-16"/>
-<wire x1="44.2" y1="65.4" x2="45.15" y2="65" width="0" layer="19" extent="1-16"/>
 <wire x1="64.323" y1="50.195" x2="64.323" y2="60.777" width="0.254" layer="1"/>
 <wire x1="44.6" y1="63.5" x2="45.15" y2="65" width="0.254" layer="1"/>
 <wire x1="45.3" y1="62.8" x2="62.3" y2="62.8" width="0.254" layer="1"/>
 <wire x1="62.3" y1="62.8" x2="64.323" y2="60.777" width="0.254" layer="1"/>
 <wire x1="44.6" y1="63.5" x2="45.3" y2="62.8" width="0.254" layer="1"/>
-<wire x1="44.2" y1="65.4" x2="42.25" y2="65.4" width="0.254" layer="1"/>
+<wire x1="44.36" y1="65.4" x2="42.25" y2="65.4" width="0.254" layer="1"/>
 <wire x1="42.25" y1="65.4" x2="41.7" y2="65.95" width="0.254" layer="1"/>
+<wire x1="44.555" y1="67.8" x2="44.555" y2="65.595" width="0.8128" layer="1"/>
+<wire x1="44.555" y1="65.595" x2="45.15" y2="65" width="0.8128" layer="1"/>
+<wire x1="44.36" y1="65.4" x2="44.555" y2="65.595" width="0.254" layer="1"/>
 </signal>
 <signal name="Z_MIN">
 <contactref element="IC1" pad="44"/>

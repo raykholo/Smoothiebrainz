@@ -22184,7 +22184,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="74.112" y1="22.8" x2="74.235" y2="22.923" width="0.8128" layer="1"/>
 <wire x1="84.6" y1="64.74" x2="84.6" y2="71.7" width="0.8128" layer="1"/>
 <wire x1="84.6" y1="71.7" x2="85" y2="72" width="0.8128" layer="1"/>
-<wire x1="71.9" y1="66.4" x2="71.9" y2="72" width="0.8128" layer="1"/>
+<wire x1="71.9" y1="65.55" x2="71.9" y2="72" width="0.8128" layer="1"/>
 <wire x1="60.4" y1="70.3" x2="58.7" y2="72" width="0.8128" layer="1"/>
 <wire x1="47.4" y1="70.2" x2="45.6" y2="72" width="0.8128" layer="1"/>
 <wire x1="20.65" y1="65" x2="20.7" y2="70.7" width="0.8128" layer="1"/>
@@ -22586,15 +22586,19 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="47.4" y1="64.990753125" x2="47.33468125" y2="64.925434375" width="0.8128" layer="1"/>
 <wire x1="34.178984375" y1="64.7457875" x2="34.178984375" y2="70.321015625" width="0.8128" layer="1"/>
 <wire x1="34.178984375" y1="70.321015625" x2="32.5" y2="72" width="0.8128" layer="1"/>
+<wire x1="71.9" y1="65.55" x2="72.45" y2="65" width="0.8128" layer="1"/>
+<wire x1="60.4" y1="70.3" x2="60.4" y2="64.95" width="0.8128" layer="1"/>
+<wire x1="60.4" y1="64.95" x2="60.35" y2="64.9" width="0.8128" layer="1"/>
+<wire x1="60.35" y1="64.9" x2="61.8" y2="64.9" width="0.8128" layer="1"/>
+<wire x1="61.8" y1="64.9" x2="62" y2="65.1" width="0.8128" layer="1"/>
 <wire x1="92.9" y1="67.7" x2="92.6" y2="67.8" width="0" layer="19" extent="16-16"/>
 <wire x1="75.9" y1="57.2" x2="76.577" y2="57.225" width="0" layer="19" extent="1-1"/>
-<wire x1="72.45" y1="65" x2="71.9" y2="66.4" width="0" layer="19" extent="1-1"/>
 <wire x1="9.6" y1="50.5" x2="11.2" y2="50.2" width="0" layer="19" extent="1-1"/>
-<wire x1="59.85" y1="65" x2="60.4" y2="70.3" width="0" layer="19" extent="1-1"/>
-<wire x1="62" y1="65.1" x2="59.85" y2="65" width="0" layer="19" extent="1-1"/>
 <wire x1="50.5" y1="22.5" x2="50.773040625" y2="24.977040625" width="0" layer="19" extent="1-1"/>
 <wire x1="10.2" y1="36.1" x2="10.2" y2="43.7" width="0" layer="19" extent="1-1"/>
 <wire x1="10.3" y1="23.4" x2="10.3" y2="23.8" width="0" layer="19" extent="16-16"/>
+<wire x1="59.85" y1="65" x2="60.25" y2="65" width="0.8128" layer="1"/>
+<wire x1="60.25" y1="65" x2="60.35" y2="64.9" width="0.8128" layer="1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="IC1" pad="96"/>

@@ -22591,14 +22591,14 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="60.4" y1="64.95" x2="60.35" y2="64.9" width="0.8128" layer="1"/>
 <wire x1="60.35" y1="64.9" x2="61.8" y2="64.9" width="0.8128" layer="1"/>
 <wire x1="61.8" y1="64.9" x2="62" y2="65.1" width="0.8128" layer="1"/>
+<wire x1="59.85" y1="65" x2="60.25" y2="65" width="0.8128" layer="1"/>
+<wire x1="60.25" y1="65" x2="60.35" y2="64.9" width="0.8128" layer="1"/>
 <wire x1="92.9" y1="67.7" x2="92.6" y2="67.8" width="0" layer="19" extent="16-16"/>
 <wire x1="75.9" y1="57.2" x2="76.577" y2="57.225" width="0" layer="19" extent="1-1"/>
 <wire x1="9.6" y1="50.5" x2="11.2" y2="50.2" width="0" layer="19" extent="1-1"/>
 <wire x1="50.5" y1="22.5" x2="50.773040625" y2="24.977040625" width="0" layer="19" extent="1-1"/>
 <wire x1="10.2" y1="36.1" x2="10.2" y2="43.7" width="0" layer="19" extent="1-1"/>
 <wire x1="10.3" y1="23.4" x2="10.3" y2="23.8" width="0" layer="19" extent="16-16"/>
-<wire x1="59.85" y1="65" x2="60.25" y2="65" width="0.8128" layer="1"/>
-<wire x1="60.25" y1="65" x2="60.35" y2="64.9" width="0.8128" layer="1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="IC1" pad="96"/>
@@ -22805,7 +22805,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <contactref element="R4" pad="2"/>
 <contactref element="R16" pad="2"/>
 <contactref element="U2" pad="12"/>
-<wire x1="31.3" y1="33.8" x2="33.65" y2="33.8" width="0.254" layer="1"/>
+<wire x1="31.3" y1="33.8" x2="33.65" y2="33.8" width="0.4064" layer="1"/>
 <wire x1="33.65" y1="33.8" x2="37.8" y2="33.8" width="0.254" layer="1"/>
 <wire x1="37.8" y1="33.8" x2="38.1" y2="33.5" width="0.254" layer="1"/>
 <wire x1="38.1" y1="33.5" x2="38.1" y2="33.2" width="0.254" layer="1"/>
@@ -22917,10 +22917,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="79" y1="67.15" x2="79" y2="67.4825" width="0.254" layer="1"/>
 <wire x1="79" y1="67.4825" x2="78.3825" y2="68.1" width="0.254" layer="1"/>
 <wire x1="78.3825" y1="68.1" x2="77.4" y2="68.1" width="0.254" layer="1"/>
-<wire x1="29" y1="33.85" x2="31.3" y2="33.85" width="0.254" layer="1"/>
+<wire x1="29" y1="33.85" x2="31.3" y2="33.85" width="0.4064" layer="1"/>
 <wire x1="31.3" y1="33.85" x2="31.3" y2="33.8" width="0.254" layer="1"/>
 <wire x1="33.6" y1="31.65" x2="33.65" y2="31.65" width="0.254" layer="1"/>
-<wire x1="33.65" y1="31.65" x2="33.65" y2="33.8" width="0.254" layer="1"/>
+<wire x1="33.65" y1="31.65" x2="33.65" y2="33.8" width="0.4064" layer="1"/>
 </signal>
 <signal name="AVCC">
 <contactref element="IC1" pad="10"/>
@@ -25245,9 +25245,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <contactref element="U$2" pad="9"/>
 <wire x1="34.7" y1="8.2" x2="32.9" y2="8.2" width="0.4064" layer="1"/>
 <wire x1="32.9" y1="8.2" x2="31.9" y2="9.2" width="0.4064" layer="1"/>
-<wire x1="32.3" y1="29.4" x2="33.6" y2="29.95" width="0.4064" layer="1"/>
-<wire x1="31.9" y1="9.2" x2="31.9" y2="29" width="0.4064" layer="1"/>
-<wire x1="31.9" y1="29" x2="32.3" y2="29.4" width="0.4064" layer="1"/>
+<wire x1="31.9" y1="9.2" x2="31.9" y2="28.65" width="0.4064" layer="1"/>
+<wire x1="33.6" y1="29.95" x2="33.2" y2="29.95" width="0.4064" layer="1"/>
+<wire x1="33.2" y1="29.95" x2="31.9" y2="28.65" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$18">
 <contactref element="R28" pad="2"/>
