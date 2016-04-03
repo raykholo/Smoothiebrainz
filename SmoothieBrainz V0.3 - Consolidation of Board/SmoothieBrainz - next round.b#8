@@ -22123,19 +22123,19 @@ We've spent an enormous amount of time creating and checking these footprints an
 <element name="XMX" library="SparkFun-Connectors" package="MOLEX-1X3_LOCK" value="" x="82.89" y="-34.3625"/>
 <element name="XMN" library="SparkFun-Connectors" package="MOLEX-1X3_LOCK" value="" x="90.49" y="-34.3625"/>
 <element name="U$1" library="RepRapjr" package="A4988BREAKOUT" value="POLOLU_A4983CARRIER" x="7.19125" y="77.5175" rot="R90"/>
-<element name="C29" library="resistor" package="C0603" value="100nF" x="25.4475" y="110.8075"/>
-<element name="C30" library="resistor" package="C0603" value="100nF" x="4.175" y="104.4575"/>
-<element name="R19" library="resistor" package="R0603" value="1k" x="-5.0325" y="100.0125"/>
-<element name="C31" library="resistor" package="153CLV-0605" value="100uF" x="4.4925" y="110.49"/>
+<element name="C29" library="resistor" package="C0603" value="100nF" x="8.5725" y="77.5175" rot="R90"/>
+<element name="C30" library="resistor" package="C0603" value="100nF" x="8.5725" y="92.44" rot="R90"/>
+<element name="R19" library="resistor" package="R0603" value="1k" x="8.5725" y="88.8525" rot="R270"/>
+<element name="C31" library="resistor" package="153CLV-0605" value="100uF" x="13.335" y="90.2175" rot="R90"/>
 <element name="JP6" library="SparkFun-Connectors" package="MOLEX-1X4_LOCK" value="" x="10.68375" y="97.916875"/>
 <element name="U$5" library="RepRapjr" package="A4988BREAKOUT" value="POLOLU_A4983CARRIER" x="22.43125" y="77.5175" rot="R90"/>
 <element name="U$6" library="RepRapjr" package="A4988BREAKOUT" value="POLOLU_A4983CARRIER" x="37.67125" y="77.5175" rot="R90"/>
 <element name="U$7" library="RepRapjr" package="A4988BREAKOUT" value="POLOLU_A4983CARRIER" x="52.91125" y="77.5175" rot="R90"/>
 <element name="U$8" library="RepRapjr" package="A4988BREAKOUT" value="POLOLU_A4983CARRIER" x="68.15125" y="77.5175" rot="R90"/>
 <element name="U$9" library="RepRapjr" package="A4988BREAKOUT" value="POLOLU_A4983CARRIER" x="83.3834375" y="77.5175" rot="R90"/>
-<element name="SJ8" library="jumper" package="SJ" value="" x="-13.335" y="99.06"/>
-<element name="SJ9" library="jumper" package="SJ" value="" x="-13.335" y="94.615"/>
-<element name="SJ10" library="jumper" package="SJ" value="" x="-13.335" y="90.17"/>
+<element name="SJ8" library="jumper" package="SJ" value="" x="15.875" y="78.74"/>
+<element name="SJ9" library="jumper" package="SJ" value="" x="15.875" y="81.28"/>
+<element name="SJ10" library="jumper" package="SJ" value="" x="15.875" y="83.82"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -22679,6 +22679,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <contactref element="U$9" pad="GND@0"/>
 <contactref element="U$9" pad="GND"/>
 <via x="3" y="3" extent="1-16" drill="3.2" diameter="5.715"/>
+<wire x1="8.5725" y1="78.3675" x2="6.34125" y2="78.3675" width="0.254" layer="1"/>
+<wire x1="6.34125" y1="78.3675" x2="5.92125" y2="78.7875" width="0.254" layer="1"/>
+<wire x1="8.5725" y1="93.29" x2="6.65875" y2="93.29" width="0.254" layer="1"/>
+<wire x1="6.65875" y1="93.29" x2="5.92125" y2="94.0275" width="0.254" layer="1"/>
 <wire x1="82.1134375" y1="94.0275" x2="98" y2="98" width="0" layer="19" extent="1-1"/>
 <wire x1="66.88125" y1="94.0275" x2="82.1134375" y2="94.0275" width="0" layer="19" extent="1-1"/>
 <wire x1="82.1134375" y1="78.7875" x2="82.1134375" y2="94.0275" width="0" layer="19" extent="1-1"/>
@@ -22698,15 +22702,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="51.64125" y1="78.7875" x2="48.4" y2="70.2" width="0" layer="19" extent="1-1"/>
 <wire x1="10.4" y1="68.37" x2="18" y2="62" width="0" layer="19" extent="1-1"/>
 <wire x1="66.88125" y1="78.7875" x2="61.4" y2="70.3" width="0" layer="19" extent="1-1"/>
-<wire x1="5.92125" y1="78.7875" x2="10.4" y2="68.37" width="0" layer="19" extent="1-1"/>
+<wire x1="8.5725" y1="78.3675" x2="10.4" y2="68.37" width="0" layer="19" extent="1-1"/>
+<wire x1="6.65875" y1="93.29" x2="5.92125" y2="78.7875" width="0" layer="19" extent="1-1"/>
+<wire x1="3" y1="98" x2="5.92125" y2="94.0275" width="0" layer="19" extent="1-1"/>
+<wire x1="13.335" y1="87.5175" x2="3" y2="98" width="0" layer="19" extent="1-1"/>
+<wire x1="21.16125" y1="94.0275" x2="8.5725" y2="93.29" width="0" layer="19" extent="1-1"/>
 <wire x1="51.64125" y1="94.0275" x2="66.88125" y2="94.0275" width="0" layer="19" extent="1-1"/>
 <wire x1="36.40125" y1="94.0275" x2="36.40125" y2="78.7875" width="0" layer="19" extent="1-1"/>
-<wire x1="21.16125" y1="94.0275" x2="21.16125" y2="78.7875" width="0" layer="19" extent="1-1"/>
-<wire x1="5.92125" y1="94.0275" x2="5.92125" y2="78.7875" width="0" layer="19" extent="1-1"/>
-<wire x1="3" y1="98" x2="5.92125" y2="94.0275" width="0" layer="19" extent="1-1"/>
-<wire x1="5.025" y1="104.4575" x2="3" y2="98" width="0" layer="19" extent="1-1"/>
-<wire x1="1.7925" y1="110.49" x2="5.025" y2="104.4575" width="0" layer="19" extent="1-1"/>
-<wire x1="26.2975" y1="110.8075" x2="21.16125" y2="94.0275" width="0" layer="19" extent="1-1"/>
 <wire x1="-13.345" y1="76.195" x2="5.92125" y2="78.7875" width="0" layer="19" extent="1-1"/>
 <wire x1="11.3" y1="23.4" x2="11.2" y2="45.6" width="0" layer="19" extent="16-16"/>
 <wire x1="3" y1="3" x2="11.3" y2="23.4" width="0" layer="19" extent="1-1"/>
@@ -23035,9 +23037,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <contactref element="U$1" pad="VDD"/>
 <contactref element="C30" pad="1"/>
 <contactref element="R19" pad="1"/>
-<wire x1="-5.8825" y1="100.0125" x2="3.325" y2="104.4575" width="0" layer="19" extent="1-1"/>
-<wire x1="5.92125" y1="91.4875" x2="3.325" y2="104.4575" width="0" layer="19" extent="1-1"/>
-<wire x1="13" y1="68.1" x2="5.92125" y2="91.4875" width="0" layer="19" extent="1-1"/>
+<wire x1="8.5725" y1="91.59" x2="6.02375" y2="91.59" width="0.254" layer="1"/>
+<wire x1="6.02375" y1="91.59" x2="5.92125" y2="91.4875" width="0.254" layer="1"/>
+<wire x1="8.5725" y1="89.7025" x2="5.92125" y2="91.4875" width="0" layer="19" extent="1-1"/>
+<wire x1="13" y1="68.1" x2="8.5725" y2="91.59" width="0" layer="19" extent="1-1"/>
 <wire x1="81.4" y1="24.4" x2="81.4385" y2="24.432" width="0" layer="19" extent="1-1"/>
 <wire x1="24.75" y1="-16.35" x2="38.2" y2="5" width="0" layer="19" extent="1-1"/>
 <wire x1="22.45" y1="-16.15" x2="24.75" y2="-16.35" width="0" layer="19" extent="1-1"/>
@@ -25199,9 +25202,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <contactref element="U$1" pad="VMOT"/>
 <contactref element="C29" pad="1"/>
 <contactref element="C31" pad="+"/>
-<wire x1="7.1925" y1="110.49" x2="24.5975" y2="110.8075" width="0" layer="19" extent="1-1"/>
-<wire x1="5.92125" y1="76.2475" x2="7.1925" y2="110.49" width="0" layer="19" extent="1-1"/>
-<wire x1="10.4" y1="65.83" x2="5.92125" y2="76.2475" width="0" layer="19" extent="1-1"/>
+<wire x1="8.5725" y1="76.6675" x2="6.34125" y2="76.6675" width="0.254" layer="1"/>
+<wire x1="6.34125" y1="76.6675" x2="5.92125" y2="76.2475" width="0.254" layer="1"/>
+<wire x1="6.34125" y1="76.6675" x2="13.335" y2="92.9175" width="0" layer="19" extent="1-1"/>
+<wire x1="10.4" y1="65.83" x2="8.5725" y2="76.6675" width="0" layer="19" extent="1-1"/>
 <wire x1="-13.345" y1="66.035" x2="5.92125" y2="76.2475" width="0" layer="19" extent="1-1"/>
 <wire x1="-13.345" y1="63.495" x2="-13.385" y2="65.135" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -25521,22 +25525,48 @@ We've spent an enormous amount of time creating and checking these footprints an
 <signal name="2B1M">
 <contactref element="U$1" pad="2B"/>
 <contactref element="JP6" pad="4"/>
-<wire x1="5.92125" y1="81.3275" x2="18.30375" y2="97.789875" width="0" layer="19" extent="1-1"/>
+<wire x1="5.92125" y1="81.3275" x2="5.92125" y2="81.48625" width="0.508" layer="16"/>
+<wire x1="5.92125" y1="81.48625" x2="7.62" y2="83.185" width="0.508" layer="16"/>
+<wire x1="7.62" y1="83.185" x2="7.62" y2="84.455" width="0.508" layer="16"/>
+<wire x1="7.62" y1="84.455" x2="8.89" y2="85.725" width="0.508" layer="16"/>
+<wire x1="8.89" y1="85.725" x2="8.89" y2="86.995" width="0.508" layer="16"/>
+<wire x1="8.89" y1="86.995" x2="10.16" y2="88.265" width="0.508" layer="16"/>
+<wire x1="10.16" y1="88.265" x2="10.16" y2="88.9" width="0.508" layer="16"/>
+<wire x1="10.16" y1="88.9" x2="14.605" y2="93.345" width="0.508" layer="16"/>
+<wire x1="14.605" y1="93.345" x2="14.605" y2="95.25" width="0.508" layer="16"/>
+<wire x1="14.605" y1="95.25" x2="15.875" y2="96.52" width="0.508" layer="16"/>
+<wire x1="15.875" y1="96.52" x2="17.033875" y2="96.52" width="0.508" layer="16"/>
+<wire x1="17.033875" y1="96.52" x2="18.30375" y2="97.789875" width="0.508" layer="16"/>
 </signal>
 <signal name="2A1M">
 <contactref element="U$1" pad="2A"/>
 <contactref element="JP6" pad="3"/>
-<wire x1="5.92125" y1="83.8675" x2="15.76375" y2="98.043875" width="0" layer="19" extent="1-1"/>
+<wire x1="5.92125" y1="83.8675" x2="5.92125" y2="84.02625" width="0.508" layer="16"/>
+<wire x1="5.92125" y1="84.02625" x2="7.62" y2="85.725" width="0.508" layer="16"/>
+<wire x1="7.62" y1="85.725" x2="7.62" y2="86.995" width="0.508" layer="16"/>
+<wire x1="7.62" y1="86.995" x2="8.89" y2="88.265" width="0.508" layer="16"/>
+<wire x1="8.89" y1="88.265" x2="8.89" y2="88.9" width="0.508" layer="16"/>
+<wire x1="8.89" y1="88.9" x2="13.335" y2="93.345" width="0.508" layer="16"/>
+<wire x1="13.335" y1="93.345" x2="13.335" y2="95.615125" width="0.508" layer="16"/>
+<wire x1="13.335" y1="95.615125" x2="15.76375" y2="98.043875" width="0.508" layer="16"/>
 </signal>
 <signal name="1A1M">
 <contactref element="U$1" pad="1A"/>
 <contactref element="JP6" pad="2"/>
-<wire x1="5.92125" y1="86.4075" x2="13.22375" y2="97.789875" width="0" layer="19" extent="1-1"/>
+<wire x1="5.92125" y1="86.4075" x2="5.92125" y2="86.56625" width="0.508" layer="16"/>
+<wire x1="5.92125" y1="86.56625" x2="7.62" y2="88.265" width="0.508" layer="16"/>
+<wire x1="7.62" y1="88.265" x2="7.62" y2="88.9" width="0.508" layer="16"/>
+<wire x1="7.62" y1="88.9" x2="12.065" y2="93.345" width="0.508" layer="16"/>
+<wire x1="12.065" y1="93.345" x2="12.065" y2="96.631125" width="0.508" layer="16"/>
+<wire x1="12.065" y1="96.631125" x2="13.22375" y2="97.789875" width="0.508" layer="16"/>
 </signal>
 <signal name="1B1M">
 <contactref element="U$1" pad="1B"/>
 <contactref element="JP6" pad="1"/>
-<wire x1="5.92125" y1="88.9475" x2="10.68375" y2="98.043875" width="0" layer="19" extent="1-1"/>
+<wire x1="5.92125" y1="88.9475" x2="6.3975" y2="88.9475" width="0.508" layer="16"/>
+<wire x1="6.3975" y1="88.9475" x2="10.795" y2="93.345" width="0.508" layer="16"/>
+<wire x1="10.795" y1="93.345" x2="10.795" y2="97.932625" width="0.508" layer="16"/>
+<wire x1="10.795" y1="97.932625" x2="10.68375" y2="98.043875" width="0.508" layer="16"/>
 </signal>
 <signal name="N$35">
 <contactref element="U$1" pad="RST"/>
@@ -25548,9 +25578,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <contactref element="SJ8" pad="1"/>
 <contactref element="SJ9" pad="1"/>
 <contactref element="SJ10" pad="1"/>
-<wire x1="-14.097" y1="99.06" x2="-4.1825" y2="100.0125" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.097" y1="94.615" x2="-14.097" y2="99.06" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.097" y1="90.17" x2="-14.097" y2="94.615" width="0" layer="19" extent="1-1"/>
+<wire x1="15.113" y1="83.82" x2="8.5725" y2="88.0025" width="0" layer="19" extent="1-1"/>
+<wire x1="15.113" y1="81.28" x2="15.113" y2="83.82" width="0" layer="19" extent="1-1"/>
+<wire x1="15.113" y1="78.74" x2="15.113" y2="81.28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD">
 <contactref element="U$5" pad="VDD"/>
@@ -25577,17 +25607,17 @@ We've spent an enormous amount of time creating and checking these footprints an
 <signal name="N$6">
 <contactref element="U$1" pad="MS1"/>
 <contactref element="SJ8" pad="2"/>
-<wire x1="-12.573" y1="99.06" x2="18.62125" y2="78.7875" width="0" layer="19" extent="1-1"/>
+<wire x1="16.637" y1="78.74" x2="18.62125" y2="78.7875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="U$1" pad="MS2"/>
 <contactref element="SJ9" pad="2"/>
-<wire x1="-12.573" y1="94.615" x2="18.62125" y2="81.3275" width="0" layer="19" extent="1-1"/>
+<wire x1="16.637" y1="81.28" x2="18.62125" y2="81.3275" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="U$1" pad="MS3"/>
 <contactref element="SJ10" pad="2"/>
-<wire x1="-12.573" y1="90.17" x2="18.62125" y2="83.8675" width="0" layer="19" extent="1-1"/>
+<wire x1="16.637" y1="83.82" x2="18.62125" y2="83.8675" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
