@@ -2363,7 +2363,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <rectangle x1="0.2794" y1="-0.6223" x2="0.6594" y2="0.6276" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
-<package name="C0603">
+<package name="C0603@1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -10367,7 +10367,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="C0603" package="C0603">
+<device name="C0603" package="C0603@1">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -28506,22 +28506,22 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <wire x1="-2.413" y1="2.159" x2="-2.413" y2="-3.81" width="0.1524" layer="21"/>
 <wire x1="-2.413" y1="2.159" x2="17.653" y2="2.159" width="0.1524" layer="21"/>
 <wire x1="-2.413" y1="-12.319" x2="17.653" y2="-12.319" width="0.1524" layer="21"/>
-<pad name="EN" x="-1.27" y="-11.43" drill="0.9" rot="R90"/>
-<pad name="MS1" x="1.27" y="-11.43" drill="0.9" rot="R90"/>
-<pad name="MS2" x="3.81" y="-11.43" drill="0.9" rot="R90"/>
-<pad name="MS3" x="6.35" y="-11.43" drill="0.9" rot="R90"/>
-<pad name="RST" x="8.89" y="-11.43" drill="0.9" rot="R90"/>
-<pad name="SLP" x="11.43" y="-11.43" drill="0.9" rot="R90"/>
-<pad name="STEP" x="13.97" y="-11.43" drill="0.9" rot="R90"/>
-<pad name="DIR" x="16.51" y="-11.43" drill="0.9" rot="R90"/>
-<pad name="GND" x="16.51" y="1.27" drill="0.9" rot="R90"/>
-<pad name="VDD" x="13.97" y="1.27" drill="0.9" rot="R90"/>
-<pad name="1B" x="11.43" y="1.27" drill="0.9" rot="R90"/>
-<pad name="1A" x="8.89" y="1.27" drill="0.9" rot="R90"/>
-<pad name="2A" x="6.35" y="1.27" drill="0.9" rot="R90"/>
-<pad name="2B" x="3.81" y="1.27" drill="0.9" rot="R90"/>
-<pad name="GND@0" x="1.27" y="1.27" drill="0.9" rot="R90"/>
-<pad name="VMOT" x="-1.27" y="1.27" drill="0.9" rot="R90"/>
+<pad name="EN" x="-1.27" y="-11.43" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="MS1" x="1.27" y="-11.43" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="MS2" x="3.81" y="-11.43" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="MS3" x="6.35" y="-11.43" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="RST" x="8.89" y="-11.43" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="SLP" x="11.43" y="-11.43" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="STEP" x="13.97" y="-11.43" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="DIR" x="16.51" y="-11.43" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="GND" x="16.51" y="1.27" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="VDD" x="13.97" y="1.27" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="1B" x="11.43" y="1.27" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="1A" x="8.89" y="1.27" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="2A" x="6.35" y="1.27" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="2B" x="3.81" y="1.27" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="GND@0" x="1.27" y="1.27" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="VMOT" x="-1.27" y="1.27" drill="0.9" diameter="1.778" rot="R90"/>
 <text x="-0.635" y="-10.16" size="0.6096" layer="21" rot="R90">EN</text>
 <text x="1.905" y="-10.16" size="0.6096" layer="21" rot="R90">MS1</text>
 <text x="4.445" y="-10.16" size="0.6096" layer="21" rot="R90">MS2</text>
@@ -28632,11 +28632,12 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
 <wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
-<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
+<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
 <text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
+<wire x1="-0.9525" y1="0" x2="0.9525" y2="0" width="0.254" layer="1"/>
 </package>
 <package name="SJW">
 <description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
@@ -28877,11 +28878,8 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <part name="XMX" library="SparkFun-Connectors" deviceset="M03" device="POLAR_LOCK"/>
 <part name="XMN" library="SparkFun-Connectors" deviceset="M03" device="POLAR_LOCK"/>
 <part name="U$1" library="RepRapjr" deviceset="POLOLU_A4983CARRIER" device=""/>
-<part name="SJ8" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ9" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ10" library="jumper" deviceset="SJ" device=""/>
-<part name="C29" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
-<part name="C30" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
+<part name="C29" library="resistor" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C30" library="resistor" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="R19" library="rcl" deviceset="R-EU_" device="0207/7"/>
 <part name="C31" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="100uF"/>
 <part name="JP6" library="SparkFun-Connectors" deviceset="M04" device="POLAR_LOCK"/>
@@ -28890,6 +28888,9 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <part name="U$7" library="RepRapjr" deviceset="POLOLU_A4983CARRIER" device=""/>
 <part name="U$8" library="RepRapjr" deviceset="POLOLU_A4983CARRIER" device=""/>
 <part name="U$9" library="RepRapjr" deviceset="POLOLU_A4983CARRIER" device=""/>
+<part name="SJ8" library="jumper" deviceset="SJ" device=""/>
+<part name="SJ9" library="jumper" deviceset="SJ" device=""/>
+<part name="SJ10" library="jumper" deviceset="SJ" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -29095,9 +29096,6 @@ cut a BOM line item</text>
 <instance part="XMX" gate="G$1" x="200.66" y="269.24"/>
 <instance part="XMN" gate="G$1" x="200.66" y="254"/>
 <instance part="U$1" gate="G$1" x="347.98" y="266.7"/>
-<instance part="SJ8" gate="1" x="317.5" y="266.7"/>
-<instance part="SJ9" gate="1" x="317.5" y="264.16"/>
-<instance part="SJ10" gate="1" x="317.5" y="261.62"/>
 <instance part="C29" gate="G$1" x="373.38" y="269.24" rot="R90"/>
 <instance part="C30" gate="G$1" x="373.38" y="254" rot="R90"/>
 <instance part="R19" gate="G$1" x="304.8" y="261.62"/>
@@ -29108,6 +29106,9 @@ cut a BOM line item</text>
 <instance part="U$7" gate="G$1" x="347.98" y="182.88"/>
 <instance part="U$8" gate="G$1" x="347.98" y="154.94"/>
 <instance part="U$9" gate="G$1" x="347.98" y="127"/>
+<instance part="SJ8" gate="1" x="317.5" y="266.7"/>
+<instance part="SJ9" gate="1" x="317.5" y="264.16"/>
+<instance part="SJ10" gate="1" x="317.5" y="261.62"/>
 </instances>
 <busses>
 </busses>
@@ -31536,35 +31537,35 @@ cut a BOM line item</text>
 <wire x1="322.58" y1="259.08" x2="322.58" y2="256.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$26" class="0">
+<net name="N$29" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="309.88" y1="261.62" x2="312.42" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="261.62" x2="312.42" y2="264.16" width="0.1524" layer="91"/>
+<pinref part="SJ8" gate="1" pin="1"/>
+<pinref part="SJ9" gate="1" pin="1"/>
+<wire x1="312.42" y1="264.16" x2="312.42" y2="266.7" width="0.1524" layer="91"/>
+<junction x="312.42" y="264.16"/>
+<pinref part="SJ10" gate="1" pin="1"/>
+<junction x="312.42" y="261.62"/>
+</segment>
+</net>
+<net name="N$6" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="MS1"/>
 <pinref part="SJ8" gate="1" pin="2"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="N$8" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="MS2"/>
 <pinref part="SJ9" gate="1" pin="2"/>
 </segment>
 </net>
-<net name="N$28" class="0">
+<net name="N$10" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="MS3"/>
 <pinref part="SJ10" gate="1" pin="2"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="R19" gate="G$1" pin="2"/>
-<pinref part="SJ10" gate="1" pin="1"/>
-<wire x1="309.88" y1="261.62" x2="312.42" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="SJ9" gate="1" pin="1"/>
-<wire x1="312.42" y1="261.62" x2="312.42" y2="264.16" width="0.1524" layer="91"/>
-<pinref part="SJ8" gate="1" pin="1"/>
-<wire x1="312.42" y1="264.16" x2="312.42" y2="266.7" width="0.1524" layer="91"/>
-<junction x="312.42" y="261.62"/>
-<junction x="312.42" y="264.16"/>
 </segment>
 </net>
 </nets>

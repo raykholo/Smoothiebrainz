@@ -32741,6 +32741,8 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <part name="SJ8" library="jumper" deviceset="SJ" device=""/>
 <part name="SJ9" library="jumper" deviceset="SJ" device=""/>
 <part name="SJ10" library="jumper" deviceset="SJ" device=""/>
+<part name="R20" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="P+5" library="SparkFun" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -32959,6 +32961,8 @@ cut a BOM line item</text>
 <instance part="SJ8" gate="1" x="317.5" y="266.7"/>
 <instance part="SJ9" gate="1" x="317.5" y="264.16"/>
 <instance part="SJ10" gate="1" x="317.5" y="261.62"/>
+<instance part="R20" gate="G$1" x="317.5" y="276.86" rot="R90"/>
+<instance part="P+5" gate="G$1" x="317.5" y="284.48"/>
 </instances>
 <busses>
 </busses>
@@ -33602,6 +33606,11 @@ cut a BOM line item</text>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="299.72" y1="261.62" x2="297.18" y2="261.62" width="0.1524" layer="91"/>
 <label x="294.64" y="261.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="P+5" gate="G$1" pin="3.3V"/>
+<wire x1="317.5" y1="281.94" x2="317.5" y2="284.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AVCC" class="0">
@@ -35340,8 +35349,12 @@ cut a BOM line item</text>
 <net name="X-EN" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="EN"/>
-<wire x1="322.58" y1="269.24" x2="322.58" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="269.24" x2="322.58" y2="271.78" width="0.1524" layer="91"/>
 <label x="322.58" y="276.86" size="1.778" layer="95"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="322.58" y1="271.78" x2="322.58" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="271.78" x2="322.58" y2="271.78" width="0.1524" layer="91"/>
+<junction x="322.58" y="271.78"/>
 </segment>
 </net>
 <net name="2B1M" class="0">
