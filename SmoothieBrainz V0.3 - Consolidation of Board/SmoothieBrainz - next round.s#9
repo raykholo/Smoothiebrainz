@@ -32815,9 +32815,9 @@ Based on the previous libraries:
 <part name="P+6" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="X1" library="con-phoenix-762" deviceset="GMSTBV2" device=""/>
 <part name="U$10" library="Cohesion_parts" deviceset="N-POWER-MOSFET" device="D2PAK-MOSFET" value="SUM120N04-1M7L-GE3"/>
-<part name="R27" library="adafruit" deviceset="R-US_" device="R0603" value="10r"/>
-<part name="R30" library="adafruit" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="R32" library="adafruit" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R27" library="resistor" deviceset="R-EU_" device="R0603" value="10r"/>
+<part name="R30" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R32" library="resistor" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="LED6" library="led" deviceset="LED" device="SML0805"/>
 <part name="X2" library="con-phoenix-508" deviceset="MSTBA2" device=""/>
 <part name="X3" library="con-phoenix-508" deviceset="MSTBA4" device=""/>
@@ -33067,8 +33067,8 @@ cut a BOM line item</text>
 <instance part="U$10" gate="G$1" x="546.1" y="365.76"/>
 <instance part="R27" gate="G$1" x="525.78" y="363.22"/>
 <instance part="R30" gate="G$1" x="530.86" y="355.6" rot="R180"/>
-<instance part="R32" gate="G$1" x="513.08" y="378.46" rot="MR180"/>
-<instance part="LED6" gate="G$1" x="523.24" y="378.46" rot="MR270"/>
+<instance part="R32" gate="G$1" x="525.78" y="378.46" rot="MR180"/>
+<instance part="LED6" gate="G$1" x="510.54" y="378.46" rot="MR270"/>
 <instance part="X2" gate="-1" x="71.12" y="307.34"/>
 <instance part="X2" gate="-2" x="71.12" y="302.26"/>
 <instance part="X3" gate="-1" x="71.12" y="287.02"/>
@@ -35782,12 +35782,13 @@ cut a BOM line item</text>
 </net>
 <net name="+12VHEATBED" class="4">
 <segment>
-<wire x1="500.38" y1="363.22" x2="497.84" y2="363.22" width="0.1524" layer="91"/>
+<wire x1="500.38" y1="363.22" x2="485.14" y2="363.22" width="0.1524" layer="91"/>
+<label x="485.14" y="363.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R32" gate="G$1" pin="1"/>
-<wire x1="508" y1="378.46" x2="485.14" y2="378.46" width="0.1524" layer="91"/>
 <label x="487.68" y="378.46" size="1.778" layer="95"/>
+<pinref part="LED6" gate="G$1" pin="A"/>
+<wire x1="508" y1="378.46" x2="485.14" y2="378.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HEATBED-CONTROL" class="0">
@@ -35795,10 +35796,10 @@ cut a BOM line item</text>
 <pinref part="U$10" gate="G$1" pin="D"/>
 <wire x1="497.84" y1="370.84" x2="538.48" y2="370.84" width="0.1524" layer="91"/>
 <label x="508" y="370.84" size="1.778" layer="95"/>
-<pinref part="LED6" gate="G$1" pin="C"/>
-<wire x1="528.32" y1="378.46" x2="538.48" y2="378.46" width="0.1524" layer="91"/>
 <wire x1="538.48" y1="378.46" x2="538.48" y2="370.84" width="0.1524" layer="91"/>
 <junction x="538.48" y="370.84"/>
+<pinref part="R32" gate="G$1" pin="2"/>
+<wire x1="530.86" y1="378.46" x2="538.48" y2="378.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X3" gate="-4" pin="1"/>
@@ -35811,13 +35812,6 @@ cut a BOM line item</text>
 <pinref part="R27" gate="G$1" pin="2"/>
 <pinref part="U$10" gate="G$1" pin="G"/>
 <wire x1="530.86" y1="363.22" x2="533.4" y2="363.22" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="R32" gate="G$1" pin="2"/>
-<pinref part="LED6" gate="G$1" pin="A"/>
-<wire x1="518.16" y1="378.46" x2="520.7" y2="378.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -35912,6 +35906,13 @@ cut a BOM line item</text>
 <pinref part="X3" gate="-3" pin="1"/>
 <wire x1="76.2" y1="276.86" x2="91.44" y2="276.86" width="0.1524" layer="91"/>
 <label x="78.74" y="276.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="LED6" gate="G$1" pin="C"/>
+<pinref part="R32" gate="G$1" pin="1"/>
+<wire x1="515.62" y1="378.46" x2="520.7" y2="378.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

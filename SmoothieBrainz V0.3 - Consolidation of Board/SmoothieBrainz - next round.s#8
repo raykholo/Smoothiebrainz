@@ -32815,9 +32815,9 @@ Based on the previous libraries:
 <part name="P+6" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="X1" library="con-phoenix-762" deviceset="GMSTBV2" device=""/>
 <part name="U$10" library="Cohesion_parts" deviceset="N-POWER-MOSFET" device="D2PAK-MOSFET" value="SUM120N04-1M7L-GE3"/>
-<part name="R27" library="adafruit" deviceset="R-US_" device="R0603" value="10r"/>
-<part name="R30" library="adafruit" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="R32" library="adafruit" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R27" library="resistor" deviceset="R-EU_" device="R0603" value="10r"/>
+<part name="R30" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R32" library="resistor" deviceset="R-EU_" device="R0603" value="1.5k"/>
 <part name="LED6" library="led" deviceset="LED" device="SML0805"/>
 <part name="X2" library="con-phoenix-508" deviceset="MSTBA2" device=""/>
 <part name="X3" library="con-phoenix-508" deviceset="MSTBA4" device=""/>
@@ -35782,7 +35782,8 @@ cut a BOM line item</text>
 </net>
 <net name="+12VHEATBED" class="4">
 <segment>
-<wire x1="500.38" y1="363.22" x2="497.84" y2="363.22" width="0.1524" layer="91"/>
+<wire x1="500.38" y1="363.22" x2="485.14" y2="363.22" width="0.1524" layer="91"/>
+<label x="485.14" y="363.22" size="1.778" layer="95"/>
 </segment>
 <segment>
 <label x="487.68" y="378.46" size="1.778" layer="95"/>

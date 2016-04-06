@@ -28462,6 +28462,21 @@ type 0309, grid 12.5 mm</description>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
 <rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
 </package>
+<package name="FIDUCIAL_1MM">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="R-US">
@@ -28478,6 +28493,9 @@ type 0309, grid 12.5 mm</description>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="DOT">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -29122,6 +29140,20 @@ type 0309, grid 12.5 mm</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL">
+<description>For use by pick and place machines to calibrate the vision/machine, 1mm
+&lt;p&gt;By microbuilder.eu&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL_1MM">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -32835,6 +32867,8 @@ Based on the previous libraries:
 <part name="JP8" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
 <part name="JP9" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
 <part name="JP10" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
+<part name="U$11" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$12" library="adafruit" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -32853,6 +32887,7 @@ Based on the previous libraries:
 a 10uF Capacitor to 
 cut a BOM line item</text>
 <text x="129.54" y="409.702" size="6.4516" layer="95">Thermistors</text>
+<text x="15.24" y="220.98" size="2.54" layer="95">Fiducials</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="175.26" y="139.7"/>
@@ -33090,6 +33125,8 @@ cut a BOM line item</text>
 <instance part="JP8" gate="G$1" x="408.94" y="261.62" rot="R180"/>
 <instance part="JP9" gate="G$1" x="408.94" y="208.28" rot="R180"/>
 <instance part="JP10" gate="G$1" x="408.94" y="165.1" rot="R180"/>
+<instance part="U$11" gate="G$1" x="17.78" y="215.9"/>
+<instance part="U$12" gate="G$1" x="27.94" y="215.9"/>
 </instances>
 <busses>
 </busses>
@@ -35788,17 +35825,6 @@ cut a BOM line item</text>
 <label x="513.08" y="363.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+12VHEATBED" class="4">
-<segment>
-<wire x1="500.38" y1="363.22" x2="485.14" y2="363.22" width="0.1524" layer="91"/>
-<label x="485.14" y="363.22" size="1.778" layer="95"/>
-</segment>
-<segment>
-<label x="487.68" y="378.46" size="1.778" layer="95"/>
-<pinref part="LED6" gate="G$1" pin="A"/>
-<wire x1="508" y1="378.46" x2="485.14" y2="378.46" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="HEATBED-CONTROL" class="0">
 <segment>
 <pinref part="U$10" gate="G$1" pin="D"/>
@@ -35926,6 +35952,15 @@ cut a BOM line item</text>
 <pinref part="X3" gate="-3" pin="1"/>
 <wire x1="76.2" y1="276.86" x2="91.44" y2="276.86" width="0.1524" layer="91"/>
 <label x="78.74" y="276.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="500.38" y1="363.22" x2="485.14" y2="363.22" width="0.1524" layer="91"/>
+<label x="485.14" y="363.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="487.68" y="378.46" size="1.778" layer="95"/>
+<pinref part="LED6" gate="G$1" pin="A"/>
+<wire x1="508" y1="378.46" x2="485.14" y2="378.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
