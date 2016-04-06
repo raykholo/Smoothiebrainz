@@ -25321,20 +25321,20 @@ Based on the previous libraries:
 <wire x1="6.985" y1="58.42" x2="4.445" y2="58.42" width="3.81" layer="1"/>
 <wire x1="4.445" y1="58.42" x2="2.54" y2="56.515" width="3.81" layer="1"/>
 <wire x1="2.54" y1="56.515" x2="2.54" y2="50.165" width="3.81" layer="1"/>
-<wire x1="2.54" y1="50.165" x2="2.54" y2="49.53" width="3.81" layer="1"/>
+<wire x1="2.54" y1="50.165" x2="2.54" y2="49.53" width="0.508" layer="1"/>
 <wire x1="2.54" y1="49.53" x2="3.81" y2="48.26" width="3.81" layer="1"/>
 <wire x1="3.81" y1="48.26" x2="6.985" y2="48.26" width="3.81" layer="1"/>
 <contactref element="LED6" pad="A"/>
-<wire x1="2.76" y1="38.735" x2="1.905" y2="38.735" width="0.254" layer="1"/>
-<wire x1="1.905" y1="38.735" x2="1.27" y2="39.37" width="0.254" layer="1"/>
-<wire x1="1.27" y1="39.37" x2="1.27" y2="49.53" width="0.254" layer="1"/>
-<wire x1="1.27" y1="49.53" x2="1.905" y2="50.165" width="0.254" layer="1"/>
+<wire x1="2.76" y1="38.735" x2="1.905" y2="38.735" width="0.508" layer="1"/>
+<wire x1="1.905" y1="38.735" x2="1.27" y2="39.37" width="0.508" layer="1"/>
+<wire x1="1.27" y1="39.37" x2="1.27" y2="49.53" width="0.508" layer="1"/>
+<wire x1="1.27" y1="49.53" x2="1.905" y2="50.165" width="0.508" layer="1"/>
 <wire x1="1.905" y1="50.165" x2="2.54" y2="50.165" width="0.254" layer="1"/>
 </signal>
 <signal name="N$21">
 <contactref element="LED6" pad="C"/>
 <contactref element="R32" pad="1"/>
-<wire x1="4.86" y1="38.735" x2="6.77" y2="38.735" width="0.254" layer="1"/>
+<wire x1="4.86" y1="38.735" x2="6.77" y2="38.735" width="0.508" layer="1"/>
 </signal>
 <signal name="N$28">
 <contactref element="U$1" pad="EN"/>
