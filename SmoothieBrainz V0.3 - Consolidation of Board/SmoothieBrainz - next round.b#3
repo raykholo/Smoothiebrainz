@@ -22465,7 +22465,6 @@ Based on the previous libraries:
 <wire x1="33.31" y1="65.13" x2="37.57" y2="65.13" width="1.016" layer="1"/>
 <wire x1="37.67" y1="65.13" x2="37.87" y2="65.33" width="1.016" layer="1"/>
 <via x="37.87" y="65.33" extent="1-16" drill="0.5" diameter="0.254"/>
-<wire x1="21.87" y1="70.81" x2="22.99" y2="70.81" width="1.016" layer="1"/>
 <wire x1="22.99" y1="70.81" x2="23.77" y2="70.03" width="1.016" layer="1"/>
 <via x="23.77" y="70.03" extent="1-16" drill="0.5" diameter="0.254"/>
 <wire x1="23.77" y1="70.03" x2="27.37" y2="70.03" width="1.016" layer="16"/>
@@ -22507,7 +22506,6 @@ Based on the previous libraries:
 <wire x1="51.773040625" y1="24.977040625" x2="52.341" y2="24.977040625" width="0.254" layer="1"/>
 <wire x1="52.341" y1="24.977040625" x2="55.7019" y2="28.337940625" width="0.254" layer="1"/>
 <wire x1="56.923" y1="29.559040625" x2="55.7019" y2="28.337940625" width="0.254" layer="1"/>
-<wire x1="22.17" y1="70.81" x2="21.87" y2="70.81" width="1.27" layer="1"/>
 <contactref element="U$2" pad="1"/>
 <contactref element="R31" pad="2"/>
 <contactref element="U2" pad="13"/>
@@ -22796,7 +22794,9 @@ Based on the previous libraries:
 <wire x1="13.335" y1="66.49" x2="13.57125" y2="66.72625" width="1.27" layer="16"/>
 <wire x1="16.51" y1="59.475" x2="15.025" y2="59.475" width="0.254" layer="1"/>
 <wire x1="15.025" y1="59.475" x2="14.605" y2="59.055" width="0.254" layer="1"/>
+<wire x1="22.17" y1="70.81" x2="22.99" y2="70.81" width="1.016" layer="1"/>
 <wire x1="96.5" y1="69.15" x2="99.7675" y2="73.55625" width="0" layer="19" extent="1-1"/>
+<wire x1="21.87" y1="70.81" x2="22.17" y2="70.81" width="0" layer="19" extent="1-1"/>
 <wire x1="82.33125" y1="63.64875" x2="83.265" y2="61.565" width="0" layer="19" extent="1-16"/>
 <wire x1="21.6209375" y1="78.32" x2="21.87" y2="70.81" width="0" layer="19" extent="1-1"/>
 <wire x1="107.735" y1="57.585" x2="96.5" y2="69.15" width="0" layer="19" extent="1-1"/>
