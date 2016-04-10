@@ -36335,6 +36335,12 @@ cut a BOM line item</text>
 <wire x1="358.14" y1="335.28" x2="353.06" y2="335.28" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="IN"/>
+<wire x1="337.82" y1="337.82" x2="327.66" y2="337.82" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

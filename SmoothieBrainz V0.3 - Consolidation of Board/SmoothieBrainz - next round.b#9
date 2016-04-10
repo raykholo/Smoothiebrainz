@@ -22269,11 +22269,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </element>
 <element name="C30" library="resistor" package="C0603" value="104" x="8.5725" y="92.71" smashed="yes" rot="R90">
 <attribute name="NAME" x="7.8105" y="91.821" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="9.74725" y="92.9005" size="0.8128" layer="27"/>
+<attribute name="VALUE" x="7.52475" y="94.1705" size="0.8128" layer="27"/>
 </element>
 <element name="R19" library="resistor" package="R0603" value="1k" x="8.5725" y="89.05875" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.4615" y="89.94775" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="9.79475" y="89.4555" size="0.8128" layer="27"/>
+<attribute name="VALUE" x="8.0485" y="86.75675" size="0.8128" layer="27"/>
 </element>
 <element name="C31" library="resistor" package="153CLV-0605" value="100uF" x="10.63625" y="82.55" smashed="yes" rot="R270">
 <attribute name="NAME" x="13.34375" y="83.095" size="1.27" layer="25" rot="R180"/>
@@ -22300,7 +22300,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </element>
 <element name="R25" library="resistor" package="R0603" value="1k" x="23.8125" y="89.05875" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.7015" y="89.94775" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="24.93975" y="89.3605" size="1.27" layer="27"/>
+<attribute name="VALUE" x="24.93975" y="89.3605" size="0.8128" layer="27"/>
 </element>
 <element name="C34" library="resistor" package="153CLV-0605" value="100uF" x="25.7175" y="82.55" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.3475" y="85.94" size="1.27" layer="25" rot="R270"/>

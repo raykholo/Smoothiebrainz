@@ -33239,7 +33239,7 @@ cut a BOM line item</text>
 <instance part="R39" gate="G$1" x="317.5" y="134.62" rot="R90"/>
 <instance part="P+8" gate="G$1" x="317.5" y="142.24"/>
 <instance part="JP12" gate="G$1" x="408.94" y="119.38" rot="R180"/>
-<instance part="U1" gate="G$1" x="457.2" y="144.78"/>
+<instance part="U1" gate="G$1" x="345.44" y="337.82"/>
 </instances>
 <busses>
 </busses>

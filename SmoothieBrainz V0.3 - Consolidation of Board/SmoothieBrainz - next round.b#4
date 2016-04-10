@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="yes"/>
@@ -22392,14 +22392,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </element>
 <element name="R35" library="resistor" package="R0603" value="10r" x="13.49375" y="24.28875" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.50975" y="25.05075" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="12.73175" y="26.44775" size="0.8128" layer="27"/>
+<attribute name="VALUE" x="12.73175" y="25.81275" size="0.8128" layer="27"/>
 </element>
 <element name="R36" library="resistor" package="R0603" value="100k" x="9.04875" y="24.28875" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.03275" y="23.52675" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="7.96925" y="26.44775" size="0.8128" layer="27"/>
+<attribute name="VALUE" x="7.96925" y="25.81275" size="0.8128" layer="27"/>
 </element>
 <element name="LED7" library="led" package="SML0805" value="" x="11.27125" y="24.92375" rot="R90"/>
-<element name="R37" library="resistor" package="R0603" value="1.5k" x="11.58875" y="21.2725" rot="R270"/>
+<element name="R37" library="resistor" package="R0603" value="1.5k" x="11.58875" y="21.2725" smashed="yes" rot="R270">
+<attribute name="NAME" x="12.47775" y="22.1615" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="12.6365" y="19.65325" size="0.8128" layer="27" rot="R180"/>
+</element>
 <element name="X4" library="con-phoenix-350" package="1751248" value="1751248" x="11.43" y="6.0325" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="11.43" y="6.0325" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="11.43" y="6.0325" size="1.778" layer="27" display="off"/>

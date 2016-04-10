@@ -20115,6 +20115,8 @@
 Power</text>
 <text x="0.47625" y="17.93875" size="1.27" layer="21">24v MAX</text>
 <text x="0.635" y="8.255" size="1.778" layer="21">Gnd</text>
+<text x="10.5025" y="26.0175" size="0.8128" layer="21" font="vector" ratio="14">LED</text>
+<text x="10.66125" y="22.68375" size="0.8128" layer="21" font="vector" ratio="14">-</text>
 </plain>
 <libraries>
 <library name="microbuilder">

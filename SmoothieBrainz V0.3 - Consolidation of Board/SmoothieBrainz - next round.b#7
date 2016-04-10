@@ -22296,15 +22296,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </element>
 <element name="C33" library="resistor" package="C0603" value="104" x="23.8125" y="92.71" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.0505" y="91.821" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="26.162" y="91.186" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="22.76475" y="94.1705" size="0.8128" layer="27"/>
 </element>
 <element name="R25" library="resistor" package="R0603" value="1k" x="23.8125" y="89.05875" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.7015" y="89.94775" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="24.93975" y="89.3605" size="0.8128" layer="27"/>
+<attribute name="VALUE" x="23.1935" y="86.66175" size="0.8128" layer="27"/>
 </element>
-<element name="C34" library="resistor" package="153CLV-0605" value="100uF" x="25.7175" y="82.55" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.3475" y="85.94" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="23.245" y="81.7925" size="1.27" layer="27"/>
+<element name="C34" library="resistor" package="153CLV-0605" value="100uF" x="25.87625" y="82.55" smashed="yes" rot="R270">
+<attribute name="NAME" x="29.50625" y="85.94" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="23.40375" y="81.7925" size="1.27" layer="27"/>
 </element>
 <element name="JP2" library="SparkFun-Connectors" package="MOLEX-1X4_LOCK" value="" x="25.87625" y="97.79"/>
 <element name="SJ11" library="jumper" package="SJ" value="" x="31.115" y="78.74"/>
@@ -22902,7 +22902,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="U$6" pad="GND@0"/>
 <contactref element="C36" pad="2"/>
 <wire x1="36.40125" y1="94.0275" x2="36.40125" y2="95.04375" width="1.27" layer="1"/>
-<wire x1="25.7175" y1="85.25" x2="25.7175" y2="84.1375" width="0.254" layer="1"/>
+<wire x1="25.87625" y1="85.25" x2="25.7175" y2="84.1375" width="0.254" layer="1"/>
 <wire x1="25.7175" y1="84.1375" x2="24.13" y2="82.55" width="0.254" layer="1"/>
 <wire x1="24.13" y1="82.55" x2="24.13" y2="78.685" width="0.254" layer="1"/>
 <wire x1="24.13" y1="78.685" x2="23.8125" y2="78.32" width="0.254" layer="1"/>
@@ -25127,7 +25127,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="23.8125" y1="76.62" x2="23.9625" y2="76.6675" width="0.254" layer="1"/>
 <wire x1="23.9625" y1="76.6675" x2="26.035" y2="78.74" width="0.254" layer="1"/>
 <wire x1="26.035" y1="78.74" x2="26.035" y2="79.485" width="0.254" layer="1"/>
-<wire x1="26.035" y1="79.485" x2="25.7175" y2="79.85" width="0.254" layer="1"/>
+<wire x1="26.035" y1="79.485" x2="25.87625" y2="79.85" width="0.254" layer="1"/>
 <wire x1="25.47" y1="73.59" x2="27.94" y2="73.66" width="1.4224" layer="1"/>
 <wire x1="13.57125" y1="69.26625" x2="13.57125" y2="73.42375" width="1.778" layer="1"/>
 <wire x1="13.57125" y1="73.42375" x2="19.05" y2="73.66" width="1.778" layer="1"/>

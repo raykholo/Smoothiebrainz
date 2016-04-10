@@ -20115,6 +20115,7 @@
 Power</text>
 <text x="0.47625" y="17.93875" size="1.27" layer="21">24v MAX</text>
 <text x="0.635" y="8.255" size="1.778" layer="21">Gnd</text>
+<text x="10.5025" y="26.0175" size="0.8128" layer="21" font="vector" ratio="14">LED</text>
 </plain>
 <libraries>
 <library name="microbuilder">
@@ -22399,7 +22400,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="7.96925" y="25.81275" size="0.8128" layer="27"/>
 </element>
 <element name="LED7" library="led" package="SML0805" value="" x="11.27125" y="24.92375" rot="R90"/>
-<element name="R37" library="resistor" package="R0603" value="1.5k" x="11.58875" y="21.2725" rot="R270"/>
+<element name="R37" library="resistor" package="R0603" value="1.5k" x="11.58875" y="21.2725" smashed="yes" rot="R270">
+<attribute name="NAME" x="12.47775" y="22.1615" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="12.6365" y="19.65325" size="0.8128" layer="27" rot="R180"/>
+</element>
 <element name="X4" library="con-phoenix-350" package="1751248" value="1751248" x="11.43" y="6.0325" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="11.43" y="6.0325" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="11.43" y="6.0325" size="1.778" layer="27" display="off"/>
