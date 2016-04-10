@@ -23269,9 +23269,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="92.0255" y1="8.917" x2="86.9455" y2="8.917" width="0.6096" layer="1"/>
 <wire x1="84.1" y1="14.7" x2="84.2" y2="14.7" width="0.6096" layer="1"/>
 <wire x1="84.2" y1="14.7" x2="85.2" y2="13.7" width="0.6096" layer="1"/>
-<wire x1="85.2" y1="13.7" x2="85.2" y2="9.1" width="0.6096" layer="1"/>
-<wire x1="85.2" y1="9.1" x2="89.0285" y2="9.1" width="0.6096" layer="1"/>
-<wire x1="89.0285" y1="9.1" x2="86.9455" y2="8.917" width="0.6096" layer="1"/>
+<wire x1="85.2" y1="13.7" x2="85.2" y2="9.735" width="0.6096" layer="1"/>
 <wire x1="79.7" y1="17.4" x2="79.2" y2="17.4" width="0.3048" layer="1"/>
 <wire x1="79.2" y1="17.4" x2="78.8" y2="17.8" width="0.3048" layer="1"/>
 <wire x1="92.0255" y1="8.917" x2="92.417" y2="8.917" width="0.4064" layer="1"/>
@@ -23287,6 +23285,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="81.1" y1="15.1" x2="81.6" y2="14.6" width="0.4064" layer="16"/>
 <wire x1="81.6" y1="14.6" x2="84" y2="14.6" width="0.4064" layer="16"/>
 <wire x1="84" y1="14.6" x2="84.1" y2="14.7" width="0.4064" layer="16"/>
+<wire x1="86.9455" y1="8.917" x2="86.018" y2="8.917" width="0.6096" layer="1"/>
+<wire x1="86.018" y1="8.917" x2="85.2" y2="9.735" width="0.6096" layer="1"/>
 <wire x1="32.9025" y1="-17.635" x2="66" y2="19" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="ENET_TXD0">

@@ -246,7 +246,6 @@
 <text x="74.38" y="-33.39" size="1.27" layer="21" font="vector" ratio="13">Y-MAX</text>
 <text x="66.7775" y="-33.39" size="1.27" layer="21" font="vector" ratio="13">Z-MIN</text>
 <text x="-1.47625" y="28.0775" size="1.27" layer="22" font="vector" ratio="13" rot="MR270">Z-MAX</text>
-<text x="47.54" y="6.4975" size="1.27" layer="21" font="vector" ratio="13">LAN8720</text>
 <text x="-35.845" y="62.43" size="1.27" layer="21" font="vector" ratio="13" rot="R90">24V</text>
 <text x="-35.845" y="66.93" size="1.27" layer="21" font="vector" ratio="13" rot="R90">5V</text>
 <text x="-2.19" y="73.335" size="1.27" layer="21" font="vector" ratio="13" rot="R90">GND</text>
@@ -14331,7 +14330,7 @@
 <text x="19.4175" y="71.4175" size="0.8128" layer="21" font="vector" ratio="14" rot="R270">SS34</text>
 <text x="58.2" y="11.1" size="0.8128" layer="21" font="vector" ratio="14">104</text>
 <text x="54.7" y="13.1" size="0.8128" layer="21" font="vector" ratio="14">22R</text>
-<text x="55.0175" y="10.5" size="0.8128" layer="21" font="vector" ratio="14" rot="R180">74LVC1G04</text>
+<text x="136.2975" y="51.775" size="0.8128" layer="21" font="vector" ratio="14" rot="R180">74LVC1G04</text>
 <text x="67.1" y="10.2" size="0.8128" layer="21" font="vector" ratio="14" rot="R90">10uF</text>
 <text x="74.4" y="10.3" size="0.8128" layer="21" font="vector" ratio="14" rot="R90">10uF</text>
 <text x="82.1" y="10.3" size="0.8128" layer="21" font="vector" ratio="14" rot="R90">10uF</text>
@@ -23270,9 +23269,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="92.0255" y1="8.917" x2="86.9455" y2="8.917" width="0.6096" layer="1"/>
 <wire x1="84.1" y1="14.7" x2="84.2" y2="14.7" width="0.6096" layer="1"/>
 <wire x1="84.2" y1="14.7" x2="85.2" y2="13.7" width="0.6096" layer="1"/>
-<wire x1="85.2" y1="13.7" x2="85.2" y2="9.1" width="0.6096" layer="1"/>
-<wire x1="85.2" y1="9.1" x2="89.0285" y2="9.1" width="0.6096" layer="1"/>
-<wire x1="89.0285" y1="9.1" x2="86.9455" y2="8.917" width="0.6096" layer="1"/>
+<wire x1="85.2" y1="13.7" x2="85.2" y2="9.735" width="0.6096" layer="1"/>
 <wire x1="79.7" y1="17.4" x2="79.2" y2="17.4" width="0.3048" layer="1"/>
 <wire x1="79.2" y1="17.4" x2="78.8" y2="17.8" width="0.3048" layer="1"/>
 <wire x1="92.0255" y1="8.917" x2="92.417" y2="8.917" width="0.4064" layer="1"/>
@@ -23288,6 +23285,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="81.1" y1="15.1" x2="81.6" y2="14.6" width="0.4064" layer="16"/>
 <wire x1="81.6" y1="14.6" x2="84" y2="14.6" width="0.4064" layer="16"/>
 <wire x1="84" y1="14.6" x2="84.1" y2="14.7" width="0.4064" layer="16"/>
+<wire x1="86.9455" y1="8.917" x2="86.018" y2="8.917" width="0.6096" layer="1"/>
+<wire x1="86.018" y1="8.917" x2="85.2" y2="9.735" width="0.6096" layer="1"/>
 <wire x1="32.9025" y1="-17.635" x2="66" y2="19" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="ENET_TXD0">
