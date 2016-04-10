@@ -31670,11 +31670,11 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="C16" library="rcl" deviceset="CPOL-EU" device="E2.5-7"/>
 <part name="EXP1" library="con-3m" deviceset="2510-" device=""/>
 <part name="EXP2" library="con-3m" deviceset="2510-" device=""/>
-<part name="D7" library="semicon-smd-ipc" deviceset="D-" device="SOD-87"/>
-<part name="D8" library="semicon-smd-ipc" deviceset="D-" device="SOD-87"/>
-<part name="D9" library="semicon-smd-ipc" deviceset="D-" device="SOD-87"/>
-<part name="D10" library="semicon-smd-ipc" deviceset="D-" device="SOD-87"/>
-<part name="D11" library="semicon-smd-ipc" deviceset="D-" device="SOD-87"/>
+<part name="D7" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>
+<part name="D8" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>
+<part name="D9" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>
+<part name="D10" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>
+<part name="D11" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>
 <part name="D12" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>
 <part name="R5" library="adafruit" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R6" library="adafruit" deviceset="R-US_" device="R0603" value="10k"/>
@@ -31812,6 +31812,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="JP12" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
 <part name="U1" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223"/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
+<part name="RN2" library="resistor-dil" deviceset="4R-N" device="0603-ARV"/>
 </parts>
 <sheets>
 <sheet>
@@ -32091,6 +32092,10 @@ cut a BOM line item</text>
 <instance part="JP12" gate="G$1" x="408.94" y="119.38" rot="R180"/>
 <instance part="U1" gate="G$1" x="43.18" y="-17.78"/>
 <instance part="SUPPLY5" gate="GND" x="43.18" y="-38.1"/>
+<instance part="RN2" gate="A" x="101.6" y="381"/>
+<instance part="RN2" gate="B" x="101.6" y="375.92"/>
+<instance part="RN2" gate="C" x="101.6" y="370.84"/>
+<instance part="RN2" gate="D" x="101.6" y="365.76"/>
 </instances>
 <busses>
 </busses>

@@ -35630,6 +35630,11 @@ cut a BOM line item</text>
 <wire x1="78.74" y1="457.2" x2="106.68" y2="457.2" width="0.1524" layer="91"/>
 <label x="99.06" y="457.2" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IN"/>
+<wire x1="337.82" y1="337.82" x2="327.66" y2="337.82" width="0.1524" layer="91"/>
+<label x="327.66" y="337.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$9" class="0">
 <segment>

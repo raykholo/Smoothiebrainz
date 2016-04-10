@@ -32954,6 +32954,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="P+8" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="JP12" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
 <part name="U1" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223"/>
+<part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -33240,6 +33241,7 @@ cut a BOM line item</text>
 <instance part="P+8" gate="G$1" x="317.5" y="142.24"/>
 <instance part="JP12" gate="G$1" x="408.94" y="119.38" rot="R180"/>
 <instance part="U1" gate="G$1" x="345.44" y="337.82"/>
+<instance part="SUPPLY5" gate="GND" x="345.44" y="317.5"/>
 </instances>
 <busses>
 </busses>
@@ -33730,6 +33732,11 @@ cut a BOM line item</text>
 <pinref part="C39" gate="G$1" pin="2"/>
 <wire x1="363.22" y1="109.22" x2="378.46" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="378.46" y1="109.22" x2="378.46" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="ADJ"/>
+<wire x1="345.44" y1="330.2" x2="345.44" y2="320.04" width="0.1524" layer="91"/>
+<pinref part="SUPPLY5" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -36317,6 +36324,21 @@ cut a BOM line item</text>
 <pinref part="JP12" gate="G$1" pin="1"/>
 <wire x1="388.62" y1="121.92" x2="403.86" y2="121.92" width="0.1524" layer="91"/>
 <junction x="388.62" y="121.92"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="OUT"/>
+<wire x1="353.06" y1="337.82" x2="358.14" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="337.82" x2="358.14" y2="335.28" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="OUT@1"/>
+<wire x1="358.14" y1="335.28" x2="353.06" y2="335.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="IN"/>
+<wire x1="337.82" y1="337.82" x2="327.66" y2="337.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
