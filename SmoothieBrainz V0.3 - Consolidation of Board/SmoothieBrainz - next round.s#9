@@ -33132,8 +33132,8 @@ cut a BOM line item</text>
 <instance part="GND15" gate="1" x="520.7" y="320.04"/>
 <instance part="LED7" gate="G$1" x="492.76" y="345.44" rot="MR270"/>
 <instance part="R37" gate="G$1" x="510.54" y="345.44" rot="MR180"/>
-<instance part="X4" gate="-1" x="551.18" y="342.9"/>
-<instance part="X4" gate="-2" x="551.18" y="335.28"/>
+<instance part="X4" gate="-1" x="558.8" y="342.9"/>
+<instance part="X4" gate="-2" x="558.8" y="335.28"/>
 <instance part="X5" gate="-1" x="551.18" y="299.72"/>
 <instance part="X5" gate="-2" x="551.18" y="292.1"/>
 <instance part="X6" gate="-1" x="551.18" y="266.7"/>
@@ -36022,8 +36022,16 @@ cut a BOM line item</text>
 <segment>
 <pinref part="U$13" gate="G$1" pin="D"/>
 <wire x1="520.7" y1="340.36" x2="520.7" y2="342.9" width="0.1524" layer="91"/>
-<wire x1="520.7" y1="342.9" x2="543.56" y2="342.9" width="0.1524" layer="91"/>
-<label x="525.78" y="342.9" size="1.778" layer="95"/>
+<wire x1="520.7" y1="342.9" x2="538.48" y2="342.9" width="0.1524" layer="91"/>
+<label x="520.7" y="342.9" size="1.778" layer="95"/>
+<wire x1="538.48" y1="342.9" x2="538.48" y2="335.28" width="0.1524" layer="91"/>
+<pinref part="X4" gate="-2" pin="K"/>
+<wire x1="538.48" y1="335.28" x2="556.26" y2="335.28" width="0.1524" layer="91"/>
+<pinref part="R37" gate="G$1" pin="2"/>
+<wire x1="515.62" y1="345.44" x2="518.16" y2="345.44" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="345.44" x2="518.16" y2="342.9" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="342.9" x2="520.7" y2="342.9" width="0.1524" layer="91"/>
+<junction x="520.7" y="342.9"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -36033,11 +36041,28 @@ cut a BOM line item</text>
 <wire x1="513.08" y1="332.74" x2="515.62" y2="332.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$31" class="0">
+<net name="HEATERVIN" class="0">
 <segment>
 <pinref part="X8" gate="-1" pin="K"/>
-<wire x1="548.64" y1="187.96" x2="541.02" y2="187.96" width="0.1524" layer="91"/>
-<label x="541.02" y="187.96" size="1.778" layer="95"/>
+<wire x1="548.64" y1="187.96" x2="520.7" y2="187.96" width="0.1524" layer="91"/>
+<label x="520.7" y="187.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X4" gate="-1" pin="K"/>
+<wire x1="556.26" y1="342.9" x2="541.02" y2="342.9" width="0.1524" layer="91"/>
+<label x="541.02" y="342.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LED7" gate="G$1" pin="A"/>
+<wire x1="490.22" y1="345.44" x2="472.44" y2="345.44" width="0.1524" layer="91"/>
+<label x="474.98" y="345.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="R37" gate="G$1" pin="1"/>
+<pinref part="LED7" gate="G$1" pin="C"/>
+<wire x1="505.46" y1="345.44" x2="497.84" y2="345.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
