@@ -33240,8 +33240,8 @@ cut a BOM line item</text>
 <instance part="R39" gate="G$1" x="317.5" y="134.62" rot="R90"/>
 <instance part="P+8" gate="G$1" x="317.5" y="142.24"/>
 <instance part="JP12" gate="G$1" x="408.94" y="119.38" rot="R180"/>
-<instance part="U1" gate="G$1" x="363.22" y="370.84"/>
-<instance part="SUPPLY5" gate="GND" x="363.22" y="350.52"/>
+<instance part="U1" gate="G$1" x="43.18" y="-17.78"/>
+<instance part="SUPPLY5" gate="GND" x="43.18" y="-38.1"/>
 </instances>
 <busses>
 </busses>
@@ -33735,7 +33735,7 @@ cut a BOM line item</text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="ADJ"/>
-<wire x1="363.22" y1="363.22" x2="363.22" y2="353.06" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-25.4" x2="43.18" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 </segment>
 </net>
@@ -34022,6 +34022,16 @@ cut a BOM line item</text>
 <pinref part="R39" gate="G$1" pin="2"/>
 <pinref part="P+8" gate="G$1" pin="3.3V"/>
 <wire x1="317.5" y1="139.7" x2="317.5" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="OUT"/>
+<wire x1="50.8" y1="-17.78" x2="55.88" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-17.78" x2="55.88" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="OUT@1"/>
+<wire x1="55.88" y1="-20.32" x2="50.8" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-17.78" x2="63.5" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="55.88" y="-17.78"/>
+<label x="58.42" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AVCC" class="0">
@@ -35418,6 +35428,11 @@ cut a BOM line item</text>
 <wire x1="208.28" y1="251.46" x2="218.44" y2="251.46" width="0.1524" layer="91"/>
 <label x="210.82" y="251.46" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IN"/>
+<wire x1="35.56" y1="-17.78" x2="25.4" y2="-17.78" width="0.1524" layer="91"/>
+<label x="25.4" y="-17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$51" class="0">
 <segment>
@@ -35629,11 +35644,6 @@ cut a BOM line item</text>
 <segment>
 <wire x1="78.74" y1="457.2" x2="106.68" y2="457.2" width="0.1524" layer="91"/>
 <label x="99.06" y="457.2" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="IN"/>
-<wire x1="355.6" y1="370.84" x2="345.44" y2="370.84" width="0.1524" layer="91"/>
-<label x="345.44" y="370.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -36329,15 +36339,6 @@ cut a BOM line item</text>
 <pinref part="JP12" gate="G$1" pin="1"/>
 <wire x1="388.62" y1="121.92" x2="403.86" y2="121.92" width="0.1524" layer="91"/>
 <junction x="388.62" y="121.92"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="OUT"/>
-<wire x1="370.84" y1="370.84" x2="375.92" y2="370.84" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="370.84" x2="375.92" y2="368.3" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT@1"/>
-<wire x1="375.92" y1="368.3" x2="370.84" y2="368.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

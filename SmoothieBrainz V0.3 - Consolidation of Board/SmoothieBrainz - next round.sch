@@ -31667,7 +31667,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="P+4" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="IC5" library="v-reg" deviceset="LD117A?*" device="DT" technology="33TR"/>
 <part name="C15" library="rcl" deviceset="CPOL-EU" device="E2.5-7"/>
-<part name="C16" library="rcl" deviceset="CPOL-EU" device="E2.5-7"/>
+<part name="C16" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="100U"/>
 <part name="EXP1" library="con-3m" deviceset="2510-" device=""/>
 <part name="EXP2" library="con-3m" deviceset="2510-" device=""/>
 <part name="D7" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>
