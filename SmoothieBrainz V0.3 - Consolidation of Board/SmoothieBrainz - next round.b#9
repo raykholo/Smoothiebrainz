@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="3.125" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="2" fill="1" visible="no" active="no"/>
@@ -15513,7 +15513,7 @@
 Power</text>
 <text x="0.47625" y="17.93875" size="1.27" layer="21">24v MAX</text>
 <text x="0.635" y="8.255" size="1.778" layer="21">Gnd</text>
-<text x="10.5025" y="26.0175" size="0.8128" layer="21" font="vector" ratio="14">LED</text>
+<text x="10.574375" y="23.36125" size="0.8128" layer="21" font="vector" ratio="14" rot="R90">LED</text>
 <text x="10.66125" y="22.68375" size="0.8128" layer="21" font="vector" ratio="14">-</text>
 </plain>
 <libraries>
@@ -17485,9 +17485,9 @@ http://www.keyelco.com&lt;p&gt;
 <attribute name="NAME" x="73.457" y="20.891" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="73.457" y="26.098" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C16" library="rcl" package="E2,5-7" value="100U" x="40.438" y="42.1475" smashed="yes" rot="R270">
-<attribute name="NAME" x="42.47" y="39.0995" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="43.05025" y="40.11425" size="1.27" layer="27" ratio="10" rot="R90"/>
+<element name="C16" library="rcl" package="E2,5-7" value="100U" x="54.768125" y="61.4795" smashed="yes" rot="R180">
+<attribute name="NAME" x="51.720125" y="59.4475" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="52.734875" y="58.86725" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="EXP1" library="con-3m" package="PAK100/2500-10" value="2510-" x="90.8" y="57.5" rot="R180">
 <attribute name="OC_NEWARK" value="46F4725" x="90.8" y="57.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -17600,11 +17600,11 @@ http://www.keyelco.com&lt;p&gt;
 <attribute name="NAME" x="18.77825" y="64.94825" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="13.88875" y="70.02825" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="C27" library="rcl" package="E2,5-7" value="220u" x="25.58" y="42.13" smashed="yes" rot="R270">
-<attribute name="NAME" x="27.13575" y="43.527" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="28.40125" y="40.21425" size="1.27" layer="27" ratio="10" rot="R90"/>
+<element name="C27" library="rcl" package="E2,5-7" value="220u" x="39.2325" y="56.1" smashed="yes" rot="R270">
+<attribute name="NAME" x="40.78825" y="57.497" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="42.05375" y="54.18425" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D3" library="microbuilder" package="SMADIODE" value="MBRA210LT3" x="32.9975" y="43.39" rot="R180"/>
+<element name="D3" library="microbuilder" package="SMADIODE" value="MBRA210LT3" x="39.665" y="50.85125" rot="R180"/>
 <element name="U$2" library="ESP8266-ESP12" package="ESP8266-ESP12" value="ESP8266_ESP-12" x="33.8" y="-26.35" rot="R180"/>
 <element name="R28" library="adafruit" package="R0603" value="1K" x="22.45" y="-17" rot="R270"/>
 <element name="R29" library="adafruit" package="R0603" value="1K" x="24.75" y="-17.2" rot="R270"/>
@@ -17841,8 +17841,8 @@ http://www.keyelco.com&lt;p&gt;
 <element name="R45" library="resistor" package="R0603" value="1.5k" x="26.82875" y="21.2725" rot="R270"/>
 <element name="F1" library="keystone" package="FH_5X20" value="" x="-26.67" y="-89.535"/>
 <element name="U$16" library="Cohesion_parts" package="D-PAK_TO252AA" value="IRLR024" x="34.13125" y="15.71625" rot="R180"/>
-<element name="R46" library="resistor" package="R0603" value="10r" x="36.35375" y="24.4475" rot="R270"/>
-<element name="R47" library="resistor" package="R0603" value="100k" x="31.90875" y="24.4475" rot="R90"/>
+<element name="R46" library="resistor" package="R0603" value="10r" x="36.35375" y="24.28875" rot="R270"/>
+<element name="R47" library="resistor" package="R0603" value="100k" x="31.90875" y="24.28875" rot="R90"/>
 <element name="LED11" library="led" package="SML0805" value="" x="34.13125" y="24.92375" rot="R90"/>
 <element name="R48" library="resistor" package="R0603" value="1.5k" x="34.44875" y="21.43125" rot="R270"/>
 </elements>
@@ -18415,8 +18415,21 @@ http://www.keyelco.com&lt;p&gt;
 <via x="23.495" y="19.05" extent="1-16" drill="0.5"/>
 <contactref element="R47" pad="1"/>
 <contactref element="U$16" pad="3"/>
+<polygon width="0.254" layer="1" thermals="no">
+<vertex x="30.48" y="22.225"/>
+<vertex x="33.17875" y="22.225"/>
+<vertex x="33.17875" y="18.415"/>
+<vertex x="30.48" y="18.415"/>
+</polygon>
+<wire x1="31.85125" y1="20.51625" x2="31.85125" y2="23.38125" width="0.4064" layer="1"/>
+<wire x1="31.85125" y1="20.51625" x2="31.85125" y2="23.23125" width="0.4064" layer="1"/>
+<via x="31.115" y="21.74875" extent="1-16" drill="0.5"/>
+<via x="32.7025" y="21.74875" extent="1-16" drill="0.5"/>
+<via x="32.7025" y="19.05" extent="1-16" drill="0.5"/>
+<via x="31.115" y="19.05" extent="1-16" drill="0.5"/>
 <wire x1="96.5" y1="69.15" x2="99.7675" y2="73.55625" width="0" layer="19" extent="1-1"/>
 <wire x1="77.55255" y1="56.58485" x2="77.577" y2="56.59" width="0" layer="19" extent="1-1"/>
+<wire x1="31.90875" y1="23.43875" x2="31.85125" y2="23.38125" width="0" layer="19" extent="1-1"/>
 <wire x1="24.28875" y1="23.43875" x2="24.23125" y2="23.38125" width="0" layer="19" extent="1-1"/>
 <wire x1="9.04875" y1="23.43875" x2="8.99125" y2="23.23125" width="0" layer="19" extent="1-1"/>
 <wire x1="21.87" y1="70.81" x2="22.17" y2="70.81" width="0" layer="19" extent="1-1"/>
@@ -18430,8 +18443,6 @@ http://www.keyelco.com&lt;p&gt;
 <wire x1="41.6" y1="-17.12" x2="42.86" y2="4.175125" width="0" layer="19" extent="1-1"/>
 <wire x1="26.2" y1="-23.15" x2="41.6" y2="-17.12" width="0" layer="19" extent="1-1"/>
 <wire x1="15.55" y1="-16.05" x2="23.7" y2="-23.25" width="0" layer="19" extent="1-16"/>
-<wire x1="31.85125" y1="20.51625" x2="17.6" y2="-28.35" width="0" layer="19" extent="1-1"/>
-<wire x1="31.90875" y1="23.5975" x2="31.85125" y2="20.51625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="IC1" pad="96"/>
@@ -18537,7 +18548,6 @@ http://www.keyelco.com&lt;p&gt;
 <wire x1="71.8" y1="59.102" x2="70.397" y2="58.87" width="0.6096" layer="1"/>
 <wire x1="62.6" y1="52.8" x2="63.6" y2="53.8" width="0.6096" layer="1"/>
 <wire x1="63.6" y1="53.8" x2="63.6" y2="58.753" width="0.6096" layer="1"/>
-<wire x1="63.6" y1="58.753" x2="63.5" y2="58.853" width="0.6096" layer="1"/>
 <via x="62.6" y="52.8" extent="1-16" drill="0.5" diameter="0.254"/>
 <wire x1="62.6" y1="52.8" x2="62.6" y2="41.7" width="0.6096" layer="16"/>
 <wire x1="62.6" y1="41.7" x2="57.9" y2="36.8" width="0.6096" layer="16"/>
@@ -18695,7 +18705,6 @@ http://www.keyelco.com&lt;p&gt;
 <wire x1="37.62375" y1="89.2175" x2="38.25875" y2="89.8525" width="0.254" layer="1"/>
 <wire x1="38.25875" y1="89.8525" x2="38.99625" y2="89.8525" width="0.254" layer="1"/>
 <wire x1="38.99625" y1="89.8525" x2="39.0525" y2="89.90875" width="0.254" layer="1"/>
-<wire x1="51.27625" y1="23.0696625" x2="50.57095625" y2="23.77495625" width="0.254" layer="1"/>
 <contactref element="U$7" pad="VDD"/>
 <contactref element="C39" pad="1"/>
 <contactref element="R38" pad="1"/>
@@ -18715,18 +18724,19 @@ http://www.keyelco.com&lt;p&gt;
 <wire x1="71.973196875" y1="58.89625" x2="71.918159375" y2="58.8412125" width="0.6096" layer="1"/>
 <wire x1="53.975" y1="91.86" x2="52.0059375" y2="91.86" width="0.254" layer="1"/>
 <wire x1="52.0059375" y1="91.86" x2="51.6334375" y2="91.4875" width="0.254" layer="1"/>
+<wire x1="56.038125" y1="61.4795" x2="60.8735" y2="61.4795" width="0.6096" layer="1"/>
+<wire x1="60.8735" y1="61.4795" x2="63.6" y2="58.753" width="0.6096" layer="1"/>
 <wire x1="83.3" y1="57.465" x2="92.19" y2="65.93" width="0" layer="19" extent="1-1"/>
 <wire x1="81.4" y1="24.4" x2="81.4385" y2="24.432" width="0" layer="19" extent="1-1"/>
 <wire x1="71.35475" y1="58.89625" x2="71.8" y2="59.102" width="0" layer="19" extent="1-1"/>
 <wire x1="63.6" y1="58.753" x2="70.397" y2="58.87" width="0" layer="19" extent="1-1"/>
-<wire x1="40.438" y1="43.4175" x2="45.41145625" y2="42.339540625" width="0" layer="19" extent="1-1"/>
 <wire x1="82.948125" y1="7.76875" x2="81.261" y2="17.505" width="0" layer="19" extent="1-1"/>
 <wire x1="75.1059375" y1="7.76875" x2="82.948125" y2="7.76875" width="0" layer="19" extent="1-1"/>
 <wire x1="67.2875" y1="7.76875" x2="75.1059375" y2="7.76875" width="0" layer="19" extent="1-1"/>
 <wire x1="59.6675" y1="7.76875" x2="67.2875" y2="7.76875" width="0" layer="19" extent="1-1"/>
 <wire x1="53.668125" y1="7.76875" x2="59.6675" y2="7.76875" width="0" layer="19" extent="1-1"/>
 <wire x1="45.81" y1="7.76875" x2="53.668125" y2="7.76875" width="0" layer="19" extent="1-1"/>
-<wire x1="60.745" y1="76.2" x2="63.5" y2="58.853" width="0" layer="19" extent="1-1"/>
+<wire x1="60.745" y1="76.2" x2="60.8735" y2="61.4795" width="0" layer="19" extent="1-1"/>
 <wire x1="53.975" y1="89.75" x2="60.745" y2="76.2" width="0" layer="19" extent="1-1"/>
 <wire x1="53.975" y1="91.86" x2="53.975" y2="89.75" width="0" layer="19" extent="1-1"/>
 <wire x1="45.563" y1="-19.73" x2="45.81" y2="7.76875" width="0" layer="19" extent="1-16"/>
@@ -19581,7 +19591,6 @@ http://www.keyelco.com&lt;p&gt;
 <contactref element="R6" pad="2"/>
 <contactref element="C21" pad="2"/>
 <wire x1="64.823" y1="50.395" x2="64.823" y2="60.477" width="0.254" layer="1"/>
-<wire x1="55.91" y1="62.2" x2="63.1" y2="62.2" width="0.254" layer="1"/>
 <wire x1="63.1" y1="62.2" x2="64.823" y2="60.477" width="0.254" layer="1"/>
 <wire x1="50.165" y1="7.58" x2="49.97625" y2="7.76875" width="0.254" layer="1"/>
 <wire x1="51.968125" y1="7.76875" x2="51.1175" y2="7.76875" width="0.254" layer="1"/>
@@ -19601,14 +19610,11 @@ http://www.keyelco.com&lt;p&gt;
 <contactref element="C22" pad="2"/>
 <wire x1="64.323" y1="50.595" x2="64.323" y2="60.177" width="0.254" layer="1"/>
 <wire x1="62.9" y1="61.6" x2="64.323" y2="60.177" width="0.254" layer="1"/>
-<wire x1="62.9" y1="61.6" x2="55.24" y2="61.6" width="0.254" layer="1"/>
 <wire x1="44.11" y1="7.76875" x2="43.18" y2="7.76875" width="0.254" layer="1"/>
 <wire x1="43.18" y1="7.76875" x2="42.12125" y2="7.76875" width="0.254" layer="1"/>
 <wire x1="45.415" y1="10.305" x2="43.96" y2="10.305" width="0.254" layer="1"/>
 <wire x1="43.96" y1="10.305" x2="43.18" y2="9.525" width="0.254" layer="1"/>
 <wire x1="43.18" y1="9.525" x2="43.18" y2="7.76875" width="0.254" layer="1"/>
-<wire x1="47.9425" y1="62.23" x2="54.61" y2="62.23" width="0.254" layer="1"/>
-<wire x1="54.61" y1="62.23" x2="55.24" y2="61.6" width="0.254" layer="1"/>
 <wire x1="45.415" y1="10.305" x2="61.005203125" y2="44.95495" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PWM0_PSU_OUT">
@@ -19909,8 +19915,8 @@ http://www.keyelco.com&lt;p&gt;
 <wire x1="60.9575" y1="3.921125" x2="68.73875" y2="3.921125" width="0" layer="19" extent="1-1"/>
 <wire x1="53.17875" y1="3.921125" x2="60.9575" y2="3.921125" width="0" layer="19" extent="1-1"/>
 <wire x1="45.4" y1="3.921125" x2="53.17875" y2="3.921125" width="0" layer="19" extent="1-1"/>
+<wire x1="42.0145" y1="50.85125" x2="58.3" y2="58.5" width="0" layer="19" extent="1-1"/>
 <wire x1="47.341" y1="-19.73" x2="45.4" y2="3.921125" width="0" layer="19" extent="16-16"/>
-<wire x1="35.347" y1="43.39" x2="58.3" y2="58.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBB_IN">
 </signal>
@@ -20093,14 +20099,8 @@ http://www.keyelco.com&lt;p&gt;
 <wire x1="22.86" y1="59.055" x2="22.86" y2="62.865" width="1.4224" layer="1"/>
 <wire x1="24.9788" y1="63.4282" x2="23.4232" y2="63.4282" width="1.4224" layer="1"/>
 <wire x1="23.4232" y1="63.4282" x2="22.86" y2="62.865" width="1.4224" layer="1"/>
-<wire x1="25.58" y1="43.4" x2="30.638" y2="43.4" width="1.4224" layer="1"/>
-<wire x1="30.638" y1="43.4" x2="30.648" y2="43.39" width="1.4224" layer="1"/>
-<wire x1="29.535" y1="57.13" x2="32.405" y2="57.13" width="1.27" layer="1"/>
-<wire x1="32.405" y1="57.13" x2="33.3375" y2="56.1975" width="1.27" layer="1"/>
-<wire x1="33.3375" y1="56.1975" x2="33.3375" y2="45.085" width="1.27" layer="1"/>
-<wire x1="33.3375" y1="45.085" x2="31.75" y2="43.4975" width="1.27" layer="1"/>
-<wire x1="31.75" y1="43.4975" x2="30.7555" y2="43.4975" width="1.27" layer="1"/>
-<wire x1="30.7555" y1="43.4975" x2="30.648" y2="43.39" width="1.4224" layer="1"/>
+<wire x1="37.3155" y1="50.85125" x2="39.2325" y2="57.37" width="0" layer="19" extent="1-1"/>
+<wire x1="29.535" y1="57.13" x2="39.2325" y2="57.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="IC2" pad="2"/>
@@ -20670,8 +20670,10 @@ http://www.keyelco.com&lt;p&gt;
 <wire x1="26.29125" y1="26.19375" x2="26.51125" y2="25.97375" width="0.4064" layer="1"/>
 <contactref element="LED11" pad="A"/>
 <contactref element="X7" pad="1"/>
-<wire x1="7.62" y1="5.715" x2="34.13125" y2="25.97375" width="0" layer="19" extent="1-1"/>
-<wire x1="32.54" y1="5.9325" x2="24.92" y2="5.9325" width="0" layer="19" extent="1-1"/>
+<wire x1="26.51125" y1="25.97375" x2="26.51125" y2="26.035" width="0.4064" layer="1"/>
+<wire x1="26.51125" y1="26.035" x2="26.67" y2="26.19375" width="0.4064" layer="1"/>
+<wire x1="26.67" y1="26.19375" x2="33.91125" y2="26.19375" width="0.4064" layer="1"/>
+<wire x1="33.91125" y1="26.19375" x2="34.13125" y2="25.97375" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$30">
 <contactref element="R37" pad="1"/>
@@ -20827,24 +20829,37 @@ http://www.keyelco.com&lt;p&gt;
 <signal name="N$41">
 <contactref element="R46" pad="2"/>
 <contactref element="U$16" pad="1"/>
-<wire x1="36.35375" y1="23.5975" x2="36.41125" y2="20.51625" width="0" layer="19" extent="1-1"/>
+<wire x1="36.41125" y1="20.51625" x2="36.41125" y2="23.54" width="0.4064" layer="1"/>
+<wire x1="36.41125" y1="23.54" x2="36.35375" y2="23.43875" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$42">
 <contactref element="R48" pad="1"/>
 <contactref element="LED11" pad="C"/>
-<wire x1="34.44875" y1="22.28125" x2="34.13125" y2="23.87375" width="0" layer="19" extent="1-1"/>
+<wire x1="34.44875" y1="22.28125" x2="34.44875" y2="23.55625" width="0.4064" layer="1"/>
+<wire x1="34.44875" y1="23.55625" x2="34.13125" y2="23.87375" width="0.4064" layer="1"/>
 </signal>
 <signal name="D28">
 <contactref element="R46" pad="1"/>
 <contactref element="R47" pad="2"/>
-<wire x1="36.35375" y1="25.2975" x2="31.90875" y2="25.2975" width="0" layer="19" extent="1-1"/>
+<wire x1="31.90875" y1="25.13875" x2="31.90875" y2="25.0825" width="0.4064" layer="1"/>
+<wire x1="31.90875" y1="25.0825" x2="32.0675" y2="24.92375" width="0.4064" layer="1"/>
+<wire x1="32.0675" y1="24.92375" x2="36.13875" y2="24.92375" width="0.4064" layer="1"/>
+<wire x1="36.13875" y1="24.92375" x2="36.35375" y2="25.13875" width="0.4064" layer="1"/>
 </signal>
 <signal name="E4-CONTROL" class="5">
 <contactref element="U$16" pad="4"/>
 <contactref element="R48" pad="2"/>
 <contactref element="X7" pad="2"/>
-<wire x1="34.13125" y1="13.21625" x2="34.44875" y2="20.58125" width="0" layer="19" extent="1-1"/>
-<wire x1="36.04" y1="5.9325" x2="34.13125" y2="13.21625" width="0" layer="19" extent="1-1"/>
+<wire x1="34.44875" y1="20.58125" x2="34.44875" y2="13.53375" width="0.4064" layer="1"/>
+<wire x1="34.44875" y1="13.53375" x2="34.13125" y2="13.21625" width="0.4064" layer="1"/>
+<polygon width="0.254" layer="1" thermals="no">
+<vertex x="31.115" y="17.78"/>
+<vertex x="31.115" y="7.62"/>
+<vertex x="34.925" y="7.62"/>
+<vertex x="34.925" y="4.445"/>
+<vertex x="37.465" y="4.445"/>
+<vertex x="37.465" y="17.78"/>
+</polygon>
 </signal>
 </signals>
 </board>
