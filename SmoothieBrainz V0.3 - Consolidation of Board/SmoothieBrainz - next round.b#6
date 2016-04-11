@@ -20852,14 +20852,18 @@ http://www.keyelco.com&lt;p&gt;
 <signal name="D28">
 <contactref element="R46" pad="1"/>
 <contactref element="R47" pad="2"/>
-<wire x1="31.90875" y1="25.13875" x2="36.35375" y2="25.13875" width="0" layer="19" extent="1-1"/>
+<wire x1="31.90875" y1="25.13875" x2="31.90875" y2="25.0825" width="0.4064" layer="1"/>
+<wire x1="31.90875" y1="25.0825" x2="32.0675" y2="24.92375" width="0.4064" layer="1"/>
+<wire x1="32.0675" y1="24.92375" x2="36.13875" y2="24.92375" width="0.4064" layer="1"/>
+<wire x1="36.13875" y1="24.92375" x2="36.35375" y2="25.13875" width="0.4064" layer="1"/>
 </signal>
 <signal name="E4-CONTROL" class="5">
 <contactref element="U$16" pad="4"/>
 <contactref element="R48" pad="2"/>
 <contactref element="X7" pad="2"/>
-<wire x1="34.13125" y1="13.21625" x2="34.44875" y2="20.58125" width="0" layer="19" extent="1-1"/>
 <wire x1="36.04" y1="5.9325" x2="34.13125" y2="13.21625" width="0" layer="19" extent="1-1"/>
+<wire x1="34.44875" y1="20.58125" x2="34.44875" y2="13.53375" width="0.4064" layer="1"/>
+<wire x1="34.44875" y1="13.53375" x2="34.13125" y2="13.21625" width="0.4064" layer="1"/>
 </signal>
 </signals>
 </board>

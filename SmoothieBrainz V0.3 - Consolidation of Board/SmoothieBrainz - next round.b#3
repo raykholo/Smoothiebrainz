@@ -15513,7 +15513,7 @@
 Power</text>
 <text x="0.47625" y="17.93875" size="1.27" layer="21">24v MAX</text>
 <text x="0.635" y="8.255" size="1.778" layer="21">Gnd</text>
-<text x="10.574375" y="23.67875" size="0.8128" layer="21" font="vector" ratio="14" rot="R90">LED</text>
+<text x="10.574375" y="23.36125" size="0.8128" layer="21" font="vector" ratio="14" rot="R90">LED</text>
 <text x="10.66125" y="22.68375" size="0.8128" layer="21" font="vector" ratio="14">-</text>
 </plain>
 <libraries>
@@ -20827,6 +20827,14 @@ http://www.keyelco.com&lt;p&gt;
 <vertex x="27.305" y="4.445"/>
 <vertex x="29.845" y="4.445"/>
 <vertex x="29.845" y="17.78"/>
+</polygon>
+<polygon width="0.254" layer="1" thermals="no">
+<vertex x="31.115" y="17.78"/>
+<vertex x="31.115" y="7.62"/>
+<vertex x="34.925" y="7.62"/>
+<vertex x="34.925" y="4.445"/>
+<vertex x="37.465" y="4.445"/>
+<vertex x="37.465" y="17.78"/>
 </polygon>
 </signal>
 <signal name="D27">

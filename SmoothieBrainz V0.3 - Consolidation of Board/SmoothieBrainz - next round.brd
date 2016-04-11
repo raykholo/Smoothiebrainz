@@ -18706,7 +18706,7 @@ http://www.keyelco.com&lt;p&gt;
 <wire x1="37.62375" y1="89.2175" x2="38.25875" y2="89.8525" width="0.254" layer="1"/>
 <wire x1="38.25875" y1="89.8525" x2="38.99625" y2="89.8525" width="0.254" layer="1"/>
 <wire x1="38.99625" y1="89.8525" x2="39.0525" y2="89.90875" width="0.254" layer="1"/>
-<wire x1="51.27625" y1="23.0696625" x2="50.57095625" y2="23.77495625" width="0.254" layer="1"/>
+<wire x1="51.27625" y1="23.0696625" x2="50.57095625" y2="23.77495625" width="0" layer="19" extent="1-16"/>
 <contactref element="U$7" pad="VDD"/>
 <contactref element="C39" pad="1"/>
 <contactref element="R38" pad="1"/>

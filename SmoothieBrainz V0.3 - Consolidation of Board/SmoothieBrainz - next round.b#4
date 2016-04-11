@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="3.125" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="2" fill="1" visible="no" active="no"/>
@@ -15513,7 +15513,7 @@
 Power</text>
 <text x="0.47625" y="17.93875" size="1.27" layer="21">24v MAX</text>
 <text x="0.635" y="8.255" size="1.778" layer="21">Gnd</text>
-<text x="10.5025" y="26.0175" size="0.8128" layer="21" font="vector" ratio="14">LED</text>
+<text x="10.574375" y="23.36125" size="0.8128" layer="21" font="vector" ratio="14" rot="R90">LED</text>
 <text x="10.66125" y="22.68375" size="0.8128" layer="21" font="vector" ratio="14">-</text>
 </plain>
 <libraries>
