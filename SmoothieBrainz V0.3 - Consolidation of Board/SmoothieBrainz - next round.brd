@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="3.125" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="2" fill="1" visible="no" active="no"/>
@@ -15513,7 +15513,7 @@
 Power</text>
 <text x="0.47625" y="17.93875" size="1.27" layer="21">24v MAX</text>
 <text x="0.635" y="8.255" size="1.778" layer="21">Gnd</text>
-<text x="10.5025" y="26.0175" size="0.8128" layer="21" font="vector" ratio="14">LED</text>
+<text x="10.574375" y="23.36125" size="0.8128" layer="21" font="vector" ratio="14" rot="R90">LED</text>
 <text x="10.66125" y="22.68375" size="0.8128" layer="21" font="vector" ratio="14">-</text>
 </plain>
 <libraries>
@@ -18429,8 +18429,8 @@ http://www.keyelco.com&lt;p&gt;
 <via x="31.115" y="19.05" extent="1-16" drill="0.5"/>
 <wire x1="96.5" y1="69.15" x2="99.7675" y2="73.55625" width="0" layer="19" extent="1-1"/>
 <wire x1="77.55255" y1="56.58485" x2="77.577" y2="56.59" width="0" layer="19" extent="1-1"/>
-<wire x1="24.28875" y1="23.43875" x2="24.23125" y2="23.38125" width="0" layer="19" extent="1-1"/>
 <wire x1="31.90875" y1="23.43875" x2="31.85125" y2="23.38125" width="0" layer="19" extent="1-1"/>
+<wire x1="24.28875" y1="23.43875" x2="24.23125" y2="23.38125" width="0" layer="19" extent="1-1"/>
 <wire x1="9.04875" y1="23.43875" x2="8.99125" y2="23.23125" width="0" layer="19" extent="1-1"/>
 <wire x1="21.87" y1="70.81" x2="22.17" y2="70.81" width="0" layer="19" extent="1-1"/>
 <wire x1="93.8775" y1="68.145" x2="96.5" y2="69.15" width="0" layer="19" extent="1-1"/>
@@ -20861,9 +20861,16 @@ http://www.keyelco.com&lt;p&gt;
 <contactref element="U$16" pad="4"/>
 <contactref element="R48" pad="2"/>
 <contactref element="X7" pad="2"/>
-<wire x1="36.04" y1="5.9325" x2="34.13125" y2="13.21625" width="0" layer="19" extent="1-1"/>
 <wire x1="34.44875" y1="20.58125" x2="34.44875" y2="13.53375" width="0.4064" layer="1"/>
 <wire x1="34.44875" y1="13.53375" x2="34.13125" y2="13.21625" width="0.4064" layer="1"/>
+<polygon width="0.254" layer="1" thermals="no">
+<vertex x="31.115" y="17.78"/>
+<vertex x="31.115" y="7.62"/>
+<vertex x="34.925" y="7.62"/>
+<vertex x="34.925" y="4.445"/>
+<vertex x="37.465" y="4.445"/>
+<vertex x="37.465" y="17.78"/>
+</polygon>
 </signal>
 </signals>
 </board>
