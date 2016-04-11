@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="3.125" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="2" fill="1" visible="no" active="no"/>
@@ -19625,7 +19625,16 @@ http://www.keyelco.com&lt;p&gt;
 <contactref element="R30" pad="2"/>
 <contactref element="R27" pad="1"/>
 <wire x1="16.51" y1="61.175" x2="18.7325" y2="61.175" width="0.254" layer="1"/>
-<wire x1="18.7325" y1="61.175" x2="50.752153125" y2="40.712309375" width="0" layer="19" extent="1-1"/>
+<wire x1="18.7325" y1="61.175" x2="18.835" y2="61.175" width="0.254" layer="1"/>
+<wire x1="18.835" y1="61.175" x2="19.84375" y2="60.16625" width="0.254" layer="1"/>
+<wire x1="19.84375" y1="60.16625" x2="19.84375" y2="57.62625" width="0.254" layer="1"/>
+<wire x1="19.84375" y1="57.62625" x2="23.1775" y2="54.2925" width="0.254" layer="1"/>
+<wire x1="23.1775" y1="54.2925" x2="23.1775" y2="46.0375" width="0.254" layer="1"/>
+<wire x1="23.1775" y1="46.0375" x2="23.495" y2="45.72" width="0.254" layer="1"/>
+<wire x1="23.495" y1="45.72" x2="25.4" y2="45.72" width="0.254" layer="1"/>
+<wire x1="25.4" y1="45.72" x2="26.3525" y2="44.7675" width="0.254" layer="1"/>
+<wire x1="26.3525" y1="44.7675" x2="46.6969625" y2="44.7675" width="0.254" layer="1"/>
+<wire x1="46.6969625" y1="44.7675" x2="50.752153125" y2="40.712309375" width="0.254" layer="1"/>
 </signal>
 <signal name="Y_MIN">
 <contactref element="IC1" pad="40"/>
@@ -20494,7 +20503,8 @@ http://www.keyelco.com&lt;p&gt;
 <signal name="N$20">
 <contactref element="R27" pad="2"/>
 <contactref element="U$10" pad="1"/>
-<wire x1="18.415" y1="56.515" x2="18.7325" y2="59.475" width="0.254" layer="1"/>
+<wire x1="18.7325" y1="59.475" x2="18.7325" y2="56.8325" width="0.254" layer="1"/>
+<wire x1="18.7325" y1="56.8325" x2="18.415" y2="56.515" width="0.254" layer="1"/>
 </signal>
 <signal name="N$22">
 <contactref element="U$6" pad="RST"/>

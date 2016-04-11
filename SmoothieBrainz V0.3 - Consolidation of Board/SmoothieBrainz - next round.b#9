@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="3.125" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="2" fill="1" visible="no" active="no"/>
@@ -19625,7 +19625,16 @@ http://www.keyelco.com&lt;p&gt;
 <contactref element="R30" pad="2"/>
 <contactref element="R27" pad="1"/>
 <wire x1="16.51" y1="61.175" x2="18.7325" y2="61.175" width="0.254" layer="1"/>
-<wire x1="18.7325" y1="61.175" x2="50.752153125" y2="40.712309375" width="0" layer="19" extent="1-1"/>
+<wire x1="18.7325" y1="61.175" x2="18.835" y2="61.175" width="0.254" layer="1"/>
+<wire x1="18.835" y1="61.175" x2="19.84375" y2="60.16625" width="0.254" layer="1"/>
+<wire x1="19.84375" y1="60.16625" x2="19.84375" y2="57.62625" width="0.254" layer="1"/>
+<wire x1="19.84375" y1="57.62625" x2="23.1775" y2="54.2925" width="0.254" layer="1"/>
+<wire x1="23.1775" y1="54.2925" x2="23.1775" y2="46.0375" width="0.254" layer="1"/>
+<wire x1="23.1775" y1="46.0375" x2="23.495" y2="45.72" width="0.254" layer="1"/>
+<wire x1="23.495" y1="45.72" x2="25.4" y2="45.72" width="0.254" layer="1"/>
+<wire x1="25.4" y1="45.72" x2="26.3525" y2="44.7675" width="0.254" layer="1"/>
+<wire x1="26.3525" y1="44.7675" x2="46.6969625" y2="44.7675" width="0.254" layer="1"/>
+<wire x1="46.6969625" y1="44.7675" x2="50.752153125" y2="40.712309375" width="0.254" layer="1"/>
 </signal>
 <signal name="Y_MIN">
 <contactref element="IC1" pad="40"/>
@@ -19873,7 +19882,6 @@ http://www.keyelco.com&lt;p&gt;
 <vertex x="75.9" y="59.94125"/>
 </polygon>
 <contactref element="D3" pad="C"/>
-<wire x1="58.3" y1="58.5" x2="61.9" y2="58.5" width="1.016" layer="1"/>
 <via x="61.9" y="58.5" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="61.9" y1="58.5" x2="68.4" y2="58.5" width="1.016" layer="16"/>
 <wire x1="68.4" y1="58.5" x2="69" y2="57.9" width="1.016" layer="16"/>
@@ -19908,6 +19916,12 @@ http://www.keyelco.com&lt;p&gt;
 <contactref element="XMX" pad="1"/>
 <contactref element="XMN" pad="1"/>
 <contactref element="U1" pad="3"/>
+<wire x1="42.0145" y1="50.85125" x2="42.0145" y2="55.3495" width="1.016" layer="1"/>
+<wire x1="42.0145" y1="55.3495" x2="46.99" y2="60.325" width="1.016" layer="1"/>
+<wire x1="46.99" y1="60.325" x2="51.435" y2="60.325" width="1.016" layer="1"/>
+<wire x1="51.435" y1="60.325" x2="52.705" y2="59.055" width="1.016" layer="1"/>
+<wire x1="52.705" y1="59.055" x2="61.345" y2="59.055" width="1.016" layer="1"/>
+<wire x1="61.345" y1="59.055" x2="61.9" y2="58.5" width="1.016" layer="1"/>
 <wire x1="91.4" y1="61.55" x2="92.1775" y2="68.145" width="0" layer="19" extent="1-1"/>
 <wire x1="76.515" y1="3.921125" x2="78.4" y2="18.5" width="0" layer="19" extent="1-1"/>
 <wire x1="84.29375" y1="3.921125" x2="76.515" y2="3.921125" width="0" layer="19" extent="1-1"/>
@@ -19915,7 +19929,6 @@ http://www.keyelco.com&lt;p&gt;
 <wire x1="60.9575" y1="3.921125" x2="68.73875" y2="3.921125" width="0" layer="19" extent="1-1"/>
 <wire x1="53.17875" y1="3.921125" x2="60.9575" y2="3.921125" width="0" layer="19" extent="1-1"/>
 <wire x1="45.4" y1="3.921125" x2="53.17875" y2="3.921125" width="0" layer="19" extent="1-1"/>
-<wire x1="42.0145" y1="50.85125" x2="58.3" y2="58.5" width="0" layer="19" extent="1-1"/>
 <wire x1="47.341" y1="-19.73" x2="45.4" y2="3.921125" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VBB_IN">
@@ -20099,8 +20112,13 @@ http://www.keyelco.com&lt;p&gt;
 <wire x1="22.86" y1="59.055" x2="22.86" y2="62.865" width="1.4224" layer="1"/>
 <wire x1="24.9788" y1="63.4282" x2="23.4232" y2="63.4282" width="1.4224" layer="1"/>
 <wire x1="23.4232" y1="63.4282" x2="22.86" y2="62.865" width="1.4224" layer="1"/>
-<wire x1="37.3155" y1="50.85125" x2="39.2325" y2="57.37" width="0" layer="19" extent="1-1"/>
-<wire x1="29.535" y1="57.13" x2="39.2325" y2="57.37" width="0" layer="19" extent="1-1"/>
+<wire x1="29.535" y1="57.13" x2="35.56" y2="57.13" width="1.4224" layer="1"/>
+<wire x1="35.56" y1="57.13" x2="38.9925" y2="57.13" width="1.4224" layer="1"/>
+<wire x1="38.9925" y1="57.13" x2="39.2325" y2="57.37" width="1.4224" layer="1"/>
+<wire x1="37.3155" y1="50.85125" x2="37.3155" y2="52.8545" width="1.4224" layer="1"/>
+<wire x1="37.3155" y1="52.8545" x2="36.195" y2="53.975" width="1.4224" layer="1"/>
+<wire x1="36.195" y1="53.975" x2="36.195" y2="56.495" width="1.4224" layer="1"/>
+<wire x1="36.195" y1="56.495" x2="35.56" y2="57.13" width="1.4224" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="IC2" pad="2"/>
