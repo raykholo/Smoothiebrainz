@@ -31855,7 +31855,7 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="1.5K"/>
 <part name="AGND1" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND2" library="supply1" deviceset="AGND" device=""/>
-<part name="C67" library="resistor" deviceset="C-EU" device="C0603" value="1uF"/>
+<part name="C67" library="resistor" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="X14" library="SparkFun" deviceset="USB" device="PTH"/>
 <part name="SJ1" library="SparkFun" deviceset="SOLDERJUMPER_2WAY" device="S"/>
 <part name="P+23" library="SparkFun" deviceset="3.3V" device=""/>

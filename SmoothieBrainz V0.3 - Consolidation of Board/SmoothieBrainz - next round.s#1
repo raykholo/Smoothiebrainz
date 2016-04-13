@@ -32030,7 +32030,7 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="LED11" library="led" deviceset="LED" device="SML0805"/>
 <part name="R48" library="resistor" deviceset="R-EU_" device="R0603" value="1.5k"/>
-<part name="D4" library="Fairchild Rectifier Diodes s3x_10" deviceset="S3*" device="" technology="A"/>
+<part name="D4" library="Fairchild Rectifier Diodes s3x_10" deviceset="S3*" device="" technology="A" value="SS34"/>
 </parts>
 <sheets>
 <sheet>
