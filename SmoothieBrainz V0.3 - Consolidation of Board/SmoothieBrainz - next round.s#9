@@ -35535,8 +35535,8 @@ cut a BOM line item</text>
 <instance part="JP14" gate="G$1" x="548.64" y="142.24"/>
 <instance part="JP15" gate="G$1" x="548.64" y="127"/>
 <instance part="JP16" gate="G$1" x="548.64" y="111.76"/>
-<instance part="X1" gate="-1" x="589.28" y="187.96"/>
-<instance part="X1" gate="-2" x="589.28" y="182.88"/>
+<instance part="X1" gate="-1" x="515.62" y="187.96"/>
+<instance part="X1" gate="-2" x="515.62" y="177.8"/>
 </instances>
 <busses>
 </busses>
@@ -35992,8 +35992,9 @@ cut a BOM line item</text>
 </segment>
 <segment>
 <pinref part="X8" gate="-2" pin="K"/>
-<wire x1="548.64" y1="177.8" x2="541.02" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="177.8" x2="520.7" y2="177.8" width="0.1524" layer="91"/>
 <label x="541.02" y="177.8" size="1.778" layer="95"/>
+<pinref part="X1" gate="-2" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$7" gate="G$1" pin="GND@0"/>
@@ -38775,6 +38776,7 @@ cut a BOM line item</text>
 <pinref part="X8" gate="-1" pin="K"/>
 <wire x1="548.64" y1="187.96" x2="520.7" y2="187.96" width="0.1524" layer="91"/>
 <label x="520.7" y="187.96" size="1.778" layer="95"/>
+<pinref part="X1" gate="-1" pin="1"/>
 </segment>
 <segment>
 <pinref part="X4" gate="-1" pin="K"/>

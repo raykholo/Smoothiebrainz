@@ -35133,6 +35133,7 @@ Based on the previous libraries:
 <part name="JP16" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
 <part name="X1" library="con-phoenix-508" deviceset="MSTBA2" device=""/>
 <part name="D5" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>
+<part name="D6" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>
 </parts>
 <sheets>
 <sheet>
@@ -35536,6 +35537,7 @@ cut a BOM line item</text>
 <instance part="X1" gate="-1" x="515.62" y="187.96"/>
 <instance part="X1" gate="-2" x="515.62" y="177.8"/>
 <instance part="D5" gate="G$1" x="551.18" y="325.12" rot="R180"/>
+<instance part="D6" gate="G$1" x="548.64" y="281.94" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -38824,6 +38826,11 @@ cut a BOM line item</text>
 <wire x1="548.64" y1="325.12" x2="538.48" y2="325.12" width="0.1524" layer="91"/>
 <label x="533.4" y="325.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="D6" gate="G$1" pin="C"/>
+<wire x1="546.1" y1="281.94" x2="535.94" y2="281.94" width="0.1524" layer="91"/>
+<label x="530.86" y="281.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$30" class="0">
 <segment>
@@ -38938,22 +38945,6 @@ cut a BOM line item</text>
 <pinref part="R42" gate="G$1" pin="1"/>
 <pinref part="LED8" gate="G$1" pin="C"/>
 <wire x1="505.46" y1="302.26" x2="497.84" y2="302.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="E2-CONTROL" class="5">
-<segment>
-<pinref part="U$14" gate="G$1" pin="D"/>
-<wire x1="520.7" y1="297.18" x2="520.7" y2="299.72" width="0.1524" layer="91"/>
-<wire x1="520.7" y1="299.72" x2="538.48" y2="299.72" width="0.1524" layer="91"/>
-<label x="520.7" y="299.72" size="1.778" layer="95"/>
-<wire x1="538.48" y1="299.72" x2="538.48" y2="292.1" width="0.1524" layer="91"/>
-<wire x1="538.48" y1="292.1" x2="553.72" y2="292.1" width="0.1524" layer="91"/>
-<pinref part="R42" gate="G$1" pin="2"/>
-<wire x1="515.62" y1="302.26" x2="518.16" y2="302.26" width="0.1524" layer="91"/>
-<wire x1="518.16" y1="302.26" x2="518.16" y2="299.72" width="0.1524" layer="91"/>
-<wire x1="518.16" y1="299.72" x2="520.7" y2="299.72" width="0.1524" layer="91"/>
-<junction x="520.7" y="299.72"/>
-<pinref part="X5" gate="-2" pin="K"/>
 </segment>
 </net>
 <net name="N$39" class="0">
@@ -39376,6 +39367,26 @@ cut a BOM line item</text>
 <pinref part="R65" gate="G$1" pin="1"/>
 <wire x1="495.3" y1="647.7" x2="469.9" y2="647.7" width="0.1524" layer="91"/>
 <junction x="469.9" y="647.7"/>
+</segment>
+</net>
+<net name="E2-CONTROL" class="5">
+<segment>
+<pinref part="D6" gate="G$1" pin="A"/>
+<wire x1="551.18" y1="281.94" x2="553.72" y2="281.94" width="0.1524" layer="91"/>
+<pinref part="U$14" gate="G$1" pin="D"/>
+<wire x1="520.7" y1="297.18" x2="520.7" y2="299.72" width="0.1524" layer="91"/>
+<wire x1="520.7" y1="299.72" x2="538.48" y2="299.72" width="0.1524" layer="91"/>
+<label x="520.7" y="299.72" size="1.778" layer="95"/>
+<wire x1="538.48" y1="299.72" x2="538.48" y2="292.1" width="0.1524" layer="91"/>
+<wire x1="538.48" y1="292.1" x2="553.72" y2="292.1" width="0.1524" layer="91"/>
+<pinref part="R42" gate="G$1" pin="2"/>
+<wire x1="515.62" y1="302.26" x2="518.16" y2="302.26" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="302.26" x2="518.16" y2="299.72" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="299.72" x2="520.7" y2="299.72" width="0.1524" layer="91"/>
+<junction x="520.7" y="299.72"/>
+<pinref part="X5" gate="-2" pin="K"/>
+<wire x1="553.72" y1="281.94" x2="553.72" y2="292.1" width="0.1524" layer="91"/>
+<junction x="553.72" y="292.1"/>
 </segment>
 </net>
 </nets>

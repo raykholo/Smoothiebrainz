@@ -35989,7 +35989,7 @@ cut a BOM line item</text>
 </segment>
 <segment>
 <wire x1="548.64" y1="177.8" x2="520.7" y2="177.8" width="0.1524" layer="91"/>
-<label x="541.02" y="177.8" size="1.778" layer="95"/>
+<label x="533.4" y="177.8" size="1.778" layer="95"/>
 <pinref part="X1" gate="-2" pin="1"/>
 </segment>
 <segment>
@@ -38770,7 +38770,7 @@ cut a BOM line item</text>
 <net name="HEATERVIN" class="0">
 <segment>
 <wire x1="548.64" y1="187.96" x2="520.7" y2="187.96" width="0.1524" layer="91"/>
-<label x="520.7" y="187.96" size="1.778" layer="95"/>
+<label x="533.4" y="187.96" size="1.778" layer="95"/>
 <pinref part="X1" gate="-1" pin="1"/>
 </segment>
 <segment>

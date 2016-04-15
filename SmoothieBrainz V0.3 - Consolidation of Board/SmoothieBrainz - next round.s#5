@@ -35132,6 +35132,7 @@ Based on the previous libraries:
 <part name="JP15" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
 <part name="JP16" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
 <part name="X1" library="con-phoenix-508" deviceset="MSTBA2" device=""/>
+<part name="D5" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>
 </parts>
 <sheets>
 <sheet>
@@ -35534,6 +35535,7 @@ cut a BOM line item</text>
 <instance part="JP16" gate="G$1" x="548.64" y="111.76"/>
 <instance part="X1" gate="-1" x="515.62" y="187.96"/>
 <instance part="X1" gate="-2" x="515.62" y="177.8"/>
+<instance part="D5" gate="G$1" x="558.8" y="325.12" rot="R180"/>
 </instances>
 <busses>
 </busses>
