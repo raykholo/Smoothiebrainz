@@ -34714,6 +34714,101 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-phoenix-508">
+<description>&lt;b&gt;Phoenix Connectors&lt;/b&gt;&lt;p&gt;
+Grid 5.08 mm&lt;p&gt;
+Based on the previous libraries:
+&lt;ul&gt;
+&lt;li&gt;pho508a.lbr
+&lt;li&gt;pho508b.lbr
+&lt;li&gt;pho508c.lbr
+&lt;li&gt;pho508d.lbr
+&lt;li&gt;pho508e.lbr
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="MSTBA2">
+<description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
+<wire x1="-6.096" y1="7.112" x2="-6.096" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-6.096" y1="7.112" x2="-3.175" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="7.112" x2="-1.905" y2="7.112" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="7.112" x2="1.905" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="7.112" x2="3.175" y2="7.112" width="0.1524" layer="51"/>
+<wire x1="3.175" y1="7.112" x2="6.096" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="-6.096" y1="-1.905" x2="6.096" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="6.096" y1="7.112" x2="6.096" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-6.096" y1="-4.953" x2="-3.429" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-6.096" y1="-1.905" x2="-6.096" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="6.096" y1="-1.905" x2="6.096" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-4.953" x2="-2.032" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-4.953" x2="1.651" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="-3.683" x2="-3.048" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-4.953" x2="-3.048" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-4.953" x2="-1.651" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="-4.953" x2="3.048" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="-4.953" x2="6.096" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="1.651" y1="-4.953" x2="2.032" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="1.651" y1="-4.953" x2="3.429" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-3.683" x2="3.048" y2="-3.683" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="5.08" drill="1.397" shape="long" rot="R90"/>
+<pad name="2" x="2.54" y="5.08" drill="1.397" shape="long" rot="R90"/>
+<text x="-6.096" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="0" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.572" y="4.445" size="1.27" layer="21" ratio="10">1</text>
+<text x="0.254" y="4.445" size="1.27" layer="21" ratio="10">2</text>
+</package>
+</packages>
+<symbols>
+<symbol name="SK">
+<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-1.27" y1="0" x2="0" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-3.81" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94" curve="-180" cap="flat"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<circle x="-5.08" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="-5.08" y="0" radius="1.27" width="0.254" layer="94"/>
+<text x="-6.604" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<pin name="1" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="SKV">
+<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-1.27" y1="0" x2="0" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-3.81" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94" curve="-180" cap="flat"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<circle x="-5.08" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="-5.08" y="0" radius="1.27" width="0.254" layer="94"/>
+<text x="-7.62" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-6.604" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<pin name="1" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MSTBA2" prefix="X">
+<description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
+<gates>
+<gate name="-1" symbol="SK" x="0" y="5.08" addlevel="always"/>
+<gate name="-2" symbol="SKV" x="0" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="MSTBA2">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-2" pin="1" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="FARNELL" constant="no"/>
+<attribute name="MPN" value="1757242" constant="no"/>
+<attribute name="OC_FARNELL" value="3705171" constant="no"/>
+<attribute name="OC_NEWARK" value="71C4161" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -34926,7 +35021,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="X5" library="con-phoenix-350" deviceset="1751248" device=""/>
 <part name="X6" library="con-phoenix-350" deviceset="1751248" device=""/>
 <part name="X7" library="con-phoenix-350" deviceset="1751248" device=""/>
-<part name="X8" library="con-phoenix-350" deviceset="1751248" device=""/>
 <part name="U$7" library="RepRapjr" deviceset="POLOLU_A4983CARRIER" device=""/>
 <part name="C38" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
 <part name="C39" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
@@ -35037,6 +35131,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="JP14" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
 <part name="JP15" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
 <part name="JP16" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
+<part name="X1" library="con-phoenix-508" deviceset="MSTBA2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -35303,8 +35398,6 @@ cut a BOM line item</text>
 <instance part="X6" gate="-2" x="556.26" y="259.08"/>
 <instance part="X7" gate="-1" x="553.72" y="233.68"/>
 <instance part="X7" gate="-2" x="553.72" y="226.06"/>
-<instance part="X8" gate="-1" x="551.18" y="187.96"/>
-<instance part="X8" gate="-2" x="551.18" y="177.8"/>
 <instance part="U$7" gate="G$1" x="347.98" y="124.46"/>
 <instance part="C38" gate="G$1" x="373.38" y="127" rot="R90"/>
 <instance part="C39" gate="G$1" x="373.38" y="111.76" rot="R90"/>
@@ -35439,6 +35532,8 @@ cut a BOM line item</text>
 <instance part="JP14" gate="G$1" x="548.64" y="142.24"/>
 <instance part="JP15" gate="G$1" x="548.64" y="127"/>
 <instance part="JP16" gate="G$1" x="548.64" y="111.76"/>
+<instance part="X1" gate="-1" x="515.62" y="187.96"/>
+<instance part="X1" gate="-2" x="515.62" y="177.8"/>
 </instances>
 <busses>
 </busses>
@@ -35893,9 +35988,9 @@ cut a BOM line item</text>
 <junction x="520.7" y="325.12"/>
 </segment>
 <segment>
-<pinref part="X8" gate="-2" pin="K"/>
-<wire x1="548.64" y1="177.8" x2="541.02" y2="177.8" width="0.1524" layer="91"/>
-<label x="541.02" y="177.8" size="1.778" layer="95"/>
+<wire x1="548.64" y1="177.8" x2="520.7" y2="177.8" width="0.1524" layer="91"/>
+<label x="533.4" y="177.8" size="1.778" layer="95"/>
+<pinref part="X1" gate="-2" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$7" gate="G$1" pin="GND@0"/>
@@ -38674,9 +38769,9 @@ cut a BOM line item</text>
 </net>
 <net name="HEATERVIN" class="0">
 <segment>
-<pinref part="X8" gate="-1" pin="K"/>
 <wire x1="548.64" y1="187.96" x2="520.7" y2="187.96" width="0.1524" layer="91"/>
-<label x="520.7" y="187.96" size="1.778" layer="95"/>
+<label x="533.4" y="187.96" size="1.778" layer="95"/>
+<pinref part="X1" gate="-1" pin="1"/>
 </segment>
 <segment>
 <pinref part="X4" gate="-1" pin="K"/>
