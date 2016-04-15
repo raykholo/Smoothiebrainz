@@ -32244,6 +32244,74 @@ Devices GSMBAxx and GMSTBVxx transferred from con-phoenix-508.lbr&lt;br&gt;
 <text x="0" y="-5.969" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <text x="0.508" y="-0.635" size="1.27" layer="21" ratio="10">2</text>
 </package>
+<package name="GMSTBA2">
+<description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
+<wire x1="-7.62" y1="7.112" x2="-4.953" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="-4.953" y1="7.112" x2="-2.667" y2="7.112" width="0.1524" layer="51"/>
+<wire x1="-2.667" y1="7.112" x2="2.667" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="2.667" y1="7.112" x2="4.953" y2="7.112" width="0.1524" layer="51"/>
+<wire x1="4.953" y1="7.112" x2="7.62" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="7.112" x2="-7.62" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-2.159" x2="7.62" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="7.112" x2="7.62" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-2.159" x2="7.62" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="-4.953" x2="-3.302" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="-3.683" x2="-4.318" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-4.699" y1="-4.953" x2="-4.318" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="4.699" y1="-4.953" x2="4.318" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="-4.953" x2="3.302" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="-3.683" x2="4.318" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-2.159" x2="-7.62" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-4.953" x2="-7.62" y2="-4.953" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="5.08" drill="1.397" shape="long" rot="R90"/>
+<pad name="2" x="3.81" y="5.08" drill="1.397" shape="long" rot="R90"/>
+<text x="-6.35" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="0" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-6.858" y="4.445" size="1.27" layer="21" ratio="10">1</text>
+<text x="0.635" y="4.445" size="1.27" layer="21" ratio="10">2</text>
+</package>
+<package name="GMSTBA4">
+<description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
+<wire x1="-15.24" y1="7.112" x2="-12.573" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="-12.573" y1="7.112" x2="-10.287" y2="7.112" width="0.1524" layer="51"/>
+<wire x1="-10.287" y1="7.112" x2="-4.953" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="-4.953" y1="7.112" x2="-2.667" y2="7.112" width="0.1524" layer="51"/>
+<wire x1="-2.667" y1="7.112" x2="2.667" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="2.667" y1="7.112" x2="4.953" y2="7.112" width="0.1524" layer="51"/>
+<wire x1="12.573" y1="7.112" x2="15.24" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="7.112" x2="-15.24" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="-2.159" x2="15.24" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="7.112" x2="15.24" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="-2.159" x2="15.24" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-10.541" y1="-4.953" x2="-10.922" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-10.922" y1="-3.683" x2="-11.938" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-12.319" y1="-4.953" x2="-11.938" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="-4.953" x2="-3.302" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-4.699" y1="-4.953" x2="-4.318" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="-3.683" x2="-3.302" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="-2.159" x2="-15.24" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="-4.953" x2="3.302" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="-3.683" x2="4.318" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="4.699" y1="-4.953" x2="4.318" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="-4.953" x2="12.319" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="12.319" y1="-4.953" x2="10.541" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="10.541" y1="-4.953" x2="-15.24" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="10.922" y1="-3.683" x2="11.938" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="12.319" y1="-4.953" x2="11.938" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="10.541" y1="-4.953" x2="10.922" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="10.287" y1="7.112" x2="12.573" y2="7.112" width="0.1524" layer="51"/>
+<wire x1="4.953" y1="7.112" x2="10.287" y2="7.112" width="0.1524" layer="21"/>
+<pad name="1" x="-11.43" y="5.08" drill="1.397" shape="long" rot="R90"/>
+<pad name="2" x="-3.81" y="5.08" drill="1.397" shape="long" rot="R90"/>
+<pad name="3" x="3.81" y="5.08" drill="1.397" shape="long" rot="R90"/>
+<pad name="4" x="11.43" y="5.08" drill="1.397" shape="long" rot="R90"/>
+<text x="-13.97" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-14.478" y="4.445" size="1.27" layer="21" ratio="10">1</text>
+<text x="-6.985" y="4.445" size="1.27" layer="21" ratio="10">2</text>
+<text x="0.635" y="4.445" size="1.27" layer="21" ratio="10">3</text>
+<text x="8.255" y="4.445" size="1.27" layer="21" ratio="10">4</text>
+<text x="-12.7" y="0" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SKB">
@@ -32289,6 +32357,56 @@ Devices GSMBAxx and GMSTBVxx transferred from con-phoenix-508.lbr&lt;br&gt;
 <attribute name="MPN" value="GMSTBVA2,5/2-G-7,62" constant="no"/>
 <attribute name="OC_FARNELL" value="1793079" constant="no"/>
 <attribute name="OC_NEWARK" value="69R9520" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GMSTBA2" prefix="X">
+<description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
+<gates>
+<gate name="-1" symbol="SKB" x="0" y="0" addlevel="always"/>
+<gate name="-2" symbol="SKBV" x="0" y="-5.08" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="GMSTBA2">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-2" pin="1" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="FARNELL" constant="no"/>
+<attribute name="MPN" value="1757242" constant="no"/>
+<attribute name="OC_FARNELL" value="3705171" constant="no"/>
+<attribute name="OC_NEWARK" value="71C4161" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GMSTBA4" prefix="X">
+<description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
+<gates>
+<gate name="-1" symbol="SKB" x="0" y="10.16" addlevel="always"/>
+<gate name="-2" symbol="SKB" x="0" y="5.08" addlevel="always"/>
+<gate name="-3" symbol="SKB" x="0" y="0" addlevel="always"/>
+<gate name="-4" symbol="SKBV" x="0" y="-5.08" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="GMSTBA4">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-2" pin="1" pad="2"/>
+<connect gate="-3" pin="1" pad="3"/>
+<connect gate="-4" pin="1" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="FARNELL" constant="no"/>
+<attribute name="MPN" value="1757268" constant="no"/>
+<attribute name="OC_FARNELL" value="3705195" constant="no"/>
+<attribute name="OC_NEWARK" value="71C4163" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -32413,176 +32531,6 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="con-phoenix-508">
-<description>&lt;b&gt;Phoenix Connectors&lt;/b&gt;&lt;p&gt;
-Grid 5.08 mm&lt;p&gt;
-Based on the previous libraries:
-&lt;ul&gt;
-&lt;li&gt;pho508a.lbr
-&lt;li&gt;pho508b.lbr
-&lt;li&gt;pho508c.lbr
-&lt;li&gt;pho508d.lbr
-&lt;li&gt;pho508e.lbr
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="MSTBA2">
-<description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
-<wire x1="-6.096" y1="7.112" x2="-6.096" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="7.112" x2="-3.175" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="7.112" x2="-1.905" y2="7.112" width="0.1524" layer="51"/>
-<wire x1="-1.905" y1="7.112" x2="1.905" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="7.112" x2="3.175" y2="7.112" width="0.1524" layer="51"/>
-<wire x1="3.175" y1="7.112" x2="6.096" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="-1.905" x2="6.096" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="6.096" y1="7.112" x2="6.096" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="-4.953" x2="-3.429" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="-1.905" x2="-6.096" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="6.096" y1="-1.905" x2="6.096" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-4.953" x2="-2.032" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-4.953" x2="1.651" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="-3.683" x2="-3.048" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-3.429" y1="-4.953" x2="-3.048" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-3.429" y1="-4.953" x2="-1.651" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="3.429" y1="-4.953" x2="3.048" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="3.429" y1="-4.953" x2="6.096" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="1.651" y1="-4.953" x2="2.032" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="1.651" y1="-4.953" x2="3.429" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="-3.683" x2="3.048" y2="-3.683" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="5.08" drill="1.397" shape="long" rot="R90"/>
-<pad name="2" x="2.54" y="5.08" drill="1.397" shape="long" rot="R90"/>
-<text x="-6.096" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="0" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-4.572" y="4.445" size="1.27" layer="21" ratio="10">1</text>
-<text x="0.254" y="4.445" size="1.27" layer="21" ratio="10">2</text>
-</package>
-<package name="MSTBA4">
-<description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
-<wire x1="-11.176" y1="7.112" x2="-11.176" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-11.176" y1="7.112" x2="-8.255" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="-8.255" y1="7.112" x2="-6.985" y2="7.112" width="0.1524" layer="51"/>
-<wire x1="-6.985" y1="7.112" x2="-3.175" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="7.112" x2="-1.905" y2="7.112" width="0.1524" layer="51"/>
-<wire x1="8.255" y1="7.112" x2="11.176" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="-11.176" y1="-1.905" x2="11.176" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="11.176" y1="7.112" x2="11.176" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-11.176" y1="-4.953" x2="-8.509" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-11.176" y1="-1.905" x2="-11.176" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="11.176" y1="-1.905" x2="11.176" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-6.731" y1="-4.953" x2="-7.112" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-6.731" y1="-4.953" x2="-3.429" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-7.112" y1="-3.683" x2="-8.128" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-8.509" y1="-4.953" x2="-8.128" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-8.509" y1="-4.953" x2="-6.731" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-4.953" x2="-2.032" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-4.953" x2="1.651" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="1.651" y1="-4.953" x2="3.429" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="3.429" y1="-4.953" x2="6.731" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="6.731" y1="-4.953" x2="8.509" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="8.509" y1="-4.953" x2="11.176" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-3.429" y1="-4.953" x2="-3.048" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-3.429" y1="-4.953" x2="-1.651" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="-3.683" x2="-2.032" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="-3.683" x2="3.048" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="3.429" y1="-4.953" x2="3.048" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="1.651" y1="-4.953" x2="2.032" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="7.112" x2="3.175" y2="7.112" width="0.1524" layer="51"/>
-<wire x1="-1.905" y1="7.112" x2="1.905" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="7.112" x2="8.255" y2="7.112" width="0.1524" layer="51"/>
-<wire x1="3.175" y1="7.112" x2="6.985" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="7.112" y1="-3.683" x2="8.128" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="8.509" y1="-4.953" x2="8.128" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="6.731" y1="-4.953" x2="7.112" y2="-3.683" width="0.1524" layer="21"/>
-<pad name="1" x="-7.62" y="5.08" drill="1.397" shape="long" rot="R90"/>
-<pad name="2" x="-2.54" y="5.08" drill="1.397" shape="long" rot="R90"/>
-<pad name="4" x="7.62" y="5.08" drill="1.397" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="5.08" drill="1.397" shape="long" rot="R90"/>
-<text x="-11.176" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-10.16" y="0" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-9.652" y="4.445" size="1.27" layer="21" ratio="10">1</text>
-<text x="-4.826" y="4.445" size="1.27" layer="21" ratio="10">2</text>
-<text x="0.254" y="4.445" size="1.27" layer="21" ratio="10">3</text>
-<text x="5.334" y="4.445" size="1.27" layer="21" ratio="10">4</text>
-</package>
-</packages>
-<symbols>
-<symbol name="SK">
-<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="-1.27" y1="0" x2="0" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="-3.81" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<circle x="-5.08" y="0" radius="1.27" width="0.254" layer="94"/>
-<circle x="-5.08" y="0" radius="1.27" width="0.254" layer="94"/>
-<text x="-6.604" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<pin name="1" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="SKV">
-<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="-1.27" y1="0" x2="0" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="-3.81" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<circle x="-5.08" y="0" radius="1.27" width="0.254" layer="94"/>
-<circle x="-5.08" y="0" radius="1.27" width="0.254" layer="94"/>
-<text x="-7.62" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-6.604" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<pin name="1" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MSTBA2" prefix="X">
-<description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
-<gates>
-<gate name="-1" symbol="SK" x="0" y="5.08" addlevel="always"/>
-<gate name="-2" symbol="SKV" x="0" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="MSTBA2">
-<connects>
-<connect gate="-1" pin="1" pad="1"/>
-<connect gate="-2" pin="1" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="FARNELL" constant="no"/>
-<attribute name="MPN" value="1757242" constant="no"/>
-<attribute name="OC_FARNELL" value="3705171" constant="no"/>
-<attribute name="OC_NEWARK" value="71C4161" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MSTBA4" prefix="X">
-<description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
-<gates>
-<gate name="-1" symbol="SK" x="0" y="7.62" addlevel="always"/>
-<gate name="-2" symbol="SK" x="0" y="2.54" addlevel="always"/>
-<gate name="-3" symbol="SK" x="0" y="-2.54" addlevel="always"/>
-<gate name="-4" symbol="SKV" x="0" y="-7.62" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="MSTBA4">
-<connects>
-<connect gate="-1" pin="1" pad="1"/>
-<connect gate="-2" pin="1" pad="2"/>
-<connect gate="-3" pin="1" pad="3"/>
-<connect gate="-4" pin="1" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="FARNELL" constant="no"/>
-<attribute name="MPN" value="1757268" constant="no"/>
-<attribute name="OC_FARNELL" value="3705195" constant="no"/>
-<attribute name="OC_NEWARK" value="71C4163" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -35041,8 +34989,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R30" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="R32" library="resistor" deviceset="R-EU_" device="R0603" value="1.5k"/>
 <part name="LED6" library="led" deviceset="LED" device="SML0805"/>
-<part name="X2" library="con-phoenix-508" deviceset="MSTBA2" device=""/>
-<part name="X3" library="con-phoenix-508" deviceset="MSTBA4" device=""/>
+<part name="X2" library="con-phoenix-762" deviceset="GMSTBA2" device=""/>
+<part name="X3" library="con-phoenix-762" deviceset="GMSTBA4" device=""/>
 <part name="U$6" library="RepRapjr" deviceset="POLOLU_A4983CARRIER" device=""/>
 <part name="C35" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
 <part name="C36" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
@@ -35204,6 +35152,7 @@ cut a BOM line item</text>
 <wire x1="261.62" y1="523.24" x2="261.62" y2="670.56" width="0.1524" layer="95"/>
 <text x="266.7" y="528.32" size="6.4516" layer="95">ETHERNET</text>
 <wire x1="591.82" y1="670.56" x2="591.82" y2="523.24" width="0.1524" layer="95"/>
+<text x="43.18" y="315.722" size="6.4516" layer="95">POWER IN</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="175.26" y="139.7"/>
