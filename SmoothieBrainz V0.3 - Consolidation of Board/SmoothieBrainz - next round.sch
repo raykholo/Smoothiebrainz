@@ -34425,6 +34425,7 @@ Based on the previous libraries:
 <part name="D6" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>
 <part name="D13" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>
 <part name="D14" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>
+<part name="D15" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>
 </parts>
 <sheets>
 <sheet>
@@ -34747,6 +34748,7 @@ cut a BOM line item</text>
 <instance part="D6" gate="G$1" x="548.64" y="281.94" rot="R180"/>
 <instance part="D13" gate="G$1" x="548.64" y="248.92" rot="R180"/>
 <instance part="D14" gate="G$1" x="546.1" y="215.9" rot="R180"/>
+<instance part="D15" gate="G$1" x="533.4" y="386.08" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -37573,6 +37575,13 @@ cut a BOM line item</text>
 </net>
 <net name="HEATBED-CONTROL" class="0">
 <segment>
+<pinref part="X3" gate="-4" pin="1"/>
+<wire x1="76.2" y1="271.78" x2="91.44" y2="271.78" width="0.1524" layer="91"/>
+<label x="78.74" y="271.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D15" gate="G$1" pin="A"/>
+<wire x1="535.94" y1="386.08" x2="538.48" y2="386.08" width="0.1524" layer="91"/>
 <pinref part="U$10" gate="G$1" pin="D"/>
 <wire x1="497.84" y1="370.84" x2="538.48" y2="370.84" width="0.1524" layer="91"/>
 <label x="508" y="370.84" size="1.778" layer="95"/>
@@ -37580,11 +37589,8 @@ cut a BOM line item</text>
 <junction x="538.48" y="370.84"/>
 <pinref part="R32" gate="G$1" pin="2"/>
 <wire x1="530.86" y1="378.46" x2="538.48" y2="378.46" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="X3" gate="-4" pin="1"/>
-<wire x1="76.2" y1="271.78" x2="91.44" y2="271.78" width="0.1524" layer="91"/>
-<label x="78.74" y="271.78" size="1.778" layer="95"/>
+<wire x1="538.48" y1="386.08" x2="538.48" y2="378.46" width="0.1524" layer="91"/>
+<junction x="538.48" y="378.46"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -37707,6 +37713,11 @@ cut a BOM line item</text>
 <label x="487.68" y="378.46" size="1.778" layer="95"/>
 <pinref part="LED6" gate="G$1" pin="A"/>
 <wire x1="508" y1="378.46" x2="485.14" y2="378.46" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D15" gate="G$1" pin="C"/>
+<wire x1="530.86" y1="386.08" x2="513.08" y2="386.08" width="0.1524" layer="91"/>
+<label x="513.08" y="386.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$21" class="0">

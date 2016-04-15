@@ -35021,7 +35021,6 @@ Based on the previous libraries:
 <part name="X5" library="con-phoenix-350" deviceset="1751248" device=""/>
 <part name="X6" library="con-phoenix-350" deviceset="1751248" device=""/>
 <part name="X7" library="con-phoenix-350" deviceset="1751248" device=""/>
-<part name="X8" library="con-phoenix-350" deviceset="1751248" device=""/>
 <part name="U$7" library="RepRapjr" deviceset="POLOLU_A4983CARRIER" device=""/>
 <part name="C38" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
 <part name="C39" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
@@ -35399,8 +35398,6 @@ cut a BOM line item</text>
 <instance part="X6" gate="-2" x="556.26" y="259.08"/>
 <instance part="X7" gate="-1" x="553.72" y="233.68"/>
 <instance part="X7" gate="-2" x="553.72" y="226.06"/>
-<instance part="X8" gate="-1" x="551.18" y="187.96"/>
-<instance part="X8" gate="-2" x="551.18" y="177.8"/>
 <instance part="U$7" gate="G$1" x="347.98" y="124.46"/>
 <instance part="C38" gate="G$1" x="373.38" y="127" rot="R90"/>
 <instance part="C39" gate="G$1" x="373.38" y="111.76" rot="R90"/>
@@ -35991,7 +35988,6 @@ cut a BOM line item</text>
 <junction x="520.7" y="325.12"/>
 </segment>
 <segment>
-<pinref part="X8" gate="-2" pin="K"/>
 <wire x1="548.64" y1="177.8" x2="520.7" y2="177.8" width="0.1524" layer="91"/>
 <label x="541.02" y="177.8" size="1.778" layer="95"/>
 <pinref part="X1" gate="-2" pin="1"/>
@@ -38773,7 +38769,6 @@ cut a BOM line item</text>
 </net>
 <net name="HEATERVIN" class="0">
 <segment>
-<pinref part="X8" gate="-1" pin="K"/>
 <wire x1="548.64" y1="187.96" x2="520.7" y2="187.96" width="0.1524" layer="91"/>
 <label x="520.7" y="187.96" size="1.778" layer="95"/>
 <pinref part="X1" gate="-1" pin="1"/>
