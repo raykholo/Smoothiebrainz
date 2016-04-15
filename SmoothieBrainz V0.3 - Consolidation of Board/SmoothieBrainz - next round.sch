@@ -32177,73 +32177,6 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 Devices GSMBAxx and GMSTBVxx transferred from con-phoenix-508.lbr&lt;br&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="GMSTBV2">
-<description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
-<wire x1="7.62" y1="-3.81" x2="-7.62" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-3.81" x2="-7.62" y2="4.064" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="4.064" x2="-7.62" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="-7.112" y1="2.794" x2="-4.318" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="2.794" x2="3.302" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="3.302" y1="2.794" x2="4.318" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="4.318" y1="2.794" x2="7.112" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="-7.112" y1="-2.54" x2="-7.112" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="-3.81" x2="7.62" y2="4.064" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="4.064" x2="7.62" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="4.572" x2="-4.318" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="-4.318" y1="4.572" x2="-3.302" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="4.572" x2="3.302" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="3.302" y1="4.572" x2="4.318" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="4.318" y1="4.572" x2="7.62" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="0.635" x2="-4.445" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-4.445" y1="-0.635" x2="-3.175" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-3.175" y1="-0.635" x2="-3.175" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-3.175" y1="0.635" x2="-4.445" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-4.445" y1="0.635" x2="-3.175" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-4.445" y1="-0.635" x2="-3.175" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="3.175" y1="0.635" x2="3.175" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="3.175" y1="-0.635" x2="4.445" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="4.445" y1="-0.635" x2="4.445" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="4.445" y1="0.635" x2="3.175" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="3.175" y1="0.635" x2="4.445" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="3.175" y1="-0.635" x2="4.445" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="7.112" y1="2.794" x2="7.112" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.27" y1="-2.54" x2="6.35" y2="-2.54" width="0.1524" layer="21" curve="90"/>
-<wire x1="7.112" y1="-2.54" x2="6.35" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="-2.54" x2="-7.112" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="2.794" x2="-3.302" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="4.064" x2="-4.572" y2="4.064" width="0.1524" layer="21"/>
-<wire x1="-4.572" y1="4.064" x2="-4.318" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="-7.112" y1="2.794" x2="-7.112" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="-7.112" y1="3.048" x2="-4.572" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="-4.572" y1="3.048" x2="-4.318" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="-4.318" y1="2.794" x2="-3.302" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="-4.318" y1="2.794" x2="-4.318" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="-4.572" y1="3.048" x2="-4.572" y2="4.064" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="4.572" x2="-3.048" y2="4.064" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="4.064" x2="-3.048" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="3.048" x2="-3.302" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="3.302" y1="2.794" x2="3.302" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="4.318" y1="2.794" x2="4.318" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="4.064" x2="3.048" y2="4.064" width="0.1524" layer="21"/>
-<wire x1="3.048" y1="4.064" x2="3.302" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="3.048" y1="4.064" x2="3.048" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="3.048" y1="3.048" x2="3.302" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="3.048" y1="3.048" x2="-3.048" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="4.318" y1="4.572" x2="4.572" y2="4.064" width="0.1524" layer="21"/>
-<wire x1="4.572" y1="4.064" x2="7.62" y2="4.064" width="0.1524" layer="21"/>
-<wire x1="4.572" y1="4.064" x2="4.572" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="4.572" y1="3.048" x2="4.318" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="4.572" y1="3.048" x2="7.112" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="7.112" y1="3.048" x2="7.112" y2="2.794" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="1.397" shape="long" rot="R90"/>
-<pad name="2" x="3.81" y="0" drill="1.397" shape="long" rot="R90"/>
-<text x="-6.858" y="-0.635" size="1.27" layer="21" ratio="10">1</text>
-<text x="-7.62" y="-5.969" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="0" y="-5.969" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<text x="0.508" y="-0.635" size="1.27" layer="21" ratio="10">2</text>
-</package>
 <package name="GMSTBA2">
 <description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
 <wire x1="-7.62" y1="7.112" x2="-4.953" y2="7.112" width="0.1524" layer="21"/>
@@ -32339,29 +32272,6 @@ Devices GSMBAxx and GMSTBVxx transferred from con-phoenix-508.lbr&lt;br&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GMSTBV2" prefix="X">
-<description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
-<gates>
-<gate name="-1" symbol="SKB" x="0" y="5.08" addlevel="always"/>
-<gate name="-2" symbol="SKBV" x="0" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="GMSTBV2">
-<connects>
-<connect gate="-1" pin="1" pad="1"/>
-<connect gate="-2" pin="1" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="GMSTBVA2,5/2-G-7,62" constant="no"/>
-<attribute name="OC_FARNELL" value="1793079" constant="no"/>
-<attribute name="OC_NEWARK" value="69R9520" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="GMSTBA2" prefix="X">
 <description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
 <gates>
@@ -34983,7 +34893,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="SJ13" library="jumper" deviceset="SJ" device=""/>
 <part name="R26" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="P+6" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="X1" library="con-phoenix-762" deviceset="GMSTBV2" device=""/>
 <part name="U$10" library="Cohesion_parts" deviceset="N-POWER-MOSFET" device="D2PAK-MOSFET" value="SUM120N04-1M7L-GE3"/>
 <part name="R27" library="resistor" deviceset="R-EU_" device="R0603" value="10r"/>
 <part name="R30" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
@@ -35353,8 +35262,6 @@ cut a BOM line item</text>
 <instance part="SJ13" gate="1" x="317.5" y="208.28"/>
 <instance part="R26" gate="G$1" x="317.5" y="223.52" rot="R90"/>
 <instance part="P+6" gate="G$1" x="317.5" y="231.14"/>
-<instance part="X1" gate="-1" x="25.4" y="307.34"/>
-<instance part="X1" gate="-2" x="25.4" y="302.26"/>
 <instance part="U$10" gate="G$1" x="546.1" y="365.76"/>
 <instance part="R27" gate="G$1" x="525.78" y="363.22"/>
 <instance part="R30" gate="G$1" x="530.86" y="355.6" rot="R180"/>

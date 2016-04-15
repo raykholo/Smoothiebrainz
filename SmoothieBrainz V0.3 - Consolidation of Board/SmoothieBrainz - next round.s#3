@@ -35204,6 +35204,7 @@ cut a BOM line item</text>
 <wire x1="261.62" y1="523.24" x2="261.62" y2="670.56" width="0.1524" layer="95"/>
 <text x="266.7" y="528.32" size="6.4516" layer="95">ETHERNET</text>
 <wire x1="591.82" y1="670.56" x2="591.82" y2="523.24" width="0.1524" layer="95"/>
+<text x="43.18" y="315.722" size="6.4516" layer="95">POWER IN</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="175.26" y="139.7"/>
