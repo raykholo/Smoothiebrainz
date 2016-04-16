@@ -35403,7 +35403,7 @@ cut a BOM line item</text>
 <instance part="D14" gate="G$1" x="546.1" y="215.9" rot="R180"/>
 <instance part="D15" gate="G$1" x="533.4" y="386.08" rot="R180"/>
 <instance part="JP17" gate="G$1" x="127" y="309.88" rot="R270"/>
-<instance part="AGND4" gate="VR1" x="119.38" y="256.54"/>
+<instance part="AGND4" gate="VR1" x="119.38" y="251.46"/>
 <instance part="C44" gate="G$1" x="142.24" y="266.7"/>
 </instances>
 <busses>
@@ -37677,6 +37677,7 @@ cut a BOM line item</text>
 <wire x1="119.38" y1="304.8" x2="119.38" y2="302.26" width="0.1524" layer="91"/>
 <pinref part="JP17" gate="G$1" pin="3"/>
 <wire x1="119.38" y1="302.26" x2="119.38" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="259.08" x2="119.38" y2="254" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="304.8" x2="124.46" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="302.26" x2="119.38" y2="302.26" width="0.1524" layer="91"/>
 <junction x="119.38" y="302.26"/>
@@ -37688,6 +37689,10 @@ cut a BOM line item</text>
 <wire x1="134.62" y1="304.8" x2="134.62" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="302.26" x2="129.54" y2="302.26" width="0.1524" layer="91"/>
 <junction x="129.54" y="302.26"/>
+<pinref part="C44" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="261.62" x2="142.24" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="259.08" x2="119.38" y2="259.08" width="0.1524" layer="91"/>
+<junction x="119.38" y="259.08"/>
 </segment>
 </net>
 <net name="N$23" class="0">
