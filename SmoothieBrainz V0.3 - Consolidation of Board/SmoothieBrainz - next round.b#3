@@ -12384,9 +12384,9 @@ Based on the previous libraries:
 <attribute name="NAME" x="45.18025" y="23.52675" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="44.41825" y="23.955375" size="0.2032" layer="27" rot="R90"/>
 </element>
-<element name="R54" library="resistor" package="R0603" value="10r" x="27.305" y="40.48125" smashed="yes">
-<attribute name="NAME" x="26.416" y="41.37025" size="1.27" layer="25"/>
-<attribute name="VALUE" x="24.03475" y="40.1955" size="0.8128" layer="27"/>
+<element name="R54" library="resistor" package="R0603" value="10r" x="27.305" y="40.48125" smashed="yes" rot="R180">
+<attribute name="NAME" x="28.194" y="39.59225" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="30.57525" y="40.767" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="R55" library="resistor" package="R0603" value="100k" x="27.305" y="35.40125" smashed="yes">
 <attribute name="NAME" x="26.416" y="36.29025" size="1.27" layer="25"/>
@@ -12987,10 +12987,10 @@ Based on the previous libraries:
 <wire x1="50.49635" y1="37.0284375" x2="49.337940625" y2="38.186846875" width="0.254" layer="1"/>
 <contactref element="R55" pad="1"/>
 <via x="25.55875" y="36.0759375" extent="1-16" drill="0.5"/>
-<wire x1="26.455" y1="35.40125" x2="26.455" y2="36.9" width="0.254" layer="1"/>
-<wire x1="26.455" y1="36.9" x2="26.36375" y2="36.99125" width="0.254" layer="1"/>
 <wire x1="25.55875" y1="36.0759375" x2="25.7803125" y2="36.0759375" width="0.254" layer="1"/>
 <wire x1="25.7803125" y1="36.0759375" x2="26.455" y2="35.40125" width="0.254" layer="1"/>
+<wire x1="26.36375" y1="36.99125" x2="26.36375" y2="35.4925" width="0.254" layer="1"/>
+<wire x1="26.36375" y1="35.4925" x2="26.455" y2="35.40125" width="0.254" layer="1"/>
 <wire x1="65.923" y1="47.88375" x2="70.7265" y2="51.957125" width="0" layer="19" extent="1-1"/>
 <wire x1="31.19755" y1="45.710475" x2="31.222" y2="45.715625" width="0" layer="19" extent="1-1"/>
 <wire x1="50.5221875" y1="37.0284375" x2="50.561875" y2="37.068125" width="0" layer="19" extent="1-1"/>
@@ -14217,12 +14217,8 @@ Based on the previous libraries:
 <wire x1="68.78601875" y1="48.75910625" x2="65.588" y2="51.957125" width="0.254" layer="1"/>
 <contactref element="R54" pad="1"/>
 <contactref element="R55" pad="2"/>
-<wire x1="26.455" y1="40.48125" x2="26.67" y2="40.48125" width="0.254" layer="1"/>
-<wire x1="26.67" y1="40.48125" x2="27.46375" y2="39.6875" width="0.254" layer="1"/>
 <wire x1="27.46375" y1="39.6875" x2="27.46375" y2="36.0925" width="0.254" layer="1"/>
-<wire x1="26.67" y1="40.48125" x2="26.67" y2="40.64" width="0.254" layer="1"/>
-<wire x1="26.67" y1="40.64" x2="27.305" y2="41.43375" width="0.254" layer="1"/>
-<wire x1="27.305" y1="41.43375" x2="34.76625" y2="41.43375" width="0.254" layer="1"/>
+<wire x1="28.575" y1="41.43375" x2="34.76625" y2="41.43375" width="0.254" layer="1"/>
 <wire x1="34.76625" y1="41.43375" x2="35.08375" y2="41.11625" width="0.254" layer="1"/>
 <wire x1="35.08375" y1="41.11625" x2="35.40125" y2="41.11625" width="0.254" layer="1"/>
 <via x="35.40125" y="41.11625" extent="1-16" drill="0.5"/>
@@ -14238,6 +14234,10 @@ Based on the previous libraries:
 <wire x1="63.1825" y1="38.4175" x2="64.771390625" y2="38.4175" width="0.254" layer="1"/>
 <wire x1="64.771390625" y1="38.4175" x2="65.601396875" y2="39.24750625" width="0.254" layer="1"/>
 <wire x1="27.46375" y1="36.0925" x2="28.155" y2="35.40125" width="0.254" layer="1"/>
+<wire x1="28.155" y1="40.48125" x2="28.155" y2="40.37875" width="0.254" layer="1"/>
+<wire x1="28.155" y1="40.37875" x2="27.46375" y2="39.6875" width="0.254" layer="1"/>
+<wire x1="28.155" y1="40.48125" x2="28.155" y2="41.01375" width="0.254" layer="1"/>
+<wire x1="28.155" y1="41.01375" x2="28.575" y2="41.43375" width="0.254" layer="1"/>
 </signal>
 <signal name="LED2">
 <contactref element="R11" pad="2"/>
@@ -15271,16 +15271,13 @@ Based on the previous libraries:
 <contactref element="IC2" pad="4"/>
 <contactref element="C27" pad="+"/>
 <contactref element="D3" pad="A"/>
-<wire x1="17.455" y1="53.36" x2="17.455" y2="56.98375" width="1.4224" layer="1"/>
 <wire x1="32.39425" y1="56.725" x2="27.63375" y2="56.725" width="1.4224" layer="1"/>
 <wire x1="27.63375" y1="56.725" x2="27.1675" y2="56.25875" width="1.4224" layer="1"/>
 <wire x1="27.63375" y1="56.725" x2="24.555" y2="56.725" width="1.4224" layer="1"/>
 <wire x1="24.9788" y1="62.31695" x2="23.58195" y2="62.31695" width="1.4224" layer="1"/>
 <wire x1="23.58195" y1="62.31695" x2="21.59" y2="60.325" width="1.4224" layer="1"/>
-<wire x1="21.59" y1="60.325" x2="20.955" y2="60.325" width="1.4224" layer="1"/>
-<wire x1="20.955" y1="60.325" x2="20.79625" y2="60.325" width="1.4224" layer="1"/>
-<wire x1="20.79625" y1="60.325" x2="17.455" y2="56.98375" width="1.4224" layer="1"/>
-<wire x1="24.555" y1="56.725" x2="20.955" y2="60.325" width="1.4224" layer="1"/>
+<wire x1="21.59" y1="60.325" x2="21.59" y2="59.69" width="1.4224" layer="1"/>
+<wire x1="24.555" y1="56.725" x2="21.59" y2="59.69" width="1.4224" layer="1"/>
 <polygon width="0.254" layer="1" isolate="0.254" thermals="no" rank="2">
 <vertex x="26.035" y="62.865"/>
 <vertex x="20.32" y="62.865"/>
@@ -15294,6 +15291,8 @@ Based on the previous libraries:
 <vertex x="33.655" y="57.785"/>
 <vertex x="26.035" y="57.785"/>
 </polygon>
+<wire x1="17.455" y1="56.19" x2="21.59" y2="60.325" width="1.4224" layer="1"/>
+<wire x1="17.455" y1="53.36" x2="17.455" y2="56.19" width="1.4224" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="IC2" pad="2"/>
@@ -16339,7 +16338,8 @@ Based on the previous libraries:
 <signal name="N$55">
 <contactref element="R54" pad="2"/>
 <contactref element="T1" pad="B"/>
-<wire x1="26.36375" y1="38.89125" x2="28.155" y2="40.48125" width="0" layer="19" extent="1-1"/>
+<wire x1="26.36375" y1="38.89125" x2="26.36375" y2="40.39" width="0.254" layer="1"/>
+<wire x1="26.36375" y1="40.39" x2="26.455" y2="40.48125" width="0.254" layer="1"/>
 </signal>
 <signal name="N$56">
 <contactref element="T1" pad="C"/>

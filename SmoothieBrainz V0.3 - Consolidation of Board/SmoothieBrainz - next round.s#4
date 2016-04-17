@@ -35911,6 +35911,11 @@ cut a BOM line item</text>
 <wire x1="35.56" y1="-17.78" x2="25.4" y2="-17.78" width="0.1524" layer="91"/>
 <label x="25.4" y="-17.78" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP13" gate="G$1" pin="3"/>
+<wire x1="535.94" y1="147.32" x2="525.78" y2="147.32" width="0.1524" layer="91"/>
+<label x="525.78" y="144.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$51" class="0">
 <segment>
@@ -36095,6 +36100,11 @@ cut a BOM line item</text>
 <wire x1="370.84" y1="38.1" x2="386.08" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="38.1" x2="386.08" y2="35.56" width="0.1524" layer="91"/>
 <junction x="370.84" y="35.56"/>
+</segment>
+<segment>
+<pinref part="JP13" gate="G$1" pin="1"/>
+<wire x1="535.94" y1="152.4" x2="518.16" y2="152.4" width="0.1524" layer="91"/>
+<label x="518.16" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$16" class="0">

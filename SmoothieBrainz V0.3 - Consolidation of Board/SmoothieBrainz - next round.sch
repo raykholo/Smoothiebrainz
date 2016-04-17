@@ -33069,7 +33069,6 @@ Based on the previous libraries:
 <part name="JP8" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
 <part name="JP9" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
 <part name="JP10" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
-<part name="U$11" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$12" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$13" library="Cohesion_parts" deviceset="N-POWER-MOSFET" device="DPAK-MOSFET" value="IRLR024"/>
 <part name="R35" library="resistor" deviceset="R-EU_" device="R0603" value="10r"/>
@@ -33396,7 +33395,6 @@ cut a BOM line item</text>
 <instance part="JP8" gate="G$1" x="408.94" y="261.62" rot="R180"/>
 <instance part="JP9" gate="G$1" x="408.94" y="208.28" rot="R180"/>
 <instance part="JP10" gate="G$1" x="408.94" y="165.1" rot="R180"/>
-<instance part="U$11" gate="G$1" x="17.78" y="215.9"/>
 <instance part="U$12" gate="G$1" x="27.94" y="215.9"/>
 <instance part="U$13" gate="G$1" x="528.32" y="335.28"/>
 <instance part="R35" gate="G$1" x="508" y="332.74"/>

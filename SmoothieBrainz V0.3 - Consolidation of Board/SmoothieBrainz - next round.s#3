@@ -36103,8 +36103,8 @@ cut a BOM line item</text>
 </segment>
 <segment>
 <pinref part="JP13" gate="G$1" pin="1"/>
-<wire x1="535.94" y1="152.4" x2="518.16" y2="152.4" width="0.1524" layer="91"/>
-<label x="518.16" y="152.4" size="1.778" layer="95"/>
+<wire x1="535.94" y1="152.4" x2="525.78" y2="152.4" width="0.1524" layer="91"/>
+<label x="525.78" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$16" class="0">

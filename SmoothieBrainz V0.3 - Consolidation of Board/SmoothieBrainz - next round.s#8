@@ -33159,6 +33159,7 @@ Based on the previous libraries:
 <part name="C51" library="resistor" deviceset="C-EU" device="C0603" value=".1uF"/>
 <part name="SUPPLY57" library="supply2" deviceset="GND" device=""/>
 <part name="P+18" library="SparkFun" deviceset="3.3V" device=""/>
+<part name="GND4" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -33491,6 +33492,7 @@ cut a BOM line item</text>
 <instance part="C51" gate="G$1" x="520.7" y="58.42" rot="R270"/>
 <instance part="SUPPLY57" gate="GND" x="510.54" y="58.42" rot="R270"/>
 <instance part="P+18" gate="G$1" x="528.32" y="58.42" rot="R270"/>
+<instance part="GND4" gate="1" x="518.16" y="127"/>
 </instances>
 <busses>
 </busses>
@@ -34040,6 +34042,11 @@ cut a BOM line item</text>
 <wire x1="515.62" y1="58.42" x2="513.08" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY57" gate="GND" pin="GND"/>
 <pinref part="C51" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="T1" gate="G$1" pin="E"/>
+<wire x1="518.16" y1="129.54" x2="518.16" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">

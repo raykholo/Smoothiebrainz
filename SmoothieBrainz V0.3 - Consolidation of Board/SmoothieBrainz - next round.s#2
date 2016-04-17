@@ -33126,7 +33126,7 @@ Based on the previous libraries:
 <part name="R50" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="P+9" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
-<part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC817-40"/>
+<part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC817-40" value="BC817"/>
 <part name="JP13" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
 <part name="X1" library="con-phoenix-508" deviceset="MSTBA2" device=""/>
 <part name="D5" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>

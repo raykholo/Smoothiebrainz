@@ -35245,6 +35245,16 @@ cut a BOM line item</text>
 <label x="93.98" y="116.84" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="P1[18]/USB_UP_LED/PWM1[1]/CAP1[0]"/>
 </segment>
+<segment>
+<pinref part="R54" gate="G$1" pin="1"/>
+<wire x1="500.38" y1="137.16" x2="497.84" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="R55" gate="G$1" pin="2"/>
+<wire x1="497.84" y1="137.16" x2="469.9" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="505.46" y1="129.54" x2="497.84" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="497.84" y1="129.54" x2="497.84" y2="137.16" width="0.1524" layer="91"/>
+<junction x="497.84" y="137.16"/>
+<label x="469.9" y="137.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LED2" class="0">
 <segment>
@@ -35356,16 +35366,6 @@ cut a BOM line item</text>
 <wire x1="500.38" y1="215.9" x2="500.38" y2="223.52" width="0.1524" layer="91"/>
 <junction x="500.38" y="223.52"/>
 <label x="472.44" y="223.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R54" gate="G$1" pin="1"/>
-<wire x1="500.38" y1="137.16" x2="497.84" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="R55" gate="G$1" pin="2"/>
-<wire x1="497.84" y1="137.16" x2="469.9" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="505.46" y1="129.54" x2="497.84" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="497.84" y1="129.54" x2="497.84" y2="137.16" width="0.1524" layer="91"/>
-<junction x="497.84" y="137.16"/>
-<label x="469.9" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P2.7_HOTEND_FET" class="0">

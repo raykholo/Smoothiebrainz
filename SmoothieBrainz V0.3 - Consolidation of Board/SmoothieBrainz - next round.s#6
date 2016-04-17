@@ -37188,6 +37188,12 @@ cut a BOM line item</text>
 <pinref part="T1" gate="G$1" pin="B"/>
 </segment>
 </net>
+<net name="N$56" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="C"/>
+<wire x1="518.16" y1="142.24" x2="518.16" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
