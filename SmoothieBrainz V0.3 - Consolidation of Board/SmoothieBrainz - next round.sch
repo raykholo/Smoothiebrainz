@@ -31063,204 +31063,6 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 </deviceset>
 </devicesets>
 </library>
-<library name="keystone">
-<description>&lt;b&gt;Interconnect and Hardware Components&lt;/b&gt;&lt;p&gt;
-Keystone Electronics Corp&lt;p&gt;
-http://www.keyelco.com&lt;p&gt;
-&lt;author&gt;Created by Bob Starr, rtzaudio@mindspring.com&lt;/author&gt;</description>
-<packages>
-<package name="FH_5X20">
-<description>&lt;B&gt;FUSE&lt;/B&gt;&lt;p&gt; 5 x 20 mm</description>
-<wire x1="-11.43" y1="-1.905" x2="-11.43" y2="1.905" width="0.254" layer="21"/>
-<wire x1="-9.525" y1="2.54" x2="-9.525" y2="3.81" width="0.254" layer="21"/>
-<wire x1="-9.525" y1="3.81" x2="-5.715" y2="3.81" width="0.254" layer="21"/>
-<wire x1="-5.715" y1="2.54" x2="-5.715" y2="3.81" width="0.254" layer="21"/>
-<wire x1="-9.525" y1="-2.54" x2="-9.525" y2="-3.81" width="0.254" layer="21"/>
-<wire x1="-5.715" y1="-3.81" x2="-9.525" y2="-3.81" width="0.254" layer="21"/>
-<wire x1="-5.715" y1="-3.81" x2="-5.715" y2="-2.54" width="0.254" layer="21"/>
-<wire x1="-3.81" y1="1.905" x2="-11.43" y2="1.905" width="0.254" layer="21"/>
-<wire x1="-3.81" y1="1.905" x2="-3.81" y2="1.524" width="0.254" layer="21"/>
-<wire x1="-3.81" y1="-1.905" x2="-11.43" y2="-1.905" width="0.254" layer="21"/>
-<wire x1="3.81" y1="-1.905" x2="3.81" y2="-1.524" width="0.254" layer="21"/>
-<wire x1="5.715" y1="2.54" x2="5.715" y2="3.81" width="0.254" layer="21"/>
-<wire x1="5.715" y1="3.81" x2="9.525" y2="3.81" width="0.254" layer="21"/>
-<wire x1="9.525" y1="2.54" x2="9.525" y2="3.81" width="0.254" layer="21"/>
-<wire x1="5.715" y1="-2.54" x2="5.715" y2="-3.81" width="0.254" layer="21"/>
-<wire x1="9.525" y1="-3.81" x2="5.715" y2="-3.81" width="0.254" layer="21"/>
-<wire x1="9.525" y1="-3.81" x2="9.525" y2="-2.54" width="0.254" layer="21"/>
-<wire x1="11.43" y1="1.905" x2="3.81" y2="1.905" width="0.254" layer="21"/>
-<wire x1="11.43" y1="1.905" x2="11.43" y2="-1.905" width="0.254" layer="21"/>
-<wire x1="11.43" y1="-1.905" x2="3.81" y2="-1.905" width="0.254" layer="21"/>
-<wire x1="-4.445" y1="2.794" x2="4.445" y2="2.794" width="0.254" layer="21"/>
-<wire x1="-4.445" y1="-2.794" x2="4.445" y2="-2.794" width="0.254" layer="21"/>
-<wire x1="-3.81" y1="1.524" x2="3.81" y2="-1.524" width="0.254" layer="21"/>
-<wire x1="-3.81" y1="1.524" x2="-3.81" y2="-1.905" width="0.254" layer="21"/>
-<wire x1="3.81" y1="-1.524" x2="3.81" y2="1.905" width="0.254" layer="21"/>
-<circle x="0" y="0" radius="0.127" width="0.1524" layer="21"/>
-<pad name="1A" x="-10.16" y="0" drill="1.1938" shape="long" rot="R90"/>
-<pad name="2A" x="10.16" y="0" drill="1.1938" shape="long" rot="R90"/>
-<pad name="1B" x="-5.08" y="0" drill="1.1938" shape="long" rot="R90"/>
-<pad name="2B" x="5.08" y="0" drill="1.1938" shape="long" rot="R90"/>
-<text x="-10.795" y="4.445" size="1.778" layer="25">&gt;NAME</text>
-<text x="-4.445" y="-5.715" size="1.778" layer="27">&gt;VALUE</text>
-<rectangle x1="-10.795" y1="1.905" x2="-9.525" y2="3.175" layer="21"/>
-<rectangle x1="-10.795" y1="-3.175" x2="-9.525" y2="-1.905" layer="21"/>
-<rectangle x1="-5.715" y1="1.905" x2="-4.445" y2="3.175" layer="21"/>
-<rectangle x1="-5.715" y1="-3.175" x2="-4.445" y2="-1.905" layer="21"/>
-<rectangle x1="4.445" y1="1.905" x2="5.715" y2="3.175" layer="21"/>
-<rectangle x1="4.445" y1="-3.175" x2="5.715" y2="-1.905" layer="21"/>
-<rectangle x1="9.525" y1="1.905" x2="10.795" y2="3.175" layer="21"/>
-<rectangle x1="9.525" y1="-3.175" x2="10.795" y2="-1.905" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="FUSE-2">
-<wire x1="3.4925" y1="1.27" x2="-3.4925" y2="1.27" width="0.254" layer="94"/>
-<wire x1="3.4925" y1="-1.27" x2="-3.4925" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-3.4925" y1="1.27" x2="-3.4925" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="3.4925" y1="1.27" x2="3.4925" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<text x="-3.175" y="1.905" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.175" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<pin name="2A" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="1B" x="-5.08" y="0" visible="off" length="point" direction="pas"/>
-<pin name="2B" x="5.08" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="FH_5X20" prefix="F" uservalue="yes">
-<description>&lt;B&gt;FUSE&lt;/B&gt;&lt;p&gt;
-5 x 20 mm</description>
-<gates>
-<gate name="G$1" symbol="FUSE-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="FH_5X20">
-<connects>
-<connect gate="G$1" pin="1A" pad="1A"/>
-<connect gate="G$1" pin="1B" pad="1B"/>
-<connect gate="G$1" pin="2A" pad="2A"/>
-<connect gate="G$1" pin="2B" pad="2B"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="Fairchild Rectifier Diodes s3x_10">
-<description>&lt;b&gt;Fairchild S3x Rectifier Diodes&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;
-Version 1.0&lt;br&gt;
-&amp;copy; 2015 Samuel Lourenço</description>
-<packages>
-<package name="DO214AB">
-<description>&lt;b&gt;DO-214AB (SMC) Surface Mount Diode&lt;/b&gt;</description>
-<smd name="C" x="-3.4" y="0" dx="2.5" dy="3.3" layer="1"/>
-<smd name="A" x="3.4" y="0" dx="2.5" dy="3.3" layer="1"/>
-<rectangle x1="-1.5" y1="-1.5" x2="1.5" y2="1.5" layer="35"/>
-<wire x1="-3.45" y1="1.83" x2="-3.45" y2="2.95" width="0.1524" layer="21"/>
-<wire x1="-3.45" y1="2.95" x2="3.45" y2="2.95" width="0.1524" layer="21"/>
-<wire x1="3.45" y1="2.95" x2="3.45" y2="1.83" width="0.1524" layer="21"/>
-<wire x1="-3.45" y1="-1.83" x2="-3.45" y2="-2.95" width="0.1524" layer="21"/>
-<wire x1="-3.45" y1="-2.95" x2="3.45" y2="-2.95" width="0.1524" layer="21"/>
-<wire x1="3.45" y1="-2.95" x2="3.45" y2="-1.83" width="0.1524" layer="21"/>
-<wire x1="-3.45" y1="-1.83" x2="-3.45" y2="1.83" width="0.1524" layer="51"/>
-<wire x1="3.45" y1="-1.83" x2="3.45" y2="1.83" width="0.1524" layer="51"/>
-<rectangle x1="-2.95" y1="1.75" x2="-2.45" y2="2.95" layer="21"/>
-<rectangle x1="-2.95" y1="-2.95" x2="-2.45" y2="-1.75" layer="21"/>
-<rectangle x1="-2.95" y1="-1.75" x2="-2.45" y2="1.75" layer="51"/>
-<rectangle x1="-3.95" y1="-1.48" x2="-3.45" y2="1.48" layer="51"/>
-<rectangle x1="3.45" y1="-1.48" x2="3.95" y2="1.48" layer="51"/>
-<text x="-3.4" y="3.35" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.4" y="-4.65" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="D">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="S3*" prefix="D">
-<description>&lt;b&gt;S3A - S3N&lt;/b&gt; General Purpose Rectifiers&lt;br&gt;
-&lt;br&gt;
-Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http://www.fairchildsemi.com/datasheets/S3/S3A.pdf&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DO214AB">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="A">
-<attribute name="MF" value="Fairchild" constant="no"/>
-<attribute name="MPN" value="S3A" constant="no"/>
-<attribute name="OC_FARNELL" value="1017803" constant="no"/>
-<attribute name="OC_NEWARK" value="58K2395" constant="no"/>
-</technology>
-<technology name="B">
-<attribute name="MF" value="Fairchild" constant="no"/>
-<attribute name="MPN" value="S3B" constant="no"/>
-<attribute name="OC_FARNELL" value="2454093" constant="no"/>
-<attribute name="OC_NEWARK" value="58K2396" constant="no"/>
-</technology>
-<technology name="D">
-<attribute name="MF" value="Fairchild" constant="no"/>
-<attribute name="MPN" value="S3D" constant="no"/>
-<attribute name="OC_FARNELL" value="1017804" constant="no"/>
-<attribute name="OC_NEWARK" value="95M9092" constant="no"/>
-</technology>
-<technology name="G">
-<attribute name="MF" value="Fairchild" constant="no"/>
-<attribute name="MPN" value="S3G" constant="no"/>
-<attribute name="OC_FARNELL" value="2454094" constant="no"/>
-<attribute name="OC_NEWARK" value="58K2397" constant="no"/>
-</technology>
-<technology name="J">
-<attribute name="MF" value="Fairchild" constant="no"/>
-<attribute name="MPN" value="S3J" constant="no"/>
-<attribute name="OC_FARNELL" value="2454095" constant="no"/>
-<attribute name="OC_NEWARK" value="31Y4762" constant="no"/>
-</technology>
-<technology name="K">
-<attribute name="MF" value="Fairchild" constant="no"/>
-<attribute name="MPN" value="S3K" constant="no"/>
-<attribute name="OC_FARNELL" value="2454096" constant="no"/>
-<attribute name="OC_NEWARK" value="31Y4763" constant="no"/>
-</technology>
-<technology name="M">
-<attribute name="MF" value="Fairchild" constant="no"/>
-<attribute name="MPN" value="S3M" constant="no"/>
-<attribute name="OC_FARNELL" value="9843884" constant="no"/>
-<attribute name="OC_NEWARK" value="58K2398" constant="no"/>
-</technology>
-<technology name="N">
-<attribute name="MF" value="Fairchild" constant="no"/>
-<attribute name="MPN" value="S3N" constant="no"/>
-<attribute name="OC_FARNELL" value="2454367" constant="no"/>
-<attribute name="OC_NEWARK" value="31Y4764" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="transistor">
 <description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -33306,14 +33108,12 @@ Based on the previous libraries:
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="LED10" library="led" deviceset="LED" device="SML0805"/>
 <part name="R45" library="resistor" deviceset="R-EU_" device="R0603" value="1.5k"/>
-<part name="F1" library="keystone" deviceset="FH_5X20" device=""/>
 <part name="U$16" library="Cohesion_parts" deviceset="N-POWER-MOSFET" device="DPAK-MOSFET" value="IRLR024"/>
 <part name="R46" library="resistor" deviceset="R-EU_" device="R0603" value="10r"/>
 <part name="R47" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="LED11" library="led" deviceset="LED" device="SML0805"/>
 <part name="R48" library="resistor" deviceset="R-EU_" device="R0603" value="1.5k"/>
-<part name="D4" library="Fairchild Rectifier Diodes s3x_10" deviceset="S3*" device="" technology="A" value="SS34"/>
 <part name="U$8" library="RepRapjr" deviceset="POLOLU_A4983CARRIER" device=""/>
 <part name="C41" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
 <part name="C42" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
@@ -33642,14 +33442,12 @@ cut a BOM line item</text>
 <instance part="GND2" gate="1" x="520.7" y="243.84"/>
 <instance part="LED10" gate="G$1" x="492.76" y="269.24" rot="MR270"/>
 <instance part="R45" gate="G$1" x="510.54" y="269.24" rot="MR180"/>
-<instance part="F1" gate="G$1" x="370.84" y="363.22"/>
 <instance part="U$16" gate="G$1" x="528.32" y="226.06"/>
 <instance part="R46" gate="G$1" x="508" y="223.52"/>
 <instance part="R47" gate="G$1" x="513.08" y="215.9" rot="R180"/>
 <instance part="GND3" gate="1" x="520.7" y="210.82"/>
 <instance part="LED11" gate="G$1" x="492.76" y="236.22" rot="MR270"/>
 <instance part="R48" gate="G$1" x="510.54" y="236.22" rot="MR180"/>
-<instance part="D4" gate="G$1" x="314.96" y="317.5" rot="R90"/>
 <instance part="U$8" gate="G$1" x="347.98" y="78.74"/>
 <instance part="C41" gate="G$1" x="373.38" y="81.28" rot="R90"/>
 <instance part="C42" gate="G$1" x="373.38" y="66.04" rot="R90"/>

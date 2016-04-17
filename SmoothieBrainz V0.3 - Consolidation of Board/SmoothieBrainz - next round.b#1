@@ -11395,86 +11395,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="keystone">
-<description>&lt;b&gt;Interconnect and Hardware Components&lt;/b&gt;&lt;p&gt;
-Keystone Electronics Corp&lt;p&gt;
-http://www.keyelco.com&lt;p&gt;
-&lt;author&gt;Created by Bob Starr, rtzaudio@mindspring.com&lt;/author&gt;</description>
-<packages>
-<package name="FH_5X20">
-<description>&lt;B&gt;FUSE&lt;/B&gt;&lt;p&gt; 5 x 20 mm</description>
-<wire x1="-11.43" y1="-1.905" x2="-11.43" y2="1.905" width="0.254" layer="21"/>
-<wire x1="-9.525" y1="2.54" x2="-9.525" y2="3.81" width="0.254" layer="21"/>
-<wire x1="-9.525" y1="3.81" x2="-5.715" y2="3.81" width="0.254" layer="21"/>
-<wire x1="-5.715" y1="2.54" x2="-5.715" y2="3.81" width="0.254" layer="21"/>
-<wire x1="-9.525" y1="-2.54" x2="-9.525" y2="-3.81" width="0.254" layer="21"/>
-<wire x1="-5.715" y1="-3.81" x2="-9.525" y2="-3.81" width="0.254" layer="21"/>
-<wire x1="-5.715" y1="-3.81" x2="-5.715" y2="-2.54" width="0.254" layer="21"/>
-<wire x1="-3.81" y1="1.905" x2="-11.43" y2="1.905" width="0.254" layer="21"/>
-<wire x1="-3.81" y1="1.905" x2="-3.81" y2="1.524" width="0.254" layer="21"/>
-<wire x1="-3.81" y1="-1.905" x2="-11.43" y2="-1.905" width="0.254" layer="21"/>
-<wire x1="3.81" y1="-1.905" x2="3.81" y2="-1.524" width="0.254" layer="21"/>
-<wire x1="5.715" y1="2.54" x2="5.715" y2="3.81" width="0.254" layer="21"/>
-<wire x1="5.715" y1="3.81" x2="9.525" y2="3.81" width="0.254" layer="21"/>
-<wire x1="9.525" y1="2.54" x2="9.525" y2="3.81" width="0.254" layer="21"/>
-<wire x1="5.715" y1="-2.54" x2="5.715" y2="-3.81" width="0.254" layer="21"/>
-<wire x1="9.525" y1="-3.81" x2="5.715" y2="-3.81" width="0.254" layer="21"/>
-<wire x1="9.525" y1="-3.81" x2="9.525" y2="-2.54" width="0.254" layer="21"/>
-<wire x1="11.43" y1="1.905" x2="3.81" y2="1.905" width="0.254" layer="21"/>
-<wire x1="11.43" y1="1.905" x2="11.43" y2="-1.905" width="0.254" layer="21"/>
-<wire x1="11.43" y1="-1.905" x2="3.81" y2="-1.905" width="0.254" layer="21"/>
-<wire x1="-4.445" y1="2.794" x2="4.445" y2="2.794" width="0.254" layer="21"/>
-<wire x1="-4.445" y1="-2.794" x2="4.445" y2="-2.794" width="0.254" layer="21"/>
-<wire x1="-3.81" y1="1.524" x2="3.81" y2="-1.524" width="0.254" layer="21"/>
-<wire x1="-3.81" y1="1.524" x2="-3.81" y2="-1.905" width="0.254" layer="21"/>
-<wire x1="3.81" y1="-1.524" x2="3.81" y2="1.905" width="0.254" layer="21"/>
-<circle x="0" y="0" radius="0.127" width="0.1524" layer="21"/>
-<pad name="1A" x="-10.16" y="0" drill="1.1938" shape="long" rot="R90"/>
-<pad name="2A" x="10.16" y="0" drill="1.1938" shape="long" rot="R90"/>
-<pad name="1B" x="-5.08" y="0" drill="1.1938" shape="long" rot="R90"/>
-<pad name="2B" x="5.08" y="0" drill="1.1938" shape="long" rot="R90"/>
-<text x="-10.795" y="4.445" size="1.778" layer="25">&gt;NAME</text>
-<text x="-4.445" y="-5.715" size="1.778" layer="27">&gt;VALUE</text>
-<rectangle x1="-10.795" y1="1.905" x2="-9.525" y2="3.175" layer="21"/>
-<rectangle x1="-10.795" y1="-3.175" x2="-9.525" y2="-1.905" layer="21"/>
-<rectangle x1="-5.715" y1="1.905" x2="-4.445" y2="3.175" layer="21"/>
-<rectangle x1="-5.715" y1="-3.175" x2="-4.445" y2="-1.905" layer="21"/>
-<rectangle x1="4.445" y1="1.905" x2="5.715" y2="3.175" layer="21"/>
-<rectangle x1="4.445" y1="-3.175" x2="5.715" y2="-1.905" layer="21"/>
-<rectangle x1="9.525" y1="1.905" x2="10.795" y2="3.175" layer="21"/>
-<rectangle x1="9.525" y1="-3.175" x2="10.795" y2="-1.905" layer="21"/>
-</package>
-</packages>
-</library>
-<library name="Fairchild Rectifier Diodes s3x_10">
-<description>&lt;b&gt;Fairchild S3x Rectifier Diodes&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;
-Version 1.0&lt;br&gt;
-&amp;copy; 2015 Samuel Lourenço</description>
-<packages>
-<package name="DO214AB">
-<description>&lt;b&gt;DO-214AB (SMC) Surface Mount Diode&lt;/b&gt;</description>
-<smd name="C" x="-3.4" y="0" dx="2.5" dy="3.3" layer="1"/>
-<smd name="A" x="3.4" y="0" dx="2.5" dy="3.3" layer="1"/>
-<rectangle x1="-1.5" y1="-1.5" x2="1.5" y2="1.5" layer="35"/>
-<wire x1="-3.45" y1="1.83" x2="-3.45" y2="2.95" width="0.1524" layer="21"/>
-<wire x1="-3.45" y1="2.95" x2="3.45" y2="2.95" width="0.1524" layer="21"/>
-<wire x1="3.45" y1="2.95" x2="3.45" y2="1.83" width="0.1524" layer="21"/>
-<wire x1="-3.45" y1="-1.83" x2="-3.45" y2="-2.95" width="0.1524" layer="21"/>
-<wire x1="-3.45" y1="-2.95" x2="3.45" y2="-2.95" width="0.1524" layer="21"/>
-<wire x1="3.45" y1="-2.95" x2="3.45" y2="-1.83" width="0.1524" layer="21"/>
-<wire x1="-3.45" y1="-1.83" x2="-3.45" y2="1.83" width="0.1524" layer="51"/>
-<wire x1="3.45" y1="-1.83" x2="3.45" y2="1.83" width="0.1524" layer="51"/>
-<rectangle x1="-2.95" y1="1.75" x2="-2.45" y2="2.95" layer="21"/>
-<rectangle x1="-2.95" y1="-2.95" x2="-2.45" y2="-1.75" layer="21"/>
-<rectangle x1="-2.95" y1="-1.75" x2="-2.45" y2="1.75" layer="51"/>
-<rectangle x1="-3.95" y1="-1.48" x2="-3.45" y2="1.48" layer="51"/>
-<rectangle x1="3.45" y1="-1.48" x2="3.95" y2="1.48" layer="51"/>
-<text x="-3.4" y="3.35" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.4" y="-4.65" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-</library>
 <library name="transistor">
 <description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -12350,7 +12270,6 @@ Based on the previous libraries:
 <attribute name="NAME" x="28.35275" y="21.68525" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="25.43175" y="21.68525" size="0.8128" layer="27" rot="R270"/>
 </element>
-<element name="F1" library="keystone" package="FH_5X20" value="" x="110.49" y="-20.79625"/>
 <element name="U$16" library="Cohesion_parts" package="D-PAK_TO252AA" value="IRLR024" x="34.76625" y="15.24" smashed="yes" rot="R180">
 <attribute name="NAME" x="38.57625" y="17.78" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="32.22625" y="16.1925" size="0.8128" layer="27"/>
@@ -12370,14 +12289,6 @@ Based on the previous libraries:
 <element name="R48" library="resistor" package="R0603" value="1.5k" x="35.08375" y="20.79625" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.97275" y="21.68525" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="33.05175" y="21.68525" size="0.8128" layer="27" rot="R270"/>
-</element>
-<element name="D4" library="Fairchild Rectifier Diodes s3x_10" package="DO214AB" value="SS34" x="-62.23" y="72.7075" smashed="yes" rot="R90">
-<attribute name="OC_NEWARK" value="58K2395" x="-62.23" y="72.7075" size="0.8128" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="S3A" x="-62.23" y="72.7075" size="0.8128" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Fairchild" x="-62.23" y="72.7075" size="0.8128" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="1017803" x="-62.23" y="72.7075" size="0.8128" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-65.58" y="69.3075" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="-64.08875" y="71.37125" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="U$8" library="RepRapjr" package="A4988BREAKOUT" value="POLOLU_A4983CARRIER" x="68.1434375" y="76.40625" rot="R90"/>
 <element name="C41" library="resistor" package="C0603" value="104" x="69.5325" y="76.35875" rot="R90"/>
@@ -13039,6 +12950,7 @@ Based on the previous libraries:
 <wire x1="55.7019" y1="27.226690625" x2="55.801690625" y2="27.226690625" width="0.254" layer="1"/>
 <wire x1="55.801690625" y1="27.226690625" x2="56.99125" y2="28.41625" width="0.254" layer="1"/>
 <wire x1="51.990625" y1="33.416875" x2="56.99125" y2="28.41625" width="0.254" layer="1"/>
+<wire x1="42.8625" y1="24.8675" x2="43.44125" y2="24.28875" width="0.254" layer="1"/>
 <wire x1="75.74" y1="45.55375" x2="81.055" y2="45.06375" width="0" layer="19" extent="1-1"/>
 <wire x1="84.328" y1="38.58875" x2="81.055" y2="45.06375" width="0" layer="19" extent="1-1"/>
 <wire x1="31.19755" y1="45.710475" x2="31.222" y2="45.715625" width="0" layer="19" extent="1-1"/>
@@ -13049,13 +12961,12 @@ Based on the previous libraries:
 <wire x1="79.1975" y1="6.6575" x2="81.75375" y2="3.063875" width="0" layer="19" extent="1-1"/>
 <wire x1="71.33" y1="6.6575" x2="73.975" y2="3.063875" width="0" layer="19" extent="1-1"/>
 <wire x1="63.530625" y1="6.6575" x2="66.19875" y2="3.063875" width="0" layer="19" extent="1-1"/>
-<wire x1="47.579040625" y1="30.320790625" x2="42.8625" y2="28.575" width="0" layer="19" extent="1-1"/>
 <wire x1="65.95495" y1="38.893953125" x2="62.419415625" y2="42.4294875" width="0" layer="19" extent="1-1"/>
+<wire x1="47.579040625" y1="30.320790625" x2="42.8625" y2="28.575" width="0" layer="19" extent="1-1"/>
 <wire x1="49.337940625" y1="38.186846875" x2="51.990625" y2="33.416875" width="0" layer="19" extent="1-1"/>
 <wire x1="70.7265" y1="51.957125" x2="65.923" y2="47.88375" width="0" layer="19" extent="1-1"/>
 <wire x1="59.622" y1="51.73125" x2="65.26854375" y2="47.22929375" width="0" layer="19" extent="1-1"/>
 <wire x1="56" y1="51.18875" x2="59.622" y2="51.73125" width="0" layer="19" extent="1-1"/>
-<wire x1="42.8625" y1="24.8675" x2="43.44125" y2="24.28875" width="0.254" layer="1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="IC1" pad="96"/>
@@ -13391,21 +13302,6 @@ Based on the previous libraries:
 <wire x1="41.275" y1="30.48" x2="41.275" y2="33.02" width="0.254" layer="1"/>
 <wire x1="44.4801" y1="28.255" x2="45.51325" y2="28.255" width="0.254" layer="1"/>
 <wire x1="45.51325" y1="28.255" x2="46.37695625" y2="29.11870625" width="0.254" layer="1"/>
-<wire x1="91.225" y1="75.2475" x2="92.19" y2="67.35875" width="0" layer="19" extent="1-1"/>
-<wire x1="81.055" y1="61.26375" x2="92.19" y2="67.35875" width="0" layer="19" extent="1-1"/>
-<wire x1="76.04" y1="54.75375" x2="81.055" y2="61.26375" width="0" layer="19" extent="1-1"/>
-<wire x1="75.84" y1="52.45375" x2="76.04" y2="54.75375" width="0" layer="19" extent="1-1"/>
-<wire x1="69.413040625" y1="41.736790625" x2="75.79" y2="47.90375" width="0" layer="19" extent="1-1"/>
-<wire x1="67.015609375" y1="37.833290625" x2="69.413040625" y2="41.736790625" width="0" layer="19" extent="1-1"/>
-<wire x1="65.601396875" y1="32.529990625" x2="67.015609375" y2="37.804359375" width="0" layer="19" extent="1-1"/>
-<wire x1="64.066459375" y1="44.783634375" x2="69.413040625" y2="41.736790625" width="0" layer="19" extent="1-1"/>
-<wire x1="49.69149375" y1="38.5404" x2="55.7019" y2="44.55080625" width="0" layer="19" extent="1-1"/>
-<wire x1="51.7" y1="25.08875" x2="48.713625" y2="29.874375" width="0" layer="19" extent="1-1"/>
-<wire x1="42.5785" y1="16.30625" x2="45.14125" y2="24.28875" width="0" layer="19" extent="1-16"/>
-<wire x1="81.4385" y1="23.32075" x2="81.4" y2="23.28875" width="0" layer="19" extent="1-1"/>
-<wire x1="46.0275" y1="6.6575" x2="46.355" y2="6.6675" width="0" layer="19" extent="1-16"/>
-<wire x1="37.059375" y1="45.92375" x2="38.735" y2="39.0525" width="0" layer="19" extent="1-1"/>
-<wire x1="81.11104375" y1="40.24070625" x2="75.79" y2="47.90375" width="0" layer="19" extent="1-1"/>
 <wire x1="45.14125" y1="24.28875" x2="45.14125" y2="24.70875" width="0.254" layer="1"/>
 <wire x1="45.14125" y1="24.70875" x2="44.45" y2="25.4" width="0.254" layer="1"/>
 <wire x1="44.45" y1="25.4" x2="43.97375" y2="25.4" width="0.254" layer="1"/>
@@ -13417,6 +13313,20 @@ Based on the previous libraries:
 <via x="44.45" y="20.955" extent="1-16" drill="0.5"/>
 <wire x1="44.45" y1="20.955" x2="45.14125" y2="21.64625" width="0.254" layer="1"/>
 <wire x1="45.14125" y1="24.28875" x2="45.14125" y2="21.64625" width="0.254" layer="1"/>
+<wire x1="91.225" y1="75.2475" x2="92.19" y2="67.35875" width="0" layer="19" extent="1-1"/>
+<wire x1="81.055" y1="61.26375" x2="92.19" y2="67.35875" width="0" layer="19" extent="1-1"/>
+<wire x1="76.04" y1="54.75375" x2="81.055" y2="61.26375" width="0" layer="19" extent="1-1"/>
+<wire x1="75.84" y1="52.45375" x2="76.04" y2="54.75375" width="0" layer="19" extent="1-1"/>
+<wire x1="69.413040625" y1="41.736790625" x2="75.79" y2="47.90375" width="0" layer="19" extent="1-1"/>
+<wire x1="67.015609375" y1="37.833290625" x2="69.413040625" y2="41.736790625" width="0" layer="19" extent="1-1"/>
+<wire x1="65.601396875" y1="32.529990625" x2="67.015609375" y2="37.804359375" width="0" layer="19" extent="1-1"/>
+<wire x1="64.066459375" y1="44.783634375" x2="69.413040625" y2="41.736790625" width="0" layer="19" extent="1-1"/>
+<wire x1="49.69149375" y1="38.5404" x2="55.7019" y2="44.55080625" width="0" layer="19" extent="1-1"/>
+<wire x1="81.4385" y1="23.32075" x2="81.4" y2="23.28875" width="0" layer="19" extent="1-1"/>
+<wire x1="46.0275" y1="6.6575" x2="46.355" y2="6.6675" width="0" layer="19" extent="1-16"/>
+<wire x1="50.36129375" y1="22.66370625" x2="45.14125" y2="21.64625" width="0" layer="19" extent="1-1"/>
+<wire x1="37.059375" y1="45.92375" x2="38.735" y2="39.0525" width="0" layer="19" extent="1-1"/>
+<wire x1="81.11104375" y1="40.24070625" x2="75.79" y2="47.90375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AVCC">
 <contactref element="IC1" pad="10"/>
