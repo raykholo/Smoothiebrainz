@@ -33004,7 +33004,7 @@ Based on the previous libraries:
 <part name="R31" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R4" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R16" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="C28" library="resistor" deviceset="C-EU" device="C0603" value=".1uF"/>
+<part name="C28" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
 <part name="SJ2" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
 <part name="SJ3" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
 <part name="SJ4" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
@@ -33095,7 +33095,7 @@ Based on the previous libraries:
 <part name="JP12" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
 <part name="U1" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223"/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
-<part name="RN2" library="resistor-dil" deviceset="4R-N" device="0603-ARV"/>
+<part name="RN2" library="resistor-dil" deviceset="4R-N" device="0603-ARV" value="4k7"/>
 <part name="U$14" library="Cohesion_parts" deviceset="N-POWER-MOSFET" device="DPAK-MOSFET" value="IRLR024"/>
 <part name="R40" library="resistor" deviceset="R-EU_" device="R0603" value="10r"/>
 <part name="R41" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
@@ -33126,11 +33126,8 @@ Based on the previous libraries:
 <part name="R50" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="P+9" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
-<part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC817-40"/>
+<part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC817-40" value="BC817"/>
 <part name="JP13" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
-<part name="JP14" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
-<part name="JP15" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
-<part name="JP16" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
 <part name="X1" library="con-phoenix-508" deviceset="MSTBA2" device=""/>
 <part name="D5" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>
 <part name="D6" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>
@@ -33162,6 +33159,9 @@ Based on the previous libraries:
 <part name="C51" library="resistor" deviceset="C-EU" device="C0603" value=".1uF"/>
 <part name="SUPPLY57" library="supply2" deviceset="GND" device=""/>
 <part name="P+18" library="SparkFun" deviceset="3.3V" device=""/>
+<part name="GND4" library="supply1" deviceset="GND" device=""/>
+<part name="R54" library="resistor" deviceset="R-EU_" device="R0603" value="10r"/>
+<part name="R55" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
 </parts>
 <sheets>
 <sheet>
@@ -33460,11 +33460,8 @@ cut a BOM line item</text>
 <instance part="R50" gate="G$1" x="317.5" y="88.9" rot="R90"/>
 <instance part="P+9" gate="G$1" x="317.5" y="96.52"/>
 <instance part="JP3" gate="G$1" x="408.94" y="73.66" rot="R180"/>
-<instance part="T1" gate="G$1" x="525.78" y="157.48"/>
-<instance part="JP13" gate="G$1" x="548.64" y="157.48"/>
-<instance part="JP14" gate="G$1" x="548.64" y="142.24"/>
-<instance part="JP15" gate="G$1" x="548.64" y="127"/>
-<instance part="JP16" gate="G$1" x="548.64" y="111.76"/>
+<instance part="T1" gate="G$1" x="515.62" y="137.16"/>
+<instance part="JP13" gate="G$1" x="543.56" y="149.86" rot="R180"/>
 <instance part="X1" gate="-1" x="515.62" y="187.96"/>
 <instance part="X1" gate="-2" x="515.62" y="177.8"/>
 <instance part="D5" gate="G$1" x="551.18" y="325.12" rot="R180"/>
@@ -33497,6 +33494,9 @@ cut a BOM line item</text>
 <instance part="C51" gate="G$1" x="520.7" y="58.42" rot="R270"/>
 <instance part="SUPPLY57" gate="GND" x="510.54" y="58.42" rot="R270"/>
 <instance part="P+18" gate="G$1" x="528.32" y="58.42" rot="R270"/>
+<instance part="GND4" gate="1" x="518.16" y="121.92"/>
+<instance part="R54" gate="G$1" x="505.46" y="137.16"/>
+<instance part="R55" gate="G$1" x="510.54" y="129.54" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -34046,6 +34046,15 @@ cut a BOM line item</text>
 <wire x1="515.62" y1="58.42" x2="513.08" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY57" gate="GND" pin="GND"/>
 <pinref part="C51" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="T1" gate="G$1" pin="E"/>
+<wire x1="518.16" y1="124.46" x2="518.16" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="R55" gate="G$1" pin="1"/>
+<wire x1="518.16" y1="129.54" x2="518.16" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="129.54" x2="518.16" y2="129.54" width="0.1524" layer="91"/>
+<junction x="518.16" y="129.54"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -35348,6 +35357,16 @@ cut a BOM line item</text>
 <junction x="500.38" y="223.52"/>
 <label x="472.44" y="223.52" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R54" gate="G$1" pin="1"/>
+<wire x1="500.38" y1="137.16" x2="497.84" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="R55" gate="G$1" pin="2"/>
+<wire x1="497.84" y1="137.16" x2="469.9" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="505.46" y1="129.54" x2="497.84" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="497.84" y1="129.54" x2="497.84" y2="137.16" width="0.1524" layer="91"/>
+<junction x="497.84" y="137.16"/>
+<label x="469.9" y="137.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="P2.7_HOTEND_FET" class="0">
 <segment>
@@ -35892,6 +35911,11 @@ cut a BOM line item</text>
 <wire x1="35.56" y1="-17.78" x2="25.4" y2="-17.78" width="0.1524" layer="91"/>
 <label x="25.4" y="-17.78" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP13" gate="G$1" pin="3"/>
+<wire x1="535.94" y1="147.32" x2="525.78" y2="147.32" width="0.1524" layer="91"/>
+<label x="525.78" y="144.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$51" class="0">
 <segment>
@@ -36076,6 +36100,11 @@ cut a BOM line item</text>
 <wire x1="370.84" y1="38.1" x2="386.08" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="38.1" x2="386.08" y2="35.56" width="0.1524" layer="91"/>
 <junction x="370.84" y="35.56"/>
+</segment>
+<segment>
+<pinref part="JP13" gate="G$1" pin="1"/>
+<wire x1="535.94" y1="152.4" x2="525.78" y2="152.4" width="0.1524" layer="91"/>
+<label x="525.78" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -37160,6 +37189,23 @@ cut a BOM line item</text>
 <wire x1="500.38" y1="50.8" x2="500.38" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="IC7" gate="G$1" pin="Y"/>
 <pinref part="R53" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$55" class="0">
+<segment>
+<pinref part="R54" gate="G$1" pin="2"/>
+<wire x1="510.54" y1="137.16" x2="513.08" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G$1" pin="B"/>
+</segment>
+</net>
+<net name="N$56" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="C"/>
+<wire x1="518.16" y1="142.24" x2="518.16" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="JP13" gate="G$1" pin="2"/>
+<wire x1="518.16" y1="144.78" x2="518.16" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="535.94" y1="149.86" x2="518.16" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="149.86" x2="518.16" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
