@@ -33128,9 +33128,6 @@ Based on the previous libraries:
 <part name="JP3" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
 <part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC817-40"/>
 <part name="JP13" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
-<part name="JP14" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
-<part name="JP15" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
-<part name="JP16" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
 <part name="X1" library="con-phoenix-508" deviceset="MSTBA2" device=""/>
 <part name="D5" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>
 <part name="D6" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>
@@ -33462,9 +33459,6 @@ cut a BOM line item</text>
 <instance part="JP3" gate="G$1" x="408.94" y="73.66" rot="R180"/>
 <instance part="T1" gate="G$1" x="525.78" y="157.48"/>
 <instance part="JP13" gate="G$1" x="548.64" y="157.48"/>
-<instance part="JP14" gate="G$1" x="548.64" y="142.24"/>
-<instance part="JP15" gate="G$1" x="548.64" y="127"/>
-<instance part="JP16" gate="G$1" x="548.64" y="111.76"/>
 <instance part="X1" gate="-1" x="515.62" y="187.96"/>
 <instance part="X1" gate="-2" x="515.62" y="177.8"/>
 <instance part="D5" gate="G$1" x="551.18" y="325.12" rot="R180"/>
@@ -35248,6 +35242,11 @@ cut a BOM line item</text>
 <label x="93.98" y="114.3" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="P1[19]/MC0A/USB_PPWR/CAP1[1]"/>
 </segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="DIR"/>
+<wire x1="322.58" y1="17.78" x2="314.96" y2="17.78" width="0.1524" layer="91"/>
+<label x="314.96" y="17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LED3" class="0">
 <segment>
@@ -35260,6 +35259,11 @@ cut a BOM line item</text>
 <label x="93.98" y="111.76" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="P1[20]/MCFB0/PWM1[2]/SCK0"/>
 </segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="STEP"/>
+<wire x1="322.58" y1="20.32" x2="314.96" y2="20.32" width="0.1524" layer="91"/>
+<label x="314.96" y="20.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LED4" class="0">
 <segment>
@@ -35271,6 +35275,15 @@ cut a BOM line item</text>
 <wire x1="129.54" y1="109.22" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
 <label x="93.98" y="109.22" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="P1[21]/MCABORT/PWM1[3]/SSEL0"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="EN"/>
+<wire x1="322.58" y1="35.56" x2="322.58" y2="38.1" width="0.1524" layer="91"/>
+<label x="322.58" y="43.18" size="1.778" layer="95"/>
+<pinref part="R52" gate="G$1" pin="1"/>
+<wire x1="322.58" y1="38.1" x2="322.58" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="38.1" x2="322.58" y2="38.1" width="0.1524" layer="91"/>
+<junction x="322.58" y="38.1"/>
 </segment>
 </net>
 <net name="TH4" class="0">
@@ -37123,31 +37136,6 @@ cut a BOM line item</text>
 <pinref part="JP19" gate="G$1" pin="1"/>
 <wire x1="388.62" y1="30.48" x2="403.86" y2="30.48" width="0.1524" layer="91"/>
 <junction x="388.62" y="30.48"/>
-</segment>
-</net>
-<net name="EN6" class="0">
-<segment>
-<pinref part="U$9" gate="G$1" pin="EN"/>
-<wire x1="322.58" y1="35.56" x2="322.58" y2="38.1" width="0.1524" layer="91"/>
-<label x="322.58" y="43.18" size="1.778" layer="95"/>
-<pinref part="R52" gate="G$1" pin="1"/>
-<wire x1="322.58" y1="38.1" x2="322.58" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="38.1" x2="322.58" y2="38.1" width="0.1524" layer="91"/>
-<junction x="322.58" y="38.1"/>
-</segment>
-</net>
-<net name="STP6" class="0">
-<segment>
-<pinref part="U$9" gate="G$1" pin="STEP"/>
-<wire x1="322.58" y1="20.32" x2="314.96" y2="20.32" width="0.1524" layer="91"/>
-<label x="314.96" y="20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DIR6" class="0">
-<segment>
-<pinref part="U$9" gate="G$1" pin="DIR"/>
-<wire x1="322.58" y1="17.78" x2="314.96" y2="17.78" width="0.1524" layer="91"/>
-<label x="314.96" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$77" class="0">
