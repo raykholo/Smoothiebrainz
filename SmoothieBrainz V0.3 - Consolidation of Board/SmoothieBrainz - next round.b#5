@@ -12310,7 +12310,10 @@ Based on the previous libraries:
 <attribute name="MF" value="" x="59.21375" y="19.685" size="0.8128" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="59.21375" y="19.685" size="0.8128" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U$14" library="Cohesion_parts" package="D-PAK_TO252AA" value="IRLR024" x="19.52625" y="15.24" rot="R180"/>
+<element name="U$14" library="Cohesion_parts" package="D-PAK_TO252AA" value="IRLR024" x="19.52625" y="15.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="23.33625" y="17.78" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="16.98625" y="16.1925" size="0.8128" layer="27"/>
+</element>
 <element name="R40" library="resistor" package="R0603" value="10r" x="21.74875" y="23.8125" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.63775" y="24.7015" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="20.939125" y="25.352375" size="0.8128" layer="27"/>
@@ -12327,7 +12330,10 @@ Based on the previous libraries:
 <attribute name="NAME" x="20.73275" y="21.68525" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="20.8915" y="19.177" size="0.8128" layer="27" rot="R180"/>
 </element>
-<element name="U$15" library="Cohesion_parts" package="D-PAK_TO252AA" value="IRLR024" x="27.14625" y="15.24" rot="R180"/>
+<element name="U$15" library="Cohesion_parts" package="D-PAK_TO252AA" value="IRLR024" x="27.14625" y="15.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="30.95625" y="17.78" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="24.60625" y="16.1925" size="0.8128" layer="27"/>
+</element>
 <element name="R43" library="resistor" package="R0603" value="10r" x="29.36875" y="23.8125" smashed="yes" rot="R270">
 <attribute name="NAME" x="30.25775" y="24.7015" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="27.33675" y="24.7015" size="0.8128" layer="27" rot="R270"/>
@@ -12345,7 +12351,10 @@ Based on the previous libraries:
 <attribute name="VALUE" x="25.43175" y="21.68525" size="0.8128" layer="27" rot="R270"/>
 </element>
 <element name="F1" library="keystone" package="FH_5X20" value="" x="110.49" y="-20.79625"/>
-<element name="U$16" library="Cohesion_parts" package="D-PAK_TO252AA" value="IRLR024" x="34.76625" y="15.24" rot="R180"/>
+<element name="U$16" library="Cohesion_parts" package="D-PAK_TO252AA" value="IRLR024" x="34.76625" y="15.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="38.57625" y="17.78" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="32.22625" y="16.1925" size="0.8128" layer="27"/>
+</element>
 <element name="R46" library="resistor" package="R0603" value="10r" x="36.98875" y="23.8125" smashed="yes" rot="R270">
 <attribute name="NAME" x="37.87775" y="24.7015" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="34.95675" y="24.7015" size="0.8128" layer="27" rot="R270"/>
@@ -13403,6 +13412,11 @@ Based on the previous libraries:
 <wire x1="43.97375" y1="25.4" x2="43.4975" y2="25.87625" width="0.254" layer="1"/>
 <wire x1="43.4975" y1="25.87625" x2="43.4975" y2="27.2724" width="0.254" layer="1"/>
 <wire x1="43.4975" y1="27.2724" x2="44.4801" y2="28.255" width="0.254" layer="1"/>
+<wire x1="44.1325" y1="14.9225" x2="44.1325" y2="20.6375" width="0.254" layer="16"/>
+<wire x1="44.1325" y1="20.6375" x2="44.45" y2="20.955" width="0.254" layer="16"/>
+<via x="44.45" y="20.955" extent="1-16" drill="0.5"/>
+<wire x1="44.45" y1="20.955" x2="45.14125" y2="21.64625" width="0.254" layer="1"/>
+<wire x1="45.14125" y1="24.28875" x2="45.14125" y2="21.64625" width="0.254" layer="1"/>
 </signal>
 <signal name="AVCC">
 <contactref element="IC1" pad="10"/>
