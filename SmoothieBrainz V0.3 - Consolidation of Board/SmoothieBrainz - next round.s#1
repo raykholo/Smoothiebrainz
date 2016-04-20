@@ -34219,7 +34219,8 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="R54" library="resistor" deviceset="R-EU_" device="R0603" value="10r"/>
 <part name="R55" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
-<part name="R56" library="varistor" deviceset="VARISTOR" device="CN0603" value="THERMISTORN0603"/>
+<part name="R56" library="varistor" deviceset="VARISTOR" device="CN0603" value="THERM"/>
+<part name="SJ26" library="SparkFun" deviceset="SOLDERJUMPER_2WAY" device="S"/>
 </parts>
 <sheets>
 <sheet>
@@ -34555,6 +34556,7 @@ cut a BOM line item</text>
 <instance part="R54" gate="G$1" x="505.46" y="137.16"/>
 <instance part="R55" gate="G$1" x="510.54" y="129.54" rot="R180"/>
 <instance part="R56" gate="G$1" x="157.48" y="353.06"/>
+<instance part="SJ26" gate="G$1" x="266.7" y="276.86" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -36940,36 +36942,6 @@ cut a BOM line item</text>
 <pinref part="D3" gate="G$1" pin="C"/>
 </segment>
 <segment>
-<pinref part="ZMX" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="327.66" x2="218.44" y2="327.66" width="0.1524" layer="91"/>
-<label x="210.82" y="327.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ZMN" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="312.42" x2="218.44" y2="312.42" width="0.1524" layer="91"/>
-<label x="210.82" y="312.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="YMX" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="297.18" x2="218.44" y2="297.18" width="0.1524" layer="91"/>
-<label x="210.82" y="297.18" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="YMN" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="281.94" x2="218.44" y2="281.94" width="0.1524" layer="91"/>
-<label x="210.82" y="281.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="XMX" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="266.7" x2="218.44" y2="266.7" width="0.1524" layer="91"/>
-<label x="210.82" y="266.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="XMN" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="251.46" x2="218.44" y2="251.46" width="0.1524" layer="91"/>
-<label x="210.82" y="251.46" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="IN"/>
 <wire x1="35.56" y1="-17.78" x2="25.4" y2="-17.78" width="0.1524" layer="91"/>
 <label x="25.4" y="-17.78" size="1.778" layer="95"/>
@@ -38274,6 +38246,42 @@ cut a BOM line item</text>
 <wire x1="518.16" y1="144.78" x2="518.16" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="535.94" y1="149.86" x2="518.16" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="518.16" y1="149.86" x2="518.16" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="V-ENDSTOP" class="0">
+<segment>
+<pinref part="ZMX" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="327.66" x2="218.44" y2="327.66" width="0.1524" layer="91"/>
+<label x="210.82" y="327.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="ZMN" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="312.42" x2="218.44" y2="312.42" width="0.1524" layer="91"/>
+<label x="210.82" y="312.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="YMX" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="297.18" x2="218.44" y2="297.18" width="0.1524" layer="91"/>
+<label x="210.82" y="297.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="YMN" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="281.94" x2="218.44" y2="281.94" width="0.1524" layer="91"/>
+<label x="210.82" y="281.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="XMX" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="266.7" x2="218.44" y2="266.7" width="0.1524" layer="91"/>
+<label x="210.82" y="266.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="XMN" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="251.46" x2="218.44" y2="251.46" width="0.1524" layer="91"/>
+<label x="210.82" y="251.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SJ26" gate="G$1" pin="1"/>
+<wire x1="261.62" y1="276.86" x2="246.38" y2="276.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
