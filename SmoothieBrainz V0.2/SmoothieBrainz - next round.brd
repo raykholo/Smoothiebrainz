@@ -21585,7 +21585,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <clearance class="1" value="0.3048"/>
 </class>
 </classes>
-<designrules name="dirt_cheap_dirty_boards.v1">
+<designrules name="dirt_cheap_dirty_boards.v1 *">
 <description language="en">&lt;b&gt;Dirty Cheap Dirty Board Design Rules&lt;/b&gt;
 &lt;br&gt;
 &lt;br&gt;Min width/Spacing: 5/5mil
@@ -21593,7 +21593,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 1.1mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="5mil"/>
+<param name="mdWireWire" value="8mil"/>
 <param name="mdWirePad" value="5mil"/>
 <param name="mdWireVia" value="5mil"/>
 <param name="mdPadPad" value="5mil"/>

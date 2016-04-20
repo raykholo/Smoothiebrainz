@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="8" display="no" altdistance="6.25" altunitdist="mil" altunit="mil"/>
+<grid distance="1.96850394" unitdist="mil" unit="mil" style="lines" multiple="8" display="no" altdistance="6.25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="2" fill="1" visible="no" active="no"/>
@@ -24246,11 +24246,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="65.323" y1="62.823" x2="66.6" y2="64.1" width="0.254" layer="1"/>
 <wire x1="66.6" y1="64.1" x2="66.6" y2="65.65" width="0.254" layer="1"/>
 <wire x1="66.6" y1="65.65" x2="66.9" y2="65.95" width="0.254" layer="1"/>
-<wire x1="69.855" y1="65.045" x2="67.805" y2="65.045" width="0.254" layer="1"/>
+<wire x1="70.75" y1="65.045" x2="67.805" y2="65.045" width="0.254" layer="1"/>
 <wire x1="67.805" y1="65.045" x2="66.9" y2="65.95" width="0.254" layer="1"/>
 <wire x1="69.755" y1="67.8" x2="69.755" y2="65.995" width="0.8128" layer="1"/>
 <wire x1="69.755" y1="65.995" x2="70.75" y2="65" width="0.8128" layer="1"/>
-<wire x1="69.855" y1="65.045" x2="70.75" y2="65" width="0" layer="19" extent="1-1"/>
+<wire x1="70.75" y1="65.045" x2="70.75" y2="65" width="0.254" layer="1"/>
 </signal>
 <signal name="X_MIN">
 <contactref element="IC1" pad="38"/>
