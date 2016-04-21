@@ -30571,7 +30571,7 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 </package>
 </packages>
 <symbols>
-<symbol name="SJ">
+<symbol name="SJ@1">
 <wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
@@ -30586,7 +30586,7 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <deviceset name="SJ" prefix="SJ" uservalue="yes">
 <description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
 <gates>
-<gate name="1" symbol="SJ" x="0" y="0"/>
+<gate name="1" symbol="SJ@1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SJ">
@@ -34222,6 +34222,7 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="R56" library="varistor" deviceset="VARISTOR" device="CN0603" value="THERM"/>
 <part name="SJ26" library="SparkFun" deviceset="SOLDERJUMPER_2WAY" device="S"/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
+<part name="SJ27" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE" value="THERM-JUMPER"/>
 </parts>
 <sheets>
 <sheet>
@@ -34559,6 +34560,7 @@ cut a BOM line item</text>
 <instance part="R56" gate="G$1" x="157.48" y="353.06"/>
 <instance part="SJ26" gate="G$1" x="266.7" y="276.86" rot="R90"/>
 <instance part="JP4" gate="G$1" x="251.46" y="-10.16"/>
+<instance part="SJ27" gate="1" x="144.78" y="353.06"/>
 </instances>
 <busses>
 </busses>
@@ -36401,8 +36403,14 @@ cut a BOM line item</text>
 </segment>
 <segment>
 <pinref part="R56" gate="G$1" pin="2"/>
-<wire x1="152.4" y1="353.06" x2="134.62" y2="353.06" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="353.06" x2="149.86" y2="353.06" width="0.1524" layer="91"/>
 <label x="134.62" y="353.06" size="1.778" layer="95"/>
+<pinref part="SJ27" gate="1" pin="2"/>
+<wire x1="149.86" y1="353.06" x2="139.7" y2="353.06" width="0.1524" layer="91"/>
+<junction x="149.86" y="353.06"/>
+<pinref part="SJ27" gate="1" pin="1"/>
+<wire x1="139.7" y1="353.06" x2="134.62" y2="353.06" width="0.1524" layer="91"/>
+<junction x="139.7" y="353.06"/>
 </segment>
 </net>
 <net name="RTS" class="0">
@@ -37038,9 +37046,10 @@ cut a BOM line item</text>
 <junction x="172.72" y="386.08"/>
 </segment>
 <segment>
-<pinref part="R56" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="353.06" x2="180.34" y2="353.06" width="0.1524" layer="91"/>
 <label x="175.26" y="353.06" size="1.778" layer="95"/>
+<wire x1="182.88" y1="353.06" x2="182.88" y2="355.6" width="0.1524" layer="91"/>
+<pinref part="R56" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="353.06" x2="182.88" y2="353.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
