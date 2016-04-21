@@ -34221,6 +34221,7 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="R55" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="R56" library="varistor" deviceset="VARISTOR" device="CN0603" value="THERM"/>
 <part name="SJ26" library="SparkFun" deviceset="SOLDERJUMPER_2WAY" device="S"/>
+<part name="JP4" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
 </parts>
 <sheets>
 <sheet>
@@ -34557,6 +34558,7 @@ cut a BOM line item</text>
 <instance part="R55" gate="G$1" x="510.54" y="129.54" rot="R180"/>
 <instance part="R56" gate="G$1" x="157.48" y="353.06"/>
 <instance part="SJ26" gate="G$1" x="266.7" y="276.86" rot="R90"/>
+<instance part="JP4" gate="G$1" x="251.46" y="-10.16"/>
 </instances>
 <busses>
 </busses>
@@ -35115,6 +35117,11 @@ cut a BOM line item</text>
 <wire x1="518.16" y1="129.54" x2="518.16" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="515.62" y1="129.54" x2="518.16" y2="129.54" width="0.1524" layer="91"/>
 <junction x="518.16" y="129.54"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="G$1" pin="3"/>
+<wire x1="259.08" y1="-7.62" x2="284.48" y2="-7.62" width="0.1524" layer="91"/>
+<label x="264.16" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -36732,6 +36739,11 @@ cut a BOM line item</text>
 <label x="106.68" y="441.96" size="1.778" layer="95" rot="MR0"/>
 <wire x1="78.74" y1="441.96" x2="106.68" y2="441.96" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="259.08" y1="-12.7" x2="284.48" y2="-12.7" width="0.1524" layer="91"/>
+<label x="264.16" y="-12.7" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PWM1_BED_HEATER" class="0">
 <segment>
@@ -36955,6 +36967,11 @@ cut a BOM line item</text>
 <pinref part="SJ26" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="276.86" x2="246.38" y2="276.86" width="0.1524" layer="91"/>
 <label x="246.38" y="276.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<wire x1="259.08" y1="-10.16" x2="284.48" y2="-10.16" width="0.1524" layer="91"/>
+<label x="264.16" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$51" class="0">
