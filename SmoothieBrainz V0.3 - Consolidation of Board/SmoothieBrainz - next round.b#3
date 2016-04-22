@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="5" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -36,8 +36,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -288,7 +288,7 @@
 <text x="20.764375" y="96.52" size="3.81" layer="21">Y</text>
 <text x="35.76625" y="96.67875" size="3.81" layer="21">Z</text>
 <text x="66.24625" y="96.67875" size="3.81" layer="21">B</text>
-<text x="80.375" y="96.2025" size="3.81" layer="21">C</text>
+<text x="80.375" y="96.67875" size="3.81" layer="21">C</text>
 <text x="51.00625" y="96.67875" size="3.81" layer="21">A</text>
 <text x="2.984375" y="78.721875" size="0.8128" layer="21" font="vector" ratio="14" rot="R270">GND</text>
 <text x="2.984375" y="76.1025" size="0.8128" layer="21" font="vector" ratio="14" rot="R270">24v</text>
@@ -2565,7 +2565,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <element name="SJ1" library="SparkFun" package="SJ_3" value="" x="41.6895" y="16.30625" rot="MR0"/>
 <element name="Q1" library="transistor-fet" package="SC74_INFINEON" value="BSL207SP" x="82.018" y="41.18375" smashed="yes" rot="R180">
 <attribute name="NAME" x="82.583" y="39.26625" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="85.123" y="39.48875" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="80.843125" y="42.908875" size="0.8128" layer="27"/>
 </element>
 <element name="IC5" library="v-reg" package="DPACK" value="LD117ADT33TR" x="26.422" y="47.995625" smashed="yes" rot="R90">
 <attribute name="NAME" x="28.962" y="44.185625" size="1.27" layer="25" rot="R180"/>
@@ -2747,7 +2747,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 </element>
 <element name="C30" library="resistor" package="C0603" value="104" x="7.62" y="95.329375" smashed="yes" rot="R180">
 <attribute name="NAME" x="8.509" y="94.567375" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="6.1595" y="94.281625" size="0.8128" layer="27" rot="R90"/>
+<attribute name="VALUE" x="6.080125" y="94.281625" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="R19" library="resistor" package="R0603" value="1k" x="12.3825" y="75.8825" smashed="yes">
 <attribute name="NAME" x="11.4935" y="76.7715" size="1.27" layer="25"/>
@@ -2772,7 +2772,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 </element>
 <element name="C33" library="resistor" package="C0603" value="104" x="22.86" y="95.329375" smashed="yes" rot="R180">
 <attribute name="NAME" x="23.749" y="94.567375" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="21.3995" y="94.281625" size="0.8128" layer="27" rot="R90"/>
+<attribute name="VALUE" x="21.320125" y="94.281625" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="R25" library="resistor" package="R0603" value="1k" x="27.6225" y="75.8825" smashed="yes">
 <attribute name="NAME" x="26.7335" y="76.7715" size="1.27" layer="25"/>
@@ -2833,7 +2833,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 </element>
 <element name="C36" library="resistor" package="C0603" value="104" x="38.1" y="95.329375" smashed="yes" rot="R180">
 <attribute name="NAME" x="38.989" y="94.567375" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="36.6395" y="94.281625" size="0.8128" layer="27" rot="R90"/>
+<attribute name="VALUE" x="36.560125" y="94.281625" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="R33" library="resistor" package="R0603" value="1k" x="42.8625" y="75.8825" smashed="yes">
 <attribute name="NAME" x="41.9735" y="76.7715" size="1.27" layer="25"/>
@@ -2908,7 +2908,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <element name="C38" library="resistor" package="C0603" value="104" x="54.76875" y="75.8825"/>
 <element name="C39" library="resistor" package="C0603" value="104" x="53.34" y="95.329375" smashed="yes" rot="R180">
 <attribute name="NAME" x="54.229" y="94.567375" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="51.8795" y="94.281625" size="0.8128" layer="27" rot="R90"/>
+<attribute name="VALUE" x="51.800125" y="94.281625" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="R38" library="resistor" package="R0603" value="1k" x="58.1025" y="75.8825"/>
 <element name="C40" library="resistor" package="153CLV-0605" value="100uF" x="58.816875" y="81.12125"/>
@@ -2993,7 +2993,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <element name="C41" library="resistor" package="C0603" value="104" x="70.00875" y="75.8825"/>
 <element name="C42" library="resistor" package="C0603" value="104" x="68.58" y="95.329375" smashed="yes" rot="R180">
 <attribute name="NAME" x="69.469" y="94.567375" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="67.1195" y="94.281625" size="0.8128" layer="27" rot="R90"/>
+<attribute name="VALUE" x="67.040125" y="94.281625" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="R49" library="resistor" package="R0603" value="1k" x="73.3425" y="75.8825"/>
 <element name="C43" library="resistor" package="153CLV-0605" value="100uF" x="74.056875" y="81.12125"/>
@@ -3053,7 +3053,10 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 </element>
 <element name="U$9" library="RepRapjr" package="A4988BREAKOUT" value="POLOLU_A4983CARRIER" x="83.3834375" y="76.40625" rot="R90"/>
 <element name="C48" library="resistor" package="C0603" value="104" x="85.24875" y="75.8825"/>
-<element name="C49" library="resistor" package="C0603" value="104" x="82.788125" y="95.329375" rot="R180"/>
+<element name="C49" library="resistor" package="C0603" value="104" x="82.788125" y="95.329375" smashed="yes" rot="R180">
+<attribute name="NAME" x="83.677125" y="94.567375" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="81.327625" y="94.122875" size="0.8128" layer="27" rot="R90"/>
+</element>
 <element name="R51" library="resistor" package="R0603" value="1k" x="88.5825" y="75.8825"/>
 <element name="C50" library="resistor" package="153CLV-0605" value="100uF" x="89.296875" y="81.12125"/>
 <element name="JP18" library="SparkFun-Connectors" package="MOLEX-1X4_LOCK" value="" x="85.725" y="98.1075"/>
@@ -8006,11 +8009,11 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <approved hash="3,16,d61a0b620c9fd1e7"/>
 <approved hash="3,16,198a100400f1017d"/>
 <approved hash="4,1,1b8a78b17ad2328d"/>
-<approved hash="4,1,4000bada1cebeedc"/>
 <approved hash="4,1,1d3979c0eb623827"/>
+<approved hash="4,1,4000bada1cebeedc"/>
 <approved hash="4,1,15ee2ab00cb97794"/>
-<approved hash="4,1,51f6dc6540b3ca27"/>
 <approved hash="4,1,5770253fc69795d9"/>
+<approved hash="4,1,51f6dc6540b3ca27"/>
 <approved hash="4,1,20e22a573e3793a5"/>
 <approved hash="4,1,6350691cf3d842e0"/>
 <approved hash="19,1,94ec2245c7b50e4d"/>
@@ -8022,10 +8025,10 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <approved hash="19,1,28af8e5336f0b485"/>
 <approved hash="19,1,d14a93a58b03d240"/>
 <approved hash="19,1,a7e522cf427f8c43"/>
-<approved hash="4,1,50fbf74e3ce142a4"/>
-<approved hash="4,1,a726cbe0321a943a"/>
 <approved hash="4,1,b3d3279d708ac872"/>
 <approved hash="4,1,a017322c3bbaae86"/>
+<approved hash="4,1,50fbf74e3ce142a4"/>
+<approved hash="4,1,a726cbe0321a943a"/>
 <approved hash="4,16,1b8a78b17ad2328d"/>
 <approved hash="4,16,1d3979c0eb623827"/>
 <approved hash="4,16,4000bada1cebeedc"/>
@@ -8035,26 +8038,30 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <approved hash="4,16,20e22a573e3793a5"/>
 <approved hash="4,16,6350691cf3d842e0"/>
 <approved hash="19,16,326a10af5913c3cc"/>
-<approved hash="19,16,c4bfcf1e5f7f4838"/>
-<approved hash="19,16,caff33f5a290464c"/>
 <approved hash="19,16,cbe3da834ac24658"/>
-<approved hash="19,16,8cd72225784fa15e"/>
-<approved hash="19,16,10c38ec669fc4bfb"/>
-<approved hash="19,16,96d5359c24049a9b"/>
-<approved hash="19,16,e46a96809652e4b8"/>
-<approved hash="19,16,2d0ce8f9b804d212"/>
+<approved hash="19,16,caff33f5a290464c"/>
+<approved hash="19,16,c4bfcf1e5f7f4838"/>
 <approved hash="19,16,f1a17c6e6ee3522e"/>
+<approved hash="19,16,2d0ce8f9b804d212"/>
 <approved hash="19,16,2ee4a7fb35c590b0"/>
 <approved hash="19,16,97d5c80dd6ab9595"/>
 <approved hash="19,16,3dcbce794a5708d3"/>
 <approved hash="19,16,60cf63c803f26c97"/>
+<approved hash="19,16,10c38ec669fc4bfb"/>
+<approved hash="19,16,8cd72225784fa15e"/>
+<approved hash="19,16,96d5359c24049a9b"/>
+<approved hash="19,16,e46a96809652e4b8"/>
 <approved hash="19,16,593ee08a5970ccae"/>
 <approved hash="19,16,9715dd46cc8a9b23"/>
 <approved hash="19,16,3cffd5b057460755"/>
 <approved hash="19,16,665970b7108f6b53"/>
 <approved hash="19,16,03ed1256fc17f056"/>
-<approved hash="19,16,02f1fb201445f042"/>
 <approved hash="19,16,0cb107cbe9aafe36"/>
+<approved hash="19,16,02f1fb201445f042"/>
+<approved hash="19,16,c3f20de762e811b9"/>
+<approved hash="19,16,afb6fa0f96e3ef30"/>
+<approved hash="19,16,fed55d4ad6d2689b"/>
+<approved hash="19,16,cc6b5e815e53ccb9"/>
 <approved hash="19,16,f13c605727af9aae"/>
 <approved hash="19,16,ff15b5903e5c6923"/>
 <approved hash="19,16,cbcb59215f27cdcd"/>
@@ -8062,71 +8069,67 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <approved hash="19,16,f92a7cee33669ac8"/>
 <approved hash="19,16,ffd5a0db247d6795"/>
 <approved hash="19,16,ca6358895757c5bd"/>
-<approved hash="19,16,c3f20de762e811b9"/>
-<approved hash="19,16,afb6fa0f96e3ef30"/>
-<approved hash="19,16,fed55d4ad6d2689b"/>
-<approved hash="19,16,cc6b5e815e53ccb9"/>
 <approved hash="19,16,e6fc9c363d8a8756"/>
-<approved hash="19,16,faf003576e328a43"/>
 <approved hash="19,16,fbecea2186608a57"/>
 <approved hash="19,16,f4b0ffbc93dd8437"/>
+<approved hash="19,16,faf003576e328a43"/>
+<approved hash="19,16,813df01ca5e760ad"/>
+<approved hash="19,16,9715ddea8026d723"/>
+<approved hash="19,16,13ca0120072615cc"/>
+<approved hash="19,16,3ee77f6c99536cb3"/>
+<approved hash="19,16,892beca5b12e60cb"/>
+<approved hash="19,16,97d5c8a19a07d995"/>
+<approved hash="19,16,126200880f561dbc"/>
 <approved hash="19,16,c4d5dab35cd94d5c"/>
 <approved hash="19,16,3fb58a476ca86d31"/>
 <approved hash="19,16,96d5353068a8d69b"/>
 <approved hash="19,16,146a0680065214b8"/>
-<approved hash="19,16,813df01ca5e760ad"/>
-<approved hash="19,16,9715ddea8026d723"/>
-<approved hash="19,16,13ca0120072615cc"/>
-<approved hash="19,16,892beca5b12e60cb"/>
-<approved hash="19,16,3ee77f6c99536cb3"/>
-<approved hash="19,16,97d5c8a19a07d995"/>
-<approved hash="19,16,126200880f561dbc"/>
 <approved hash="19,16,2e2add80dd5e2ef4"/>
 <approved hash="19,16,c2f03a95e1f00443"/>
-<approved hash="19,16,c3ecd3e309a20457"/>
 <approved hash="19,16,ccb0c67e1c1f0a37"/>
+<approved hash="19,16,c3ecd3e309a20457"/>
 <approved hash="19,16,593cf1e992117eaf"/>
 <approved hash="19,16,6f15242603ea5523"/>
 <approved hash="19,16,ebca19201f3aedd0"/>
 <approved hash="19,16,3fb753b1735d5b30"/>
 <approved hash="19,16,6ed5ccfceb64549b"/>
 <approved hash="19,16,ec6a1e801e4eeca4"/>
-<approved hash="19,16,512aed5086d87ec9"/>
 <approved hash="19,16,3ee5a69a86a65ab2"/>
+<approved hash="19,16,512aed5086d87ec9"/>
 <approved hash="19,16,6fd5316d19cb5b95"/>
 <approved hash="19,16,ea621888174ae5a0"/>
 <approved hash="19,16,3a2a118011563afc"/>
-<approved hash="19,16,faf002c35ba6be43"/>
 <approved hash="19,16,fbecebb5b3f4be57"/>
+<approved hash="19,16,faf002c35ba6be43"/>
 <approved hash="19,16,f4b0fe28a649b037"/>
 <approved hash="19,16,afb003e9d905a937"/>
 <approved hash="19,16,76d2d4a59d3d229c"/>
 <approved hash="19,16,f46956835656f4bc"/>
-<approved hash="19,16,012d7d087480d4ce"/>
 <approved hash="19,16,aee2f6c22cfea8b5"/>
+<approved hash="19,16,012d7d087480d4ce"/>
 <approved hash="19,16,77d229346f922d92"/>
 <approved hash="19,16,f261508b5f52fdb8"/>
 <approved hash="19,16,093b61b16049d4a8"/>
 <approved hash="19,16,77123c7f75b32324"/>
 <approved hash="19,16,f3c951235722f5c8"/>
 <approved hash="19,16,ee2d4d874d56eefc"/>
-<approved hash="19,16,02f0fa77ad124843"/>
 <approved hash="19,16,0cb0069c50fd4637"/>
 <approved hash="19,16,03ec130145404857"/>
+<approved hash="19,16,02f0fa77ad124843"/>
+<approved hash="19,16,713ec17e2e84a2ae"/>
+<approved hash="19,16,8f14c4cac7069122"/>
+<approved hash="19,16,abcb89218f27adcd"/>
 <approved hash="19,16,0ee48e0f5a31e6b0"/>
 <approved hash="19,16,7928ddc73a4da2c8"/>
 <approved hash="19,16,8fd4d181dd279f94"/>
 <approved hash="19,16,aa6388898757a5bd"/>
-<approved hash="19,16,713ec17e2e84a2ae"/>
-<approved hash="19,16,8f14c4cac7069122"/>
-<approved hash="19,16,abcb89218f27adcd"/>
 <approved hash="19,16,0fb67b24afcae732"/>
 <approved hash="19,16,8ed42c102f88909a"/>
 <approved hash="19,16,ac6b8e818e53acb9"/>
-<approved hash="4,16,b3d3279d708ac872"/>
-<approved hash="4,16,a017322c3bbaae86"/>
 <approved hash="4,16,50fbf74e3ce142a4"/>
 <approved hash="4,16,a726cbe0321a943a"/>
+<approved hash="4,16,b3d3279d708ac872"/>
+<approved hash="4,16,a017322c3bbaae86"/>
 </errors>
 </board>
 </drawing>

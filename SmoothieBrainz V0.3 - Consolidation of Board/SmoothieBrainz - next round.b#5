@@ -8,7 +8,7 @@
 </settings>
 <grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="3.125" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="2" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="5" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -2517,19 +2517,19 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <element name="LED4" library="led" package="CHIP-LED0805" value="" x="69.6765" y="58.148375" smashed="yes" rot="R270">
 <attribute name="VALUE" x="68.4065" y="55.608375" size="1.27" layer="27"/>
 </element>
-<element name="R10" library="resistor" package="R0603" value="1k" x="66.438" y="51.957125" smashed="yes" rot="R180">
+<element name="R10" library="resistor" package="R0603" value="" x="66.438" y="51.957125" smashed="yes" rot="R180">
 <attribute name="NAME" x="67.454" y="51.131625" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="68.089" y="59.450125" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R11" library="resistor" package="R0603" value="1k" x="66.438" y="54.03675" smashed="yes" rot="R180">
+<element name="R11" library="resistor" package="R0603" value="" x="66.438" y="54.03675" smashed="yes" rot="R180">
 <attribute name="NAME" x="62.6915" y="54.35425" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="68.089" y="59.75175" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R12" library="resistor" package="R0603" value="1k" x="66.438" y="56.1005" smashed="yes" rot="R180">
+<element name="R12" library="resistor" package="R0603" value="" x="66.438" y="56.1005" smashed="yes" rot="R180">
 <attribute name="NAME" x="62.755" y="56.291" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="68.089" y="59.8645" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R13" library="resistor" package="R0603" value="1k" x="66.438" y="58.148375" smashed="yes" rot="R180">
+<element name="R13" library="resistor" package="R0603" value="" x="66.438" y="58.148375" smashed="yes" rot="R180">
 <attribute name="NAME" x="62.9455" y="58.592875" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="68.089" y="59.934375" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -2673,7 +2673,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="VALUE" x="93.2815" y="70.967625" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="LED9" library="led" package="CHIP-LED0805" value="" x="69.685" y="60.19375" rot="R270"/>
-<element name="R77" library="resistor" package="R0603" value="1k" x="66.435" y="60.19375" rot="R180"/>
+<element name="R77" library="resistor" package="R0603" value="" x="66.435" y="60.19375" rot="R180"/>
 <element name="D1" library="microbuilder" package="SMADIODE" value="MBRA210LT3" x="77.9" y="29.38875" rot="R90"/>
 <element name="IC2" library="linear" package="TO263-5" value="" x="30.77" y="64.01875" rot="R270"/>
 <element name="L2" library="SparkFun-Passives" package="CDRH125" value="33uH" x="17.455" y="58.26"/>
@@ -3098,7 +3098,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <element name="PAD4" library="wirepad" package="1,6/0,9" value="" x="56.515" y="13.335"/>
 <element name="U$11" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="93.98" y="21.59"/>
 <element name="U$17" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="4.445" y="24.92375"/>
-<element name="U$18" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="97.551875" y="79.6925" rot="MR0"/>
+<element name="U$18" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="99.53625" y="80.01" rot="MR0"/>
 <element name="U$19" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="93.98" y="21.59" rot="MR0"/>
 <element name="U$20" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="4.445" y="24.92375" rot="MR0"/>
 </elements>

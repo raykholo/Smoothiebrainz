@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="3.125" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="2" fill="1" visible="no" active="no"/>
@@ -2320,7 +2320,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkGrid" value="0"/>
-<param name="checkAngle" value="0"/>
+<param name="checkAngle" value="1"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="0"/>
 <param name="useDiameter" value="13"/>
@@ -4089,9 +4089,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <wire x1="69.770625" y1="1.11125" x2="70.088125" y2="1.42875" width="0.254" layer="1"/>
 <wire x1="70.088125" y1="1.42875" x2="70.088125" y2="5.556875" width="0.254" layer="1"/>
 <wire x1="70.088125" y1="5.556875" x2="68.9875" y2="6.6575" width="0.254" layer="1"/>
-<wire x1="69.770625" y1="1.11125" x2="75.2078125" y2="1.0715625" width="0.254" layer="1"/>
-<wire x1="75.2078125" y1="1.0715625" x2="75.2078125" y2="4.7228125" width="0.254" layer="1"/>
-<wire x1="75.2078125" y1="1.0715625" x2="85.24875" y2="1.11125" width="0.254" layer="1"/>
+<wire x1="75.2078125" y1="1.11125" x2="75.2078125" y2="4.7228125" width="0.254" layer="1"/>
 <wire x1="85.24875" y1="1.11125" x2="85.56625" y2="1.42875" width="0.254" layer="1"/>
 <wire x1="85.56625" y1="1.42875" x2="85.56625" y2="5.739375" width="0.254" layer="1"/>
 <wire x1="85.56625" y1="5.739375" x2="84.648125" y2="6.6575" width="0.254" layer="1"/>
@@ -4386,6 +4384,8 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <wire x1="42.62101875" y1="16.34876875" x2="42.5785" y2="16.30625" width="0.254" layer="16"/>
 <wire x1="54.008540625" y1="46.85920625" x2="54.29845625" y2="46.85920625" width="0.254" layer="1"/>
 <wire x1="54.29845625" y1="46.85920625" x2="54.623" y2="47.18375" width="0.254" layer="1"/>
+<wire x1="69.770625" y1="1.11125" x2="75.2078125" y2="1.11125" width="0.254" layer="1"/>
+<wire x1="75.2078125" y1="1.11125" x2="85.24875" y2="1.11125" width="0.254" layer="1"/>
 <wire x1="81.4" y1="23.28875" x2="81.4385" y2="23.32075" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AVCC">
@@ -5596,10 +5596,10 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <contactref element="SJ27" pad="2"/>
 <contactref element="SJ27" pad="1"/>
 <wire x1="5.207" y1="22.06625" x2="5.207" y2="22.066125" width="0.254" layer="1"/>
-<wire x1="5.207" y1="22.066125" x2="4.175" y2="22.06625" width="0.254" layer="1"/>
 <wire x1="5.207" y1="22.06625" x2="6.223" y2="22.06625" width="0.254" layer="1"/>
 <wire x1="6.223" y1="22.06625" x2="6.270625" y2="22.06625" width="0.254" layer="1"/>
 <wire x1="6.270625" y1="22.06625" x2="6.985" y2="22.780625" width="0.254" layer="1"/>
+<wire x1="4.175" y1="22.06625" x2="5.207" y2="22.06625" width="0.254" layer="1"/>
 </signal>
 <signal name="RTS">
 <contactref element="U$2" pad="4"/>
@@ -8016,10 +8016,9 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <approved hash="4,1,51f6dc6540b3ca27"/>
 <approved hash="4,1,20e22a573e3793a5"/>
 <approved hash="4,1,6350691cf3d842e0"/>
-<approved hash="19,1,94ec2245c7b50e4d"/>
 <approved hash="19,1,d24afcb0395c8fec"/>
-<approved hash="19,1,7c8262fe63007d7c"/>
 <approved hash="19,1,4ce21d5559a86fea"/>
+<approved hash="19,1,7c8262fe63007d7c"/>
 <approved hash="19,1,26a79256ef0bc3b0"/>
 <approved hash="19,1,aed33e9cdc992851"/>
 <approved hash="19,1,28af8e5336f0b485"/>
