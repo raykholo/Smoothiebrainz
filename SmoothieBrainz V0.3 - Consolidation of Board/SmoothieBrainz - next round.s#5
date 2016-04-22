@@ -34752,12 +34752,12 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="R4" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R16" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="C28" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
-<part name="SJ2" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
-<part name="SJ3" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
-<part name="SJ4" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
-<part name="SJ5" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
-<part name="SJ6" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
-<part name="SJ7" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
+<part name="SJ2" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value=""/>
+<part name="SJ3" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value=""/>
+<part name="SJ4" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value=""/>
+<part name="SJ5" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value=""/>
+<part name="SJ6" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value=""/>
+<part name="SJ7" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value=""/>
 <part name="SW1" library="dp_devices" deviceset="SW_TACT_4P_B" device=""/>
 <part name="SW3" library="dp_devices" deviceset="SW_TACT_4P_B" device=""/>
 <part name="R17" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
@@ -34918,6 +34918,8 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="PAD2" library="wirepad" deviceset="1,6/0,9" device=""/>
 <part name="PAD3" library="wirepad" deviceset="1,6/0,9" device=""/>
 <part name="PAD4" library="wirepad" deviceset="1,6/0,9" device=""/>
+<part name="U$11" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$17" library="adafruit" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -35262,6 +35264,8 @@ cut a BOM line item</text>
 <instance part="PAD2" gate="1" x="393.7" y="403.86"/>
 <instance part="PAD3" gate="1" x="393.7" y="396.24"/>
 <instance part="PAD4" gate="1" x="393.7" y="388.62"/>
+<instance part="U$11" gate="G$1" x="17.78" y="215.9"/>
+<instance part="U$17" gate="G$1" x="7.62" y="215.9"/>
 </instances>
 <busses>
 </busses>

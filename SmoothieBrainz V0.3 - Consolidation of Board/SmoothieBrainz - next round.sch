@@ -34655,7 +34655,7 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="104"/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C0603" value=".1uF"/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C0603" value=".1uF"/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value=".1uF"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="104"/>
 <part name="P+2" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="C7" library="resistor" deviceset="C-EU" device="C0603" value="10uF"/>
@@ -34899,7 +34899,7 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="P+10" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="JP19" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
 <part name="JP20" library="pinhead" deviceset="PINHD-2X7" device=""/>
-<part name="IC7" library="microbuilder" deviceset="74LVC1G04" device=""/>
+<part name="IC7" library="microbuilder" deviceset="74LVC1G04" device="" value="74LVC1G04"/>
 <part name="R53" library="resistor" deviceset="R-US_" device="R0603" value="22R"/>
 <part name="SUPPLY56" library="supply2" deviceset="GND" device=""/>
 <part name="C51" library="resistor" deviceset="C-EU" device="C0603" value=".1uF"/>

@@ -34915,6 +34915,9 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="JP14" library="SparkFun-Connectors" deviceset="M02" device="LOCK"/>
 <part name="JP15" library="SparkFun-Connectors" deviceset="M02" device="LOCK"/>
 <part name="PAD1" library="wirepad" deviceset="1,6/0,9" device=""/>
+<part name="PAD2" library="wirepad" deviceset="1,6/0,9" device=""/>
+<part name="PAD3" library="wirepad" deviceset="1,6/0,9" device=""/>
+<part name="PAD4" library="wirepad" deviceset="1,6/0,9" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -35256,6 +35259,9 @@ cut a BOM line item</text>
 <instance part="JP14" gate="G$1" x="111.76" y="304.8"/>
 <instance part="JP15" gate="G$1" x="111.76" y="289.56"/>
 <instance part="PAD1" gate="1" x="393.7" y="411.48"/>
+<instance part="PAD2" gate="1" x="393.7" y="403.86"/>
+<instance part="PAD3" gate="1" x="393.7" y="396.24"/>
+<instance part="PAD4" gate="1" x="393.7" y="388.62"/>
 </instances>
 <busses>
 </busses>
@@ -36881,6 +36887,11 @@ cut a BOM line item</text>
 <wire x1="558.8" y1="419.1" x2="551.18" y2="419.1" width="0.1524" layer="91"/>
 <label x="551.18" y="419.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PAD2" gate="1" pin="P"/>
+<wire x1="396.24" y1="403.86" x2="416.56" y2="403.86" width="0.1524" layer="91"/>
+<label x="401.32" y="403.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TX_0" class="0">
 <segment>
@@ -36897,6 +36908,11 @@ cut a BOM line item</text>
 <pinref part="SJ7" gate="1" pin="1"/>
 <wire x1="558.8" y1="406.4" x2="551.18" y2="406.4" width="0.1524" layer="91"/>
 <label x="551.18" y="406.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PAD1" gate="1" pin="P"/>
+<wire x1="396.24" y1="411.48" x2="416.56" y2="411.48" width="0.1524" layer="91"/>
+<label x="401.32" y="411.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
@@ -39034,6 +39050,20 @@ cut a BOM line item</text>
 <pinref part="SJ26" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="271.78" x2="266.7" y2="256.54" width="0.1524" layer="91"/>
 <label x="266.7" y="256.54" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="N$59" class="0">
+<segment>
+<pinref part="PAD3" gate="1" pin="P"/>
+<wire x1="396.24" y1="396.24" x2="416.56" y2="396.24" width="0.1524" layer="91"/>
+<label x="401.32" y="396.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$60" class="0">
+<segment>
+<pinref part="PAD4" gate="1" pin="P"/>
+<wire x1="396.24" y1="388.62" x2="416.56" y2="388.62" width="0.1524" layer="91"/>
+<label x="401.32" y="388.62" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
