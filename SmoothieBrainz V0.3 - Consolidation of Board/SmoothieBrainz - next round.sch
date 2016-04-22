@@ -34576,6 +34576,54 @@ Source: www.epcos.com .. 01430148.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="wirepad">
+<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1,6/0,9">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<wire x1="-0.508" y1="0.762" x2="-0.762" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="0.762" x2="-0.762" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-0.508" x2="-0.762" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-0.762" x2="-0.508" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="-0.762" x2="0.762" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="-0.762" x2="0.762" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="0.508" x2="0.762" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="0.762" x2="0.508" y2="0.762" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.635" width="0.1524" layer="51"/>
+<pad name="1" x="0" y="0" drill="0.9144" diameter="1.6002" shape="octagon"/>
+<text x="-0.762" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="0.6" size="0.0254" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="PAD">
+<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1,6/0,9" prefix="PAD" uservalue="yes">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1,6/0,9">
+<connects>
+<connect gate="1" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -34602,9 +34650,9 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="P+1" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value=".1uF"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value=".1uF"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value=".1uF"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="104"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="104"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="104"/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C0603" value=".1uF"/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C0603" value=".1uF"/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0603" value=".1uF"/>
@@ -34646,7 +34694,7 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="S2" library="SparkFun" deviceset="TAC_SWITCH" device="SMD"/>
 <part name="P+16" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C0603" value=".1uF"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="104"/>
 <part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="1.5K"/>
 <part name="AGND1" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND2" library="supply1" deviceset="AGND" device=""/>
@@ -34704,12 +34752,12 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="R4" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R16" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="C28" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
-<part name="SJ2" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
-<part name="SJ3" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
-<part name="SJ4" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
-<part name="SJ5" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
-<part name="SJ6" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
-<part name="SJ7" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
+<part name="SJ2" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value=""/>
+<part name="SJ3" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value=""/>
+<part name="SJ4" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value=""/>
+<part name="SJ5" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value=""/>
+<part name="SJ6" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value=""/>
+<part name="SJ7" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value=""/>
 <part name="SW1" library="dp_devices" deviceset="SW_TACT_4P_B" device=""/>
 <part name="SW3" library="dp_devices" deviceset="SW_TACT_4P_B" device=""/>
 <part name="R17" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
@@ -34865,6 +34913,11 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
 <part name="SJ27" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE" value="THERM-JUMPER"/>
 <part name="JP14" library="SparkFun-Connectors" deviceset="M02" device="LOCK"/>
+<part name="JP15" library="SparkFun-Connectors" deviceset="M02" device="LOCK"/>
+<part name="PAD1" library="wirepad" deviceset="1,6/0,9" device=""/>
+<part name="PAD2" library="wirepad" deviceset="1,6/0,9" device=""/>
+<part name="PAD3" library="wirepad" deviceset="1,6/0,9" device=""/>
+<part name="PAD4" library="wirepad" deviceset="1,6/0,9" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -35204,6 +35257,11 @@ cut a BOM line item</text>
 <instance part="JP4" gate="G$1" x="251.46" y="-10.16"/>
 <instance part="SJ27" gate="1" x="144.78" y="353.06"/>
 <instance part="JP14" gate="G$1" x="111.76" y="304.8"/>
+<instance part="JP15" gate="G$1" x="111.76" y="289.56"/>
+<instance part="PAD1" gate="1" x="393.7" y="411.48"/>
+<instance part="PAD2" gate="1" x="393.7" y="403.86"/>
+<instance part="PAD3" gate="1" x="393.7" y="396.24"/>
+<instance part="PAD4" gate="1" x="393.7" y="388.62"/>
 </instances>
 <busses>
 </busses>
@@ -35773,6 +35831,11 @@ cut a BOM line item</text>
 <wire x1="119.38" y1="304.8" x2="134.62" y2="304.8" width="0.1524" layer="91"/>
 <label x="121.92" y="304.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP15" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="289.56" x2="134.62" y2="289.56" width="0.1524" layer="91"/>
+<label x="121.92" y="289.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -35896,6 +35959,16 @@ cut a BOM line item</text>
 <wire x1="497.84" y1="472.44" x2="497.84" y2="474.98" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="G$1" pin="1"/>
 <wire x1="497.84" y1="472.44" x2="500.38" y2="472.44" width="0.1524" layer="91"/>
+<wire x1="497.84" y1="472.44" x2="497.84" y2="464.82" width="0.1524" layer="91"/>
+<junction x="497.84" y="472.44"/>
+<wire x1="502.92" y1="457.2" x2="505.46" y2="457.2" width="0.1524" layer="91"/>
+<wire x1="505.46" y1="457.2" x2="505.46" y2="464.82" width="0.1524" layer="91"/>
+<pinref part="SJ1" gate="G$1" pin="2"/>
+<pinref part="JP5" gate="G$1" pin="4"/>
+<junction x="502.92" y="457.2"/>
+<wire x1="505.46" y1="464.82" x2="505.46" y2="467.36" width="0.1524" layer="91"/>
+<wire x1="497.84" y1="464.82" x2="505.46" y2="464.82" width="0.1524" layer="91"/>
+<junction x="505.46" y="464.82"/>
 </segment>
 <segment>
 <wire x1="50.8" y1="10.16" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
@@ -36824,6 +36897,11 @@ cut a BOM line item</text>
 <wire x1="558.8" y1="419.1" x2="551.18" y2="419.1" width="0.1524" layer="91"/>
 <label x="551.18" y="419.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PAD2" gate="1" pin="P"/>
+<wire x1="396.24" y1="403.86" x2="416.56" y2="403.86" width="0.1524" layer="91"/>
+<label x="401.32" y="403.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TX_0" class="0">
 <segment>
@@ -36840,6 +36918,11 @@ cut a BOM line item</text>
 <pinref part="SJ7" gate="1" pin="1"/>
 <wire x1="558.8" y1="406.4" x2="551.18" y2="406.4" width="0.1524" layer="91"/>
 <label x="551.18" y="406.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PAD1" gate="1" pin="P"/>
+<wire x1="396.24" y1="411.48" x2="416.56" y2="411.48" width="0.1524" layer="91"/>
+<label x="401.32" y="411.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
@@ -37629,6 +37712,11 @@ cut a BOM line item</text>
 <wire x1="259.08" y1="-10.16" x2="284.48" y2="-10.16" width="0.1524" layer="91"/>
 <label x="264.16" y="-10.16" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP15" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="292.1" x2="134.62" y2="292.1" width="0.1524" layer="91"/>
+<label x="121.92" y="292.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$51" class="0">
 <segment>
@@ -37698,15 +37786,6 @@ cut a BOM line item</text>
 <wire x1="182.88" y1="353.06" x2="182.88" y2="355.6" width="0.1524" layer="91"/>
 <pinref part="R56" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="353.06" x2="182.88" y2="353.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<wire x1="502.92" y1="457.2" x2="505.46" y2="457.2" width="0.1524" layer="91"/>
-<wire x1="505.46" y1="457.2" x2="505.46" y2="467.36" width="0.1524" layer="91"/>
-<pinref part="SJ1" gate="G$1" pin="2"/>
-<pinref part="JP5" gate="G$1" pin="4"/>
-<junction x="502.92" y="457.2"/>
 </segment>
 </net>
 <net name="BUZZER-RRD" class="0">
@@ -37978,6 +38057,11 @@ cut a BOM line item</text>
 <wire x1="568.96" y1="419.1" x2="579.12" y2="419.1" width="0.1524" layer="91"/>
 <label x="576.58" y="419.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PAD3" gate="1" pin="P"/>
+<wire x1="396.24" y1="396.24" x2="416.56" y2="396.24" width="0.1524" layer="91"/>
+<label x="401.32" y="396.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="ESPRX" class="0">
 <segment>
@@ -37994,6 +38078,11 @@ cut a BOM line item</text>
 <pinref part="SJ7" gate="1" pin="2"/>
 <wire x1="568.96" y1="406.4" x2="579.12" y2="406.4" width="0.1524" layer="91"/>
 <label x="576.58" y="406.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PAD4" gate="1" pin="P"/>
+<wire x1="396.24" y1="388.62" x2="416.56" y2="388.62" width="0.1524" layer="91"/>
+<label x="401.32" y="388.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX_FT" class="0">
