@@ -8,7 +8,7 @@
 </settings>
 <grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="3.125" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="2" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -3098,7 +3098,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <element name="PAD4" library="wirepad" package="1,6/0,9" value="" x="56.515" y="13.335"/>
 <element name="U$11" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="93.98" y="21.59"/>
 <element name="U$17" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="4.445" y="24.92375"/>
-<element name="U$18" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="97.551875" y="79.6925" rot="MR0"/>
+<element name="U$18" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="99.53625" y="80.01" rot="MR0"/>
 <element name="U$19" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="93.98" y="21.59" rot="MR0"/>
 <element name="U$20" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="4.445" y="24.92375" rot="MR0"/>
 </elements>

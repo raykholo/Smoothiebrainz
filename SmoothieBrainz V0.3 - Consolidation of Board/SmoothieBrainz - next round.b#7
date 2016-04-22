@@ -3099,7 +3099,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <element name="U$11" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="93.98" y="21.59"/>
 <element name="U$17" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="4.445" y="24.92375"/>
 <element name="U$18" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="106.045" y="83.185" rot="MR0"/>
-<element name="U$19" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="106.045" y="80.645" rot="MR0"/>
+<element name="U$19" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="93.98" y="21.59" rot="MR0"/>
 <element name="U$20" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="106.045" y="78.105" rot="MR0"/>
 </elements>
 <signals>

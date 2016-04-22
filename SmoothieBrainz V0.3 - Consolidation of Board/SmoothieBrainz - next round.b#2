@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="5" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -2565,7 +2565,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <element name="SJ1" library="SparkFun" package="SJ_3" value="" x="41.6895" y="16.30625" rot="MR0"/>
 <element name="Q1" library="transistor-fet" package="SC74_INFINEON" value="BSL207SP" x="82.018" y="41.18375" smashed="yes" rot="R180">
 <attribute name="NAME" x="82.583" y="39.26625" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="85.123" y="39.48875" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="80.843125" y="42.908875" size="0.8128" layer="27"/>
 </element>
 <element name="IC5" library="v-reg" package="DPACK" value="LD117ADT33TR" x="26.422" y="47.995625" smashed="yes" rot="R90">
 <attribute name="NAME" x="28.962" y="44.185625" size="1.27" layer="25" rot="R180"/>
