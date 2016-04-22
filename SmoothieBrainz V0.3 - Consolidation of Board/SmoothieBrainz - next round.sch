@@ -34684,10 +34684,10 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="LED2" library="led" deviceset="LED" device="CHIP-LED0805"/>
 <part name="LED3" library="led" deviceset="LED" device="CHIP-LED0805"/>
 <part name="LED4" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="R10" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="R11" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="R12" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="R13" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R10" library="resistor" deviceset="R-US_" device="R0603"/>
+<part name="R11" library="resistor" deviceset="R-US_" device="R0603"/>
+<part name="R12" library="resistor" deviceset="R-US_" device="R0603"/>
+<part name="R13" library="resistor" deviceset="R-US_" device="R0603"/>
 <part name="SUPPLY65" library="supply2" deviceset="GND" device=""/>
 <part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
@@ -34735,7 +34735,7 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="C64" library="resistor" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="SUPPLY59" library="supply2" deviceset="GND" device=""/>
 <part name="LED9" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="R77" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R77" library="resistor" deviceset="R-US_" device="R0603"/>
 <part name="D1" library="microbuilder" deviceset="DIODE" device="SMA" value="MBRA210LT3"/>
 <part name="U$3" library="SparkFun" deviceset="5V" device=""/>
 <part name="IC2" library="linear" deviceset="LM2596S" device=""/>
@@ -34846,19 +34846,19 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="R40" library="resistor" deviceset="R-EU_" device="R0603" value="10r"/>
 <part name="R41" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="LED8" library="led" deviceset="LED" device="SML0603"/>
+<part name="LED8" library="led" deviceset="LED" device="SML0603" value="LED"/>
 <part name="R42" library="resistor" deviceset="R-EU_" device="R0603" value="1.5k"/>
 <part name="U$15" library="Cohesion_parts" deviceset="N-POWER-MOSFET" device="DPAK-MOSFET" value="IRLR024"/>
 <part name="R43" library="resistor" deviceset="R-EU_" device="R0603" value="10r"/>
 <part name="R44" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="LED10" library="led" deviceset="LED" device="SML0603"/>
+<part name="LED10" library="led" deviceset="LED" device="SML0603" value="LED"/>
 <part name="R45" library="resistor" deviceset="R-EU_" device="R0603" value="1.5k"/>
 <part name="U$16" library="Cohesion_parts" deviceset="N-POWER-MOSFET" device="DPAK-MOSFET" value="IRLR024"/>
 <part name="R46" library="resistor" deviceset="R-EU_" device="R0603" value="10r"/>
 <part name="R47" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="LED11" library="led" deviceset="LED" device="SML0603"/>
+<part name="LED11" library="led" deviceset="LED" device="SML0603" value="LED"/>
 <part name="R48" library="resistor" deviceset="R-EU_" device="R0603" value="1.5k"/>
 <part name="U$8" library="RepRapjr" deviceset="POLOLU_A4983CARRIER" device=""/>
 <part name="C41" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
@@ -34918,6 +34918,11 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="PAD2" library="wirepad" deviceset="1,6/0,9" device=""/>
 <part name="PAD3" library="wirepad" deviceset="1,6/0,9" device=""/>
 <part name="PAD4" library="wirepad" deviceset="1,6/0,9" device=""/>
+<part name="U$11" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$17" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$18" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$19" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$20" library="adafruit" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -35262,6 +35267,11 @@ cut a BOM line item</text>
 <instance part="PAD2" gate="1" x="393.7" y="403.86"/>
 <instance part="PAD3" gate="1" x="393.7" y="396.24"/>
 <instance part="PAD4" gate="1" x="393.7" y="388.62"/>
+<instance part="U$11" gate="G$1" x="17.78" y="215.9"/>
+<instance part="U$17" gate="G$1" x="7.62" y="215.9"/>
+<instance part="U$18" gate="G$1" x="7.62" y="205.74"/>
+<instance part="U$19" gate="G$1" x="17.78" y="205.74"/>
+<instance part="U$20" gate="G$1" x="27.94" y="205.74"/>
 </instances>
 <busses>
 </busses>

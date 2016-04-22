@@ -34752,12 +34752,12 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="R4" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R16" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="C28" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
-<part name="SJ2" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
-<part name="SJ3" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
-<part name="SJ4" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
-<part name="SJ5" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
-<part name="SJ6" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
-<part name="SJ7" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value="SOLDERJUMPERNC"/>
+<part name="SJ2" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value=""/>
+<part name="SJ3" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value=""/>
+<part name="SJ4" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value=""/>
+<part name="SJ5" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value=""/>
+<part name="SJ6" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value=""/>
+<part name="SJ7" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NC" value=""/>
 <part name="SW1" library="dp_devices" deviceset="SW_TACT_4P_B" device=""/>
 <part name="SW3" library="dp_devices" deviceset="SW_TACT_4P_B" device=""/>
 <part name="R17" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
@@ -34846,19 +34846,19 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="R40" library="resistor" deviceset="R-EU_" device="R0603" value="10r"/>
 <part name="R41" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="LED8" library="led" deviceset="LED" device="SML0603"/>
+<part name="LED8" library="led" deviceset="LED" device="SML0603" value="LED"/>
 <part name="R42" library="resistor" deviceset="R-EU_" device="R0603" value="1.5k"/>
 <part name="U$15" library="Cohesion_parts" deviceset="N-POWER-MOSFET" device="DPAK-MOSFET" value="IRLR024"/>
 <part name="R43" library="resistor" deviceset="R-EU_" device="R0603" value="10r"/>
 <part name="R44" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="LED10" library="led" deviceset="LED" device="SML0603"/>
+<part name="LED10" library="led" deviceset="LED" device="SML0603" value="LED"/>
 <part name="R45" library="resistor" deviceset="R-EU_" device="R0603" value="1.5k"/>
 <part name="U$16" library="Cohesion_parts" deviceset="N-POWER-MOSFET" device="DPAK-MOSFET" value="IRLR024"/>
 <part name="R46" library="resistor" deviceset="R-EU_" device="R0603" value="10r"/>
 <part name="R47" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="LED11" library="led" deviceset="LED" device="SML0603"/>
+<part name="LED11" library="led" deviceset="LED" device="SML0603" value="LED"/>
 <part name="R48" library="resistor" deviceset="R-EU_" device="R0603" value="1.5k"/>
 <part name="U$8" library="RepRapjr" deviceset="POLOLU_A4983CARRIER" device=""/>
 <part name="C41" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
@@ -34918,6 +34918,8 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="PAD2" library="wirepad" deviceset="1,6/0,9" device=""/>
 <part name="PAD3" library="wirepad" deviceset="1,6/0,9" device=""/>
 <part name="PAD4" library="wirepad" deviceset="1,6/0,9" device=""/>
+<part name="U$11" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$17" library="adafruit" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -35262,6 +35264,8 @@ cut a BOM line item</text>
 <instance part="PAD2" gate="1" x="393.7" y="403.86"/>
 <instance part="PAD3" gate="1" x="393.7" y="396.24"/>
 <instance part="PAD4" gate="1" x="393.7" y="388.62"/>
+<instance part="U$11" gate="G$1" x="17.78" y="215.9"/>
+<instance part="U$17" gate="G$1" x="7.62" y="215.9"/>
 </instances>
 <busses>
 </busses>
@@ -35959,6 +35963,16 @@ cut a BOM line item</text>
 <wire x1="497.84" y1="472.44" x2="497.84" y2="474.98" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="G$1" pin="1"/>
 <wire x1="497.84" y1="472.44" x2="500.38" y2="472.44" width="0.1524" layer="91"/>
+<wire x1="497.84" y1="472.44" x2="497.84" y2="464.82" width="0.1524" layer="91"/>
+<junction x="497.84" y="472.44"/>
+<wire x1="502.92" y1="457.2" x2="505.46" y2="457.2" width="0.1524" layer="91"/>
+<wire x1="505.46" y1="457.2" x2="505.46" y2="464.82" width="0.1524" layer="91"/>
+<pinref part="SJ1" gate="G$1" pin="2"/>
+<pinref part="JP5" gate="G$1" pin="4"/>
+<junction x="502.92" y="457.2"/>
+<wire x1="505.46" y1="464.82" x2="505.46" y2="467.36" width="0.1524" layer="91"/>
+<wire x1="497.84" y1="464.82" x2="505.46" y2="464.82" width="0.1524" layer="91"/>
+<junction x="505.46" y="464.82"/>
 </segment>
 <segment>
 <wire x1="50.8" y1="10.16" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
@@ -37776,15 +37790,6 @@ cut a BOM line item</text>
 <wire x1="182.88" y1="353.06" x2="182.88" y2="355.6" width="0.1524" layer="91"/>
 <pinref part="R56" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="353.06" x2="182.88" y2="353.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<wire x1="502.92" y1="457.2" x2="505.46" y2="457.2" width="0.1524" layer="91"/>
-<wire x1="505.46" y1="457.2" x2="505.46" y2="467.36" width="0.1524" layer="91"/>
-<pinref part="SJ1" gate="G$1" pin="2"/>
-<pinref part="JP5" gate="G$1" pin="4"/>
-<junction x="502.92" y="457.2"/>
 </segment>
 </net>
 <net name="BUZZER-RRD" class="0">

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="3.125" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="2" fill="1" visible="no" active="no"/>
@@ -34,10 +34,10 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="yes"/>
@@ -259,12 +259,6 @@
 <text x="95.235" y="57.28625" size="1.016" layer="22" font="vector" ratio="14" rot="MR0">github.com/openhardwarecoza</text>
 <wire x1="20.87" y1="62.60375" x2="20.87" y2="53.80375" width="0.254" layer="21" curve="-103.800656"/>
 <wire x1="14.07" y1="53.80375" x2="14.07" y2="62.60375" width="0.254" layer="21" curve="-103.800656"/>
-<rectangle x1="79.325" y1="-37.48125" x2="80.125" y2="-34.88125" layer="29"/>
-<rectangle x1="142.09" y1="-38.21625" x2="142.89" y2="-35.61625" layer="29"/>
-<rectangle x1="131.36" y1="-39.38625" x2="132.16" y2="-36.78625" layer="29"/>
-<rectangle x1="125.51" y1="-39.38625" x2="126.31" y2="-36.78625" layer="29"/>
-<rectangle x1="112.51" y1="-38.75125" x2="113.31" y2="-36.15125" layer="29"/>
-<rectangle x1="92.425" y1="-38.11625" x2="93.225" y2="-35.51625" layer="29"/>
 <text x="84.605" y="12.025" size="1.27" layer="21" font="vector" ratio="13" rot="R180">X-MIN</text>
 <text x="77.070625" y="12.025" size="1.27" layer="21" font="vector" ratio="13" rot="R180">X-MAX</text>
 <text x="68.8996875" y="12.025" size="1.27" layer="21" font="vector" ratio="13" rot="R180">Y-MIN</text>
@@ -306,11 +300,11 @@
 <text x="0.3175" y="18.494375" size="1.27" layer="21">FET VIN</text>
 <text x="7.064375" y="15.39875" size="1.016" layer="21" rot="SR270">24v MAX</text>
 <text x="0.635" y="7.14375" size="1.778" layer="21">Gnd</text>
-<text x="11.209375" y="22.885" size="0.8128" layer="21" font="vector" ratio="14" rot="R90">LED</text>
+<text x="11.28875" y="22.885" size="0.8128" layer="21" font="vector" ratio="14" rot="R90">LED</text>
 <text x="11.29625" y="22.2075" size="0.8128" layer="21" font="vector" ratio="14">-</text>
 <rectangle x1="95.885" y1="43.97375" x2="100.965" y2="62.38875" layer="41"/>
 <rectangle x1="95.885" y1="43.97375" x2="100.965" y2="62.38875" layer="42"/>
-<text x="15.5575" y="28.09875" size="0.508" layer="21">LED</text>
+<text x="15.5575" y="28.019375" size="0.508" layer="21">LED</text>
 <text x="18.91625" y="22.2075" size="0.8128" layer="21" font="vector" ratio="14">-</text>
 <text x="26.53625" y="22.2075" size="0.8128" layer="21" font="vector" ratio="14">-</text>
 <text x="34.15625" y="22.2075" size="0.8128" layer="21" font="vector" ratio="14">-</text>
@@ -394,7 +388,7 @@ RX</text>
 <vertex x="26.67" y="2.54"/>
 <vertex x="27.94" y="1.27"/>
 </polygon>
-<polygon width="0.254" layer="22">
+<polygon width="0.254" layer="21">
 <vertex x="35.56" y="3.81"/>
 <vertex x="34.29" y="2.54"/>
 <vertex x="35.56" y="1.27"/>
@@ -408,7 +402,70 @@ RX</text>
 <text x="51.42" y="48.07125" size="1.27" layer="22" font="vector" ratio="14" rot="MR0">Designed by Ray Kholodovsky</text>
 <text x="50.785" y="52.19875" size="2.54" layer="22" font="vector" ratio="14" rot="MR0">Cohesion3D 
 ReMix</text>
-<text x="14.18" y="78.4625" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0">MS1</text>
+<text x="13.8625" y="78.145" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0">MS1</text>
+<text x="13.8625" y="80.05" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0">MS2</text>
+<text x="13.8625" y="82.59" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0">MS3</text>
+<text x="29.26125" y="78.4625" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0">MS1</text>
+<text x="29.1025" y="80.05" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0">MS2</text>
+<text x="29.1025" y="82.59" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0">MS3</text>
+<text x="44.3425" y="78.145" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0">MS1</text>
+<text x="44.3425" y="80.05" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0">MS2</text>
+<text x="44.3425" y="82.59" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0">MS3</text>
+<text x="59.5825" y="78.145" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0">MS1</text>
+<text x="59.5825" y="80.05" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0">MS2</text>
+<text x="59.5825" y="82.59" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0">MS3</text>
+<text x="74.8225" y="78.145" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0">MS1</text>
+<text x="74.8225" y="80.05" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0">MS2</text>
+<text x="74.8225" y="82.59" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0">MS3</text>
+<text x="90.0625" y="78.145" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0">MS1</text>
+<text x="90.0625" y="80.05" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0">MS2</text>
+<text x="90.0625" y="82.59" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0">MS3</text>
+<text x="9.04875" y="49.8475" size="1.27" layer="21">Bed VIN</text>
+<text x="9.604375" y="54.848125" size="1.27" layer="21" font="vector" ratio="13" rot="R270">+</text>
+<text x="9.525" y="47.228125" size="1.27" layer="21" font="vector" ratio="13" rot="R270">-</text>
+<text x="9.2075" y="39.6875" size="1.27" layer="21" font="vector" ratio="13" rot="R270">+</text>
+<text x="8.89" y="32.623125" size="1.27" layer="21" font="vector" ratio="13" rot="R270">-</text>
+<text x="9.2075" y="37.94125" size="0.8128" layer="21" rot="SR270">Bed OUT</text>
+<text x="7.9375" y="42.2275" size="1.778" layer="22" font="vector" ratio="13" rot="MR270">+</text>
+<text x="4.683125" y="32.940625" size="1.778" layer="22" font="vector" ratio="13" rot="MR270">-</text>
+<text x="4.60375" y="40.560625" size="0.8128" layer="22" rot="MR270">HEATBED
+OUT</text>
+<text x="4.1275" y="54.45125" size="1.27" layer="22" rot="MR270">Bed VIN</text>
+<text x="3.4925" y="73.263125" size="1.27" layer="22" rot="MR270">MAIN POWER IN</text>
+<text x="5.3975" y="56.8325" size="1.778" layer="22" font="vector" ratio="13" rot="MR270">+</text>
+<text x="4.445" y="47.228125" size="1.778" layer="22" font="vector" ratio="13" rot="MR270">-</text>
+<text x="5.3975" y="72.7075" size="1.778" layer="22" font="vector" ratio="13" rot="MR270">+</text>
+<text x="5.08" y="63.103125" size="1.778" layer="22" font="vector" ratio="13" rot="MR270">-</text>
+<polygon width="0.254" layer="21">
+<vertex x="43.418125" y="7.9375"/>
+<vertex x="42.148125" y="9.2075"/>
+<vertex x="43.418125" y="10.4775"/>
+</polygon>
+<polygon width="0.254" layer="21">
+<vertex x="51.355625" y="7.9375"/>
+<vertex x="50.085625" y="9.2075"/>
+<vertex x="51.355625" y="10.4775"/>
+</polygon>
+<polygon width="0.254" layer="21">
+<vertex x="59.055" y="7.9375"/>
+<vertex x="57.785" y="9.2075"/>
+<vertex x="59.055" y="10.4775"/>
+</polygon>
+<polygon width="0.254" layer="21">
+<vertex x="66.675" y="7.9375"/>
+<vertex x="65.405" y="9.2075"/>
+<vertex x="66.675" y="10.4775"/>
+</polygon>
+<polygon width="0.254" layer="21">
+<vertex x="74.45375" y="8.016875"/>
+<vertex x="73.18375" y="9.286875"/>
+<vertex x="74.45375" y="10.556875"/>
+</polygon>
+<polygon width="0.254" layer="21">
+<vertex x="82.311875" y="8.016875"/>
+<vertex x="81.041875" y="9.286875"/>
+<vertex x="82.311875" y="10.556875"/>
+</polygon>
 </plain>
 <libraries>
 <library name="microbuilder">
@@ -2884,9 +2941,9 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="NAME" x="16.41475" y="22.9235" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="16.017875" y="25.352375" size="0.8128" layer="27"/>
 </element>
-<element name="LED8" library="led" package="SML0603" value="" x="19.52625" y="23.495" smashed="yes" rot="R90">
+<element name="LED8" library="led" package="SML0603" value="LED" x="19.52625" y="23.495" smashed="yes" rot="R90">
 <attribute name="NAME" x="18.52625" y="21.995" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="21.52625" y="21.995" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="18.906875" y="22.63" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="R42" library="resistor" package="R0603" value="1.5k" x="19.84375" y="20.79625" smashed="yes" rot="R270">
 <attribute name="NAME" x="20.73275" y="21.68525" size="1.27" layer="25" rot="R270"/>
@@ -2904,9 +2961,9 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="NAME" x="24.03475" y="22.9235" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="23.637875" y="25.352375" size="0.8128" layer="27"/>
 </element>
-<element name="LED10" library="led" package="SML0603" value="" x="27.14625" y="23.495" smashed="yes" rot="R90">
+<element name="LED10" library="led" package="SML0603" value="LED" x="27.14625" y="23.495" smashed="yes" rot="R90">
 <attribute name="NAME" x="26.14625" y="21.995" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="29.14625" y="21.995" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="26.526875" y="22.63" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="R45" library="resistor" package="R0603" value="1.5k" x="27.46375" y="20.79625" smashed="yes" rot="R270">
 <attribute name="NAME" x="28.35275" y="21.68525" size="1.27" layer="25" rot="R270"/>
@@ -2924,9 +2981,9 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="NAME" x="31.65475" y="22.9235" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="31.257875" y="25.352375" size="0.8128" layer="27"/>
 </element>
-<element name="LED11" library="led" package="SML0603" value="" x="34.76625" y="23.495" smashed="yes" rot="R90">
+<element name="LED11" library="led" package="SML0603" value="LED" x="34.76625" y="23.495" smashed="yes" rot="R90">
 <attribute name="NAME" x="33.76625" y="21.995" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="36.76625" y="21.995" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="34.146875" y="22.63" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="R48" library="resistor" package="R0603" value="1.5k" x="35.08375" y="20.79625" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.97275" y="21.68525" size="1.27" layer="25" rot="R270"/>
@@ -3025,7 +3082,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 </element>
 <element name="R56" library="varistor" package="CT/CN0603" value="THERM" x="3.175" y="22.06625" smashed="yes">
 <attribute name="NAME" x="1.675" y="23.06625" size="1.016" layer="25"/>
-<attribute name="VALUE" x="0.484375" y="22.60625" size="0.8128" layer="27"/>
+<attribute name="VALUE" x="2.389375" y="26.41625" size="0.8128" layer="27"/>
 </element>
 <element name="SJ26" library="SparkFun" package="SJ_3" value="" x="87.63" y="5.55625"/>
 <element name="JP4" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="88.265" y="1.905"/>
@@ -3039,6 +3096,11 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <element name="PAD2" library="wirepad" package="1,6/0,9" value="" x="56.515" y="17.145"/>
 <element name="PAD3" library="wirepad" package="1,6/0,9" value="" x="56.515" y="15.24"/>
 <element name="PAD4" library="wirepad" package="1,6/0,9" value="" x="56.515" y="13.335"/>
+<element name="U$11" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="93.98" y="21.59"/>
+<element name="U$17" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="4.445" y="24.92375"/>
+<element name="U$18" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="106.045" y="83.185" rot="MR0"/>
+<element name="U$19" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="106.045" y="80.645" rot="MR0"/>
+<element name="U$20" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="106.045" y="78.105" rot="MR0"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -3834,7 +3896,9 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <wire x1="98.047175" y1="77.727175" x2="97.155" y2="76.835" width="0.254" layer="16"/>
 <wire x1="97.155" y1="76.835" x2="97.155" y2="71.23375" width="0.254" layer="16"/>
 <wire x1="97.155" y1="71.23375" x2="96.5" y2="70.57875" width="0.254" layer="16"/>
-<wire x1="4.445" y1="9.68375" x2="3" y2="3" width="0" layer="19" extent="1-1"/>
+<wire x1="3" y1="3" x2="2.715" y2="3" width="0.254" layer="16"/>
+<wire x1="2.715" y1="3" x2="0.714375" y2="5.000625" width="0.254" layer="16"/>
+<wire x1="0.714375" y1="5.000625" x2="0.714375" y2="22.780625" width="0.254" layer="16"/>
 </signal>
 <signal name="3.3V">
 <contactref element="IC1" pad="96"/>
@@ -5503,7 +5567,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <wire x1="47.625" y1="35.56" x2="46.99" y2="34.925" width="0.254" layer="1"/>
 <wire x1="48.41875" y1="34.76625" x2="47.625" y2="35.56" width="0.254" layer="16"/>
 <wire x1="60.96" y1="27.94" x2="61.005203125" y2="27.933796875" width="0.254" layer="1"/>
-<via x="6.985" y="22.780625" extent="1-16" drill="0.6"/>
+<via x="6.985" y="22.780625" extent="1-16" drill="0.5"/>
 <via x="45.72" y="34.925" extent="1-16" drill="0.6"/>
 <via x="47.625" y="35.56" extent="1-16" drill="0.6"/>
 <via x="58.42" y="33.655" extent="1-16" drill="0.5"/>
@@ -6452,10 +6516,9 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <wire x1="12.3825" y1="8.255" x2="12.144375" y2="8.493125" width="0.254" layer="16"/>
 <wire x1="12.144375" y1="8.493125" x2="6.588125" y2="8.493125" width="0.254" layer="16"/>
 <wire x1="6.588125" y1="8.493125" x2="6.35" y2="8.255" width="0.254" layer="16"/>
-<wire x1="6.35" y1="8.255" x2="1.74625" y2="8.255" width="0.254" layer="16"/>
-<wire x1="0.79375" y1="9.2075" x2="0.79375" y2="21.2725" width="0.254" layer="16"/>
-<via x="1.11125" y="21.59" extent="1-16" drill="0.6"/>
-<wire x1="0.79375" y1="21.2725" x2="1.11125" y2="21.59" width="0.254" layer="16"/>
+<wire x1="6.35" y1="8.255" x2="2.38125" y2="8.255" width="0.254" layer="16"/>
+<wire x1="1.42875" y1="9.2075" x2="1.42875" y2="20.79625" width="0.254" layer="16"/>
+<via x="1.74625" y="21.11375" extent="1-16" drill="0.5"/>
 <wire x1="67.31" y1="27.305" x2="67.31" y2="23.5346875" width="0.254" layer="16"/>
 <wire x1="67.31" y1="23.5346875" x2="67.548125" y2="23.2965625" width="0.254" layer="16"/>
 <wire x1="67.548125" y1="23.2965625" x2="67.548125" y2="22.463125" width="0.254" layer="16"/>
@@ -6483,14 +6546,15 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <via x="72.39" y="20.32" extent="1-16" drill="0.5"/>
 <wire x1="72.39" y1="20.32" x2="72.39" y2="19.05" width="0.254" layer="16"/>
 <wire x1="72.39" y1="19.05" x2="70.485" y2="19.05" width="0.254" layer="16"/>
-<wire x1="1.74625" y1="8.255" x2="0.79375" y2="9.2075" width="0.254" layer="16"/>
+<wire x1="2.38125" y1="8.255" x2="1.42875" y2="9.2075" width="0.254" layer="16"/>
 <wire x1="59.055" y1="14.097" x2="59.055" y2="13.0175" width="0.254" layer="16"/>
 <wire x1="59.055" y1="13.0175" x2="59.69" y2="12.3825" width="0.254" layer="16"/>
 <wire x1="74.295" y1="14.097" x2="74.295" y2="13.0175" width="0.254" layer="16"/>
 <wire x1="74.295" y1="13.0175" x2="73.66" y2="12.3825" width="0.254" layer="16"/>
 <contactref element="R56" pad="1"/>
-<wire x1="2.175" y1="22.06625" x2="1.5875" y2="22.06625" width="0.254" layer="1"/>
-<wire x1="1.5875" y1="22.06625" x2="1.11125" y2="21.59" width="0.254" layer="1"/>
+<wire x1="1.42875" y1="20.79625" x2="1.74625" y2="21.11375" width="0.254" layer="16"/>
+<wire x1="2.175" y1="22.06625" x2="2.175" y2="21.5425" width="0.254" layer="1"/>
+<wire x1="2.175" y1="21.5425" x2="1.74625" y2="21.11375" width="0.254" layer="1"/>
 </signal>
 <signal name="EN5">
 <contactref element="IC1" pad="85"/>
@@ -7289,9 +7353,6 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <via x="8.255" y="29.36875" extent="1-16" drill="0.5"/>
 <via x="9.525" y="29.36875" extent="1-16" drill="0.5"/>
 <via x="9.525" y="30.63875" extent="1-16" drill="0.5"/>
-<via x="9.525" y="31.90875" extent="1-16" drill="0.5"/>
-<via x="9.525" y="33.17875" extent="1-16" drill="0.5"/>
-<via x="9.525" y="34.44875" extent="1-16" drill="0.5"/>
 <via x="13.335" y="28.09875" extent="1-16" drill="0.5"/>
 <contactref element="D15" pad="2"/>
 <contactref element="U$10" pad="2"/>
@@ -7513,7 +7574,6 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <via x="5.318125" y="7.381875" extent="1-16" drill="0.5"/>
 <via x="4.048125" y="7.381875" extent="1-16" drill="0.5"/>
 <via x="2.778125" y="7.381875" extent="1-16" drill="0.5"/>
-<via x="1.508125" y="7.381875" extent="1-16" drill="0.5"/>
 <via x="2.143125" y="6.429375" extent="1-16" drill="0.5"/>
 <via x="5.953125" y="6.429375" extent="1-16" drill="0.5"/>
 <via x="6.588125" y="3.889375" extent="1-16" drill="0.5"/>
@@ -7536,7 +7596,6 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <wire x1="27.14625" y1="24.245" x2="27.14625" y2="23.97125" width="0.254" layer="1"/>
 <wire x1="27.14625" y1="23.97125" x2="27.305" y2="23.8125" width="0.254" layer="1"/>
 <wire x1="34.33375" y1="23.8125" x2="34.76625" y2="24.245" width="0.254" layer="1"/>
-<via x="0.9525" y="6.429375" extent="1-16" drill="0.5"/>
 </signal>
 <signal name="N$30">
 <contactref element="R37" pad="1"/>
@@ -7946,48 +8005,6 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <approved hash="3,1,6691af31d198666e"/>
 <approved hash="3,16,d61a0b620c9fd1e7"/>
 <approved hash="3,16,198a100400f1017d"/>
-<approved hash="7,39,c07316bd79c1b277"/>
-<approved hash="7,39,99ee141615f5980d"/>
-<approved hash="7,39,092b95c0e7d56646"/>
-<approved hash="7,39,99d81420144999b1"/>
-<approved hash="7,39,b1286d434316b985"/>
-<approved hash="7,39,6d587020704a6d32"/>
-<approved hash="7,39,b1286f5a4c0fb885"/>
-<approved hash="7,39,38f0aebea60216b4"/>
-<approved hash="7,39,6d6e701671f66c8e"/>
-<approved hash="7,39,3af0aea7a71b19b4"/>
-<approved hash="7,39,2270caa7505bcdf4"/>
-<approved hash="7,39,baee081609f7bb0f"/>
-<approved hash="7,39,2470caa85554c0f4"/>
-<approved hash="7,39,d52877da984f4fc5"/>
-<approved hash="7,39,bad80820084bbab3"/>
-<approved hash="7,39,d52871d595404ac5"/>
-<approved hash="7,39,c5299655e0819e05"/>
-<approved hash="7,39,c3f0daa98194b535"/>
-<approved hash="7,39,dabb1bfb9be45aa4"/>
-<approved hash="7,39,f743e2557c50a945"/>
-<approved hash="7,39,221e0026000a2232"/>
-<approved hash="7,39,20247bb12423605c"/>
-<approved hash="7,39,607c899d767687fc"/>
-<approved hash="7,39,222000180077224f"/>
-<approved hash="7,39,69d2008414867dd4"/>
-<approved hash="7,39,e3974a8414867d95"/>
-<approved hash="7,39,e066bb10048247da"/>
-<approved hash="7,39,bea87de3c2651900"/>
-<approved hash="7,39,203cca3e5595a7b0"/>
-<approved hash="7,39,7ed70ca19357f906"/>
-<approved hash="7,39,602c8373fcda07a0"/>
-<approved hash="7,39,a22e00160034a20c"/>
-<approved hash="7,39,be92cf4630b1590e"/>
-<approved hash="7,39,f92a3d426504be86"/>
-<approved hash="7,39,bea6c58bba79d971"/>
-<approved hash="7,39,20ed42d69dbde762"/>
-<approved hash="7,39,fe270428db5e39b5"/>
-<approved hash="7,39,666f27aca7ace66f"/>
-<approved hash="7,39,621e0426040a6232"/>
-<approved hash="7,39,622004180477624f"/>
-<approved hash="7,39,e22e04160434e20c"/>
-<approved hash="7,39,f743e215f617e345"/>
 <approved hash="4,1,1b8a78b17ad2328d"/>
 <approved hash="4,1,4000bada1cebeedc"/>
 <approved hash="4,1,1d3979c0eb623827"/>
@@ -8010,23 +8027,23 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <approved hash="4,1,b3d3279d708ac872"/>
 <approved hash="4,1,a017322c3bbaae86"/>
 <approved hash="4,16,1b8a78b17ad2328d"/>
-<approved hash="4,16,4000bada1cebeedc"/>
 <approved hash="4,16,1d3979c0eb623827"/>
+<approved hash="4,16,4000bada1cebeedc"/>
 <approved hash="4,16,15ee2ab00cb97794"/>
-<approved hash="4,16,51f6dc6540b3ca27"/>
 <approved hash="4,16,5770253fc69795d9"/>
+<approved hash="4,16,51f6dc6540b3ca27"/>
 <approved hash="4,16,20e22a573e3793a5"/>
 <approved hash="4,16,6350691cf3d842e0"/>
 <approved hash="19,16,326a10af5913c3cc"/>
-<approved hash="19,16,cbe3da834ac24658"/>
-<approved hash="19,16,caff33f5a290464c"/>
 <approved hash="19,16,c4bfcf1e5f7f4838"/>
-<approved hash="19,16,10c38ec669fc4bfb"/>
+<approved hash="19,16,caff33f5a290464c"/>
+<approved hash="19,16,cbe3da834ac24658"/>
 <approved hash="19,16,8cd72225784fa15e"/>
+<approved hash="19,16,10c38ec669fc4bfb"/>
 <approved hash="19,16,96d5359c24049a9b"/>
 <approved hash="19,16,e46a96809652e4b8"/>
-<approved hash="19,16,f1a17c6e6ee3522e"/>
 <approved hash="19,16,2d0ce8f9b804d212"/>
+<approved hash="19,16,f1a17c6e6ee3522e"/>
 <approved hash="19,16,2ee4a7fb35c590b0"/>
 <approved hash="19,16,97d5c80dd6ab9595"/>
 <approved hash="19,16,3dcbce794a5708d3"/>
@@ -8038,6 +8055,9 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <approved hash="19,16,03ed1256fc17f056"/>
 <approved hash="19,16,02f1fb201445f042"/>
 <approved hash="19,16,0cb107cbe9aafe36"/>
+<approved hash="19,16,f13c605727af9aae"/>
+<approved hash="19,16,ff15b5903e5c6923"/>
+<approved hash="19,16,cbcb59215f27cdcd"/>
 <approved hash="19,16,aee40f246318eeb2"/>
 <approved hash="19,16,f92a7cee33669ac8"/>
 <approved hash="19,16,ffd5a0db247d6795"/>
@@ -8046,28 +8066,25 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <approved hash="19,16,afb6fa0f96e3ef30"/>
 <approved hash="19,16,fed55d4ad6d2689b"/>
 <approved hash="19,16,cc6b5e815e53ccb9"/>
-<approved hash="19,16,f13c605727af9aae"/>
-<approved hash="19,16,ff15b5903e5c6923"/>
-<approved hash="19,16,cbcb59215f27cdcd"/>
 <approved hash="19,16,e6fc9c363d8a8756"/>
 <approved hash="19,16,faf003576e328a43"/>
 <approved hash="19,16,fbecea2186608a57"/>
 <approved hash="19,16,f4b0ffbc93dd8437"/>
-<approved hash="19,16,813df01ca5e760ad"/>
-<approved hash="19,16,9715ddea8026d723"/>
-<approved hash="19,16,13ca0120072615cc"/>
 <approved hash="19,16,c4d5dab35cd94d5c"/>
 <approved hash="19,16,3fb58a476ca86d31"/>
 <approved hash="19,16,96d5353068a8d69b"/>
 <approved hash="19,16,146a0680065214b8"/>
-<approved hash="19,16,3ee77f6c99536cb3"/>
+<approved hash="19,16,813df01ca5e760ad"/>
+<approved hash="19,16,9715ddea8026d723"/>
+<approved hash="19,16,13ca0120072615cc"/>
 <approved hash="19,16,892beca5b12e60cb"/>
+<approved hash="19,16,3ee77f6c99536cb3"/>
 <approved hash="19,16,97d5c8a19a07d995"/>
 <approved hash="19,16,126200880f561dbc"/>
 <approved hash="19,16,2e2add80dd5e2ef4"/>
+<approved hash="19,16,c2f03a95e1f00443"/>
 <approved hash="19,16,c3ecd3e309a20457"/>
 <approved hash="19,16,ccb0c67e1c1f0a37"/>
-<approved hash="19,16,c2f03a95e1f00443"/>
 <approved hash="19,16,593cf1e992117eaf"/>
 <approved hash="19,16,6f15242603ea5523"/>
 <approved hash="19,16,ebca19201f3aedd0"/>
@@ -8085,31 +8102,31 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <approved hash="19,16,afb003e9d905a937"/>
 <approved hash="19,16,76d2d4a59d3d229c"/>
 <approved hash="19,16,f46956835656f4bc"/>
-<approved hash="19,16,093b61b16049d4a8"/>
-<approved hash="19,16,77123c7f75b32324"/>
-<approved hash="19,16,f3c951235722f5c8"/>
 <approved hash="19,16,012d7d087480d4ce"/>
 <approved hash="19,16,aee2f6c22cfea8b5"/>
 <approved hash="19,16,77d229346f922d92"/>
 <approved hash="19,16,f261508b5f52fdb8"/>
+<approved hash="19,16,093b61b16049d4a8"/>
+<approved hash="19,16,77123c7f75b32324"/>
+<approved hash="19,16,f3c951235722f5c8"/>
 <approved hash="19,16,ee2d4d874d56eefc"/>
+<approved hash="19,16,02f0fa77ad124843"/>
 <approved hash="19,16,0cb0069c50fd4637"/>
 <approved hash="19,16,03ec130145404857"/>
-<approved hash="19,16,02f0fa77ad124843"/>
-<approved hash="19,16,713ec17e2e84a2ae"/>
-<approved hash="19,16,8f14c4cac7069122"/>
-<approved hash="19,16,abcb89218f27adcd"/>
 <approved hash="19,16,0ee48e0f5a31e6b0"/>
 <approved hash="19,16,7928ddc73a4da2c8"/>
 <approved hash="19,16,8fd4d181dd279f94"/>
 <approved hash="19,16,aa6388898757a5bd"/>
+<approved hash="19,16,713ec17e2e84a2ae"/>
+<approved hash="19,16,8f14c4cac7069122"/>
+<approved hash="19,16,abcb89218f27adcd"/>
 <approved hash="19,16,0fb67b24afcae732"/>
 <approved hash="19,16,8ed42c102f88909a"/>
 <approved hash="19,16,ac6b8e818e53acb9"/>
-<approved hash="4,16,50fbf74e3ce142a4"/>
-<approved hash="4,16,a726cbe0321a943a"/>
 <approved hash="4,16,b3d3279d708ac872"/>
 <approved hash="4,16,a017322c3bbaae86"/>
+<approved hash="4,16,50fbf74e3ce142a4"/>
+<approved hash="4,16,a726cbe0321a943a"/>
 </errors>
 </board>
 </drawing>
